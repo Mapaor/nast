@@ -10,7 +10,7 @@
     "test": "pnpm -r run test",
     "typecheck": "pnpm -r run typecheck",
     "clean": "pnpm -r exec rm -rf dist",
-    "publish:all": "pnpm -r publish --access public"
+    "publish:all": "pnpm -r --filter \"./packages/**\" publish --access public"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
