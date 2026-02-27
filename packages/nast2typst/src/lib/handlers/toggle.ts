@@ -37,5 +37,5 @@ export function handleToggle(node: NASTToggle, context: ProcessingContext): stri
   // Only add newline after title for heading toggles
   const titleNewline = isHeadingToggle ? '\n' : '';
   
-  return `// Toggle block\n${toggleFunc}[${toggleTitle}${titleNewline}][${toggleBody}]`;
+  return `// Toggle block\n${toggleFunc}[${toggleTitle}${titleNewline}][${toggleBody}]\n`;
 }
