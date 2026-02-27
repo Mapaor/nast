@@ -2,7 +2,7 @@ import type { NASTRoot } from './types.js';
 import { processNode } from './lib/processor.js';
 import { ProcessingContext } from './lib/handlers/utils.js';
 
-const PREAMBLE = '#import "@preview/notionly:0.1.0": *\n\n';
+const _PREAMBLE = '#import "@preview/notionly:0.1.0": *\n\n';
 
 const TEMPORAL_PREAMBLE = `
 #import "src/lib.typ": *

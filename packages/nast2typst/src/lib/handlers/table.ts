@@ -1,4 +1,4 @@
-import type { NASTTable, NASTTableRow, NASTTableCell } from '../../../src/types.js';
+import type { NASTTable } from '../../../src/types.js';
 import type { ProcessingContext } from './utils.js';
 import { processNode } from '../processor.js';
 

@@ -1,5 +1,4 @@
 import type {
-  NASTNode,
   NASTText,
   NASTStrong,
   NASTEmphasis,
