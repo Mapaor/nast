@@ -1,0 +1,948 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "yaml",
+      "value": "title: \"Demo per export a Typst\"\npageId: \"30511a9761ab802c808cdbb05b786986\"\nicon: {\"type\":\"emoji\",\"value\":\"✴️\"}\nprocessedAt: \"2026-02-19T18:07:21.659Z\""
+    },
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        {
+          "type": "text",
+          "value": "Això és un heading de nivell 1"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "Això és un heading de nivell 2"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Això és un heading de nivell 3"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Això és text normal. Bla bla bla… Lorem ipsum dolor sit amet."
+        }
+      ]
+    },
+    {
+      "type": "math",
+      "value": "e^{i\\pi}+1=0"
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "A dalt tenim una block equation i ara una inline equation "
+        },
+        {
+          "type": "inlineMath",
+          "value": "\\frac{a}{b}=c"
+        },
+        {
+          "type": "text",
+          "value": " molt xula."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "El següent té "
+        },
+        {
+          "type": "strong",
+          "children": [
+            {
+              "type": "text",
+              "value": "negreta"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "emphasis",
+          "children": [
+            {
+              "type": "text",
+              "value": "cursiva"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "emphasis",
+          "children": [
+            {
+              "type": "text",
+              "value": "subratllat"
+            }
+          ],
+          "data": {
+            "originalType": "underline"
+          }
+        },
+        {
+          "type": "text",
+          "value": " i "
+        },
+        {
+          "type": "delete",
+          "children": [
+            {
+              "type": "text",
+              "value": "strikethrough"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Això és un toggle block"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "I això és un block children del toggle block."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Aquest és el segon children block, podem tenir tots els children que vulguem"
+            }
+          ]
+        }
+      ],
+      "data": {
+        "originalType": "toggle"
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "children": [
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Això és una bulleted list"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "children": [
+                {
+                  "type": "listItem",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "I això una nested bulleted list"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list",
+                      "ordered": true,
+                      "children": [
+                        {
+                          "type": "listItem",
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "També podem posar numbered lists"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "listItem",
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "Aquesta numbered list està nested dins les altres dues bulleted lists"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "A continuació una subpàgina"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "📄 Això és una subpàgina"
+        }
+      ],
+      "data": {
+        "originalType": "childPage",
+        "pageId": "30611a97-61ab-80fa-9156-c1501e88d148",
+        "title": "Això és una subpàgina"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "També podem tenir mentions de persones com "
+        },
+        {
+          "type": "text",
+          "value": "@Martí Pardo",
+          "data": {
+            "originalType": "mention",
+            "mentionType": "user",
+            "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea",
+            "name": "Martí Pardo",
+            "avatarUrl": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/bf26a5b1-4b9f-45bf-b973-7d6c6f085392/Black_hole.webp"
+          }
+        },
+        {
+          "type": "text",
+          "value": " o de dates com "
+        },
+        {
+          "type": "text",
+          "value": "2026-02-14",
+          "data": {
+            "originalType": "mention",
+            "mentionType": "date",
+            "start": "2026-02-14",
+            "end": null,
+            "timeZone": null
+          }
+        },
+        {
+          "type": "text",
+          "value": " o de subpàgines a les que tenim accés com "
+        },
+        {
+          "type": "link",
+          "url": "https://www.notion.so/30611a9761ab80fa9156c1501e88d148",
+          "children": [
+            {
+              "type": "text",
+              "value": "Això és una subpàgina"
+            }
+          ],
+          "data": {
+            "originalType": "mention",
+            "mentionType": "page",
+            "pageId": "30611a97-61ab-80fa-9156-c1501e88d148",
+            "id": "30611a97-61ab-80fa-9156-c1501e88d148",
+            "url": "https://www.notion.so/30611a9761ab80fa9156c1501e88d148"
+          }
+        },
+        {
+          "type": "text",
+          "value": " o de subpàgines a les que no tenim accés com "
+        },
+        {
+          "type": "link",
+          "url": "https://www.notion.so/24211a9761ab80e7876fe59ce53a817e",
+          "children": [
+            {
+              "type": "text",
+              "value": "Untitled"
+            }
+          ],
+          "data": {
+            "originalType": "mention",
+            "mentionType": "page",
+            "pageId": "24211a97-61ab-80e7-876f-e59ce53a817e",
+            "id": "24211a97-61ab-80e7-876f-e59ce53a817e",
+            "url": "https://www.notion.so/24211a9761ab80e7876fe59ce53a817e"
+          }
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Finalment podem tenir imatges, provinents d’un fitxer local:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "image",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/8bf850cf-4aa2-4006-a926-7c8716480d59/Wikipedia-logo-v2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XGAIRKVQ%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T180716Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCHlsEqyhiD6QnOibsLojs16A210tsmj6Yi3dGEuaUvOwIhAJ05X9uCCZW%2BfZ7JQ2OaMc1Pxa6Y%2Bhbw3SjOD4bsE5Y9KogECIP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxY1O6P%2BXpj9hiV17gq3ANrfdRw0OV7t67BgDYnGkeijBfSkm58V2tcM2KN71rHzbsr1Zr6Wh%2BO3p5J8g1Y3bHNLwRQIjwbjP4ThM8ea7JzjlAhjAaQeHgJ%2BZvrezWBtRIPc6mknNa4%2Bq53q5NqRl%2FmJdjQRKe%2F%2BEy9piwmxyffEO26N4qhBbhbMHMiW22wYjdcp3HRa2ksaWVF2oh5g5Yw%2BYLFJUolQuEQmSWiVsa4kFzPE7Kw4Fxy92g9gJOQRvhkRFeZtxLYoE4iQLLSrmzOJQg4eHPkqw3S9ubBWyjRJ6sB8wOV6E7xjq1XyA3seH0MohnQP6u9qfu%2Bh%2FQrxOyJ8tQ8%2BDLFLTkNTEEkwYtZ72m0NmMNvLOE3mT8jQVtIR%2FFiJ9XQFvt5RBmio9tj83MNMUGa7dctmI8f7ndVwFI%2F%2FlAd7Ch3NrHlPWZTrebUviy5kWP%2FCrHvkH8gf60xOYdUpdT9crDz8o6UusXO8Ife78f4EUp6f2KKafDGESpovsZKVJSPn%2Fy8rWqkz4%2BFIXCrme2qLeJBmHKwbujoLdleUdXj53wa2gSAZ%2FsEnYytAf6HaL4XDoXOQeSWzXllX9b3BZML766p%2FVHsskHKb9FdE8IdmlLUr9gcm6XLjhBI6dj2MKvA8HUv1vOGTDfmd3MBjqkARYGnHaSpyJcFAv49Nn7xtOHP5VduDucAhaqBjAJg3L%2F2swWGiQYbrTNDf3cj3TzwdHM0D2CdXDxo2weyZ7XsuliRiP1jnSbWnE4xGWlIPmrTpIG5YwoeaLy6AhKPtyGi%2F3hrg2DX1TYK3IfgHou%2FOqS0nNu%2By0QzVpdQw38%2FailaL%2B6cwCcPqYRpsFAjMe1Czhr%2BJMSs9GG6TaxL2SxiJ7433Cd&X-Amz-Signature=9cfab71992144fd046cec38334499214683aa7a056de0a05c795c751168d4da9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "title": null,
+          "alt": null,
+          "data": {
+            "originalType": "image",
+            "fileType": "file",
+            "expiryTime": "2026-02-19T19:07:15.988Z"
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "O provinents d’una URL d’internet (externes):"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "image",
+          "url": "https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg",
+          "title": null,
+          "alt": null,
+          "data": {
+            "originalType": "image",
+            "fileType": "external",
+            "caption": [
+              {
+                "type": "text",
+                "value": "A més una imatge pot contenir una caption, la qual és "
+              },
+              {
+                "type": "emphasis",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "rich"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " text."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "A més una imatge pot contenir una caption, la qual és "
+        },
+        {
+          "type": "emphasis",
+          "children": [
+            {
+              "type": "text",
+              "value": "rich"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": " text."
+        }
+      ],
+      "data": {
+        "imageCaption": true
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "I no estem! Podem tenir també callouts:"
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "📌"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Això és un callout senzill"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "El qual pot tenir children blocks, que ara en l’exemple és text però podrien ser qualsevol cosa."
+            }
+          ]
+        }
+      ],
+      "data": {
+        "originalType": "callout",
+        "icon": {
+          "type": "emoji",
+          "value": "📌"
+        },
+        "color": "gray_background"
+      }
+    },
+    {
+      "type": "blockquote",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "I els callouts poden no tenir icona, i tenir un altre color de fons"
+            }
+          ]
+        }
+      ],
+      "data": {
+        "originalType": "callout",
+        "icon": null,
+        "color": "pink_background"
+      }
+    },
+    {
+      "type": "blockquote",
+      "children": [
+        {
+          "type": "heading",
+          "depth": 3,
+          "children": [
+            {
+              "type": "text",
+              "value": "I poden començar amb un títol"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "I tenir un nombre il·limitat"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "De children blocks."
+            }
+          ]
+        }
+      ],
+      "data": {
+        "originalType": "callout",
+        "icon": null,
+        "color": "pink_background"
+      }
+    },
+    {
+      "type": "blockquote",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "I també podem tenir cites"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "També podem posar separadors"
+        }
+      ]
+    },
+    {
+      "type": "thematicBreak"
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "I el text pot estar de "
+        },
+        {
+          "type": "text",
+          "value": "color gris",
+          "data": {
+            "color": "gray"
+          }
+        },
+        {
+          "type": "text",
+          "value": " o tenir el "
+        },
+        {
+          "type": "text",
+          "value": "fons verd",
+          "data": {
+            "backgroundColor": "green"
+          }
+        },
+        {
+          "type": "text",
+          "value": " o qualsevol dels colors permesos en Notion."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "També podem posar codi inline "
+        },
+        {
+          "type": "inlineCode",
+          "value": "let numero = 5;"
+        },
+        {
+          "type": "text",
+          "value": " o tenir un bloc de codi:"
+        }
+      ]
+    },
+    {
+      "type": "code",
+      "lang": "javascript",
+      "meta": null,
+      "value": "console.log(\"Hola bon dia\");"
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Es poden posar també taules simples"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "children": [
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": []
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Dissabte"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Diumenge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Matí"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Netejar l’habitació"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Programar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Tarda"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Festa d’aniversari"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Estudiar Relativitat General"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "data": {
+        "hasColumnHeader": true,
+        "hasRowHeader": true
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "El text també pot contenir "
+        },
+        {
+          "type": "link",
+          "url": "http://google.com/",
+          "title": null,
+          "children": [
+            {
+              "type": "text",
+              "value": "links"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": " inline o com a mention "
+        },
+        {
+          "type": "link",
+          "url": "https://www.youtube.com/channel/UC-uhE2wGJlkstikv01jE8fA",
+          "title": null,
+          "children": [
+            {
+              "type": "text",
+              "value": "https://www.youtube.com/channel/UC-uhE2wGJlkstikv01jE8fA"
+            }
+          ],
+          "data": {
+            "title": "Comissió de Festes Física UB",
+            "iconUrl": "https://www.youtube.com/s/desktop/2a3cb36e/img/favicon_144x144.png",
+            "description": "Som Fisicomfest. Associació de festes de Física UB\n\n\nInstagram: https://www.instagram.com/fisicomfest...\nTwitter: https://twitter.com/FisicomfestUB\nTikTok: https://www.tiktok.com/@fisicomub\n",
+            "provider": "YouTube",
+            "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_kk6OGl-qUXzO0xRyzCIU9EDNRIVL9aIb_nMO0uZoiAWQ=s800-c-k-c0x00ffffff-no-rj"
+          }
+        },
+        {
+          "type": "text",
+          "value": " o també podem convertir els links en bookmarks:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "https://google.com",
+          "children": [
+            {
+              "type": "text",
+              "value": "https://google.com"
+            }
+          ]
+        }
+      ],
+      "data": {
+        "originalType": "bookmark"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "I a part de imatges, vídeos i similar, també podem pujar-hi fitxers locals:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/b64269bf-7677-40bd-bd27-39fd86a5deb3/Normativa_reguladora_de_lavaluaci_UB-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XGAIRKVQ%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T180716Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCHlsEqyhiD6QnOibsLojs16A210tsmj6Yi3dGEuaUvOwIhAJ05X9uCCZW%2BfZ7JQ2OaMc1Pxa6Y%2Bhbw3SjOD4bsE5Y9KogECIP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxY1O6P%2BXpj9hiV17gq3ANrfdRw0OV7t67BgDYnGkeijBfSkm58V2tcM2KN71rHzbsr1Zr6Wh%2BO3p5J8g1Y3bHNLwRQIjwbjP4ThM8ea7JzjlAhjAaQeHgJ%2BZvrezWBtRIPc6mknNa4%2Bq53q5NqRl%2FmJdjQRKe%2F%2BEy9piwmxyffEO26N4qhBbhbMHMiW22wYjdcp3HRa2ksaWVF2oh5g5Yw%2BYLFJUolQuEQmSWiVsa4kFzPE7Kw4Fxy92g9gJOQRvhkRFeZtxLYoE4iQLLSrmzOJQg4eHPkqw3S9ubBWyjRJ6sB8wOV6E7xjq1XyA3seH0MohnQP6u9qfu%2Bh%2FQrxOyJ8tQ8%2BDLFLTkNTEEkwYtZ72m0NmMNvLOE3mT8jQVtIR%2FFiJ9XQFvt5RBmio9tj83MNMUGa7dctmI8f7ndVwFI%2F%2FlAd7Ch3NrHlPWZTrebUviy5kWP%2FCrHvkH8gf60xOYdUpdT9crDz8o6UusXO8Ife78f4EUp6f2KKafDGESpovsZKVJSPn%2Fy8rWqkz4%2BFIXCrme2qLeJBmHKwbujoLdleUdXj53wa2gSAZ%2FsEnYytAf6HaL4XDoXOQeSWzXllX9b3BZML766p%2FVHsskHKb9FdE8IdmlLUr9gcm6XLjhBI6dj2MKvA8HUv1vOGTDfmd3MBjqkARYGnHaSpyJcFAv49Nn7xtOHP5VduDucAhaqBjAJg3L%2F2swWGiQYbrTNDf3cj3TzwdHM0D2CdXDxo2weyZ7XsuliRiP1jnSbWnE4xGWlIPmrTpIG5YwoeaLy6AhKPtyGi%2F3hrg2DX1TYK3IfgHou%2FOqS0nNu%2By0QzVpdQw38%2FailaL%2B6cwCcPqYRpsFAjMe1Czhr%2BJMSs9GG6TaxL2SxiJ7433Cd&X-Amz-Signature=98477c0ad074478e35094f6d4b357c81893e28c8efe202750e2522f8b52074b8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "children": [
+            {
+              "type": "text",
+              "value": "📎 File"
+            }
+          ]
+        }
+      ],
+      "data": {
+        "originalType": "file",
+        "fileType": "file",
+        "expiryTime": "2026-02-19T19:07:16.166Z"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "O fitxers provinents d’una URL externa:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "https://linear.axler.net/LADR4e.pdf",
+          "children": [
+            {
+              "type": "text",
+              "value": "📎 File"
+            }
+          ]
+        }
+      ],
+      "data": {
+        "originalType": "file",
+        "fileType": "external"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "També podem posar elements embed com ara un vídeo de Youtube:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "https://www.youtube.com/watch?v=aXRTczANuIs",
+          "children": [
+            {
+              "type": "text",
+              "value": "🎥 Video"
+            }
+          ]
+        }
+      ],
+      "data": {
+        "originalType": "video",
+        "fileType": "external"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Un PDF local pujat com a embed:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/1c232d7f-92cf-4bc7-8a0d-f1c4b45d6a27/Taules_Clebsch-Gordan-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XGAIRKVQ%2F20260219%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260219T180716Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCHlsEqyhiD6QnOibsLojs16A210tsmj6Yi3dGEuaUvOwIhAJ05X9uCCZW%2BfZ7JQ2OaMc1Pxa6Y%2Bhbw3SjOD4bsE5Y9KogECIP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgxY1O6P%2BXpj9hiV17gq3ANrfdRw0OV7t67BgDYnGkeijBfSkm58V2tcM2KN71rHzbsr1Zr6Wh%2BO3p5J8g1Y3bHNLwRQIjwbjP4ThM8ea7JzjlAhjAaQeHgJ%2BZvrezWBtRIPc6mknNa4%2Bq53q5NqRl%2FmJdjQRKe%2F%2BEy9piwmxyffEO26N4qhBbhbMHMiW22wYjdcp3HRa2ksaWVF2oh5g5Yw%2BYLFJUolQuEQmSWiVsa4kFzPE7Kw4Fxy92g9gJOQRvhkRFeZtxLYoE4iQLLSrmzOJQg4eHPkqw3S9ubBWyjRJ6sB8wOV6E7xjq1XyA3seH0MohnQP6u9qfu%2Bh%2FQrxOyJ8tQ8%2BDLFLTkNTEEkwYtZ72m0NmMNvLOE3mT8jQVtIR%2FFiJ9XQFvt5RBmio9tj83MNMUGa7dctmI8f7ndVwFI%2F%2FlAd7Ch3NrHlPWZTrebUviy5kWP%2FCrHvkH8gf60xOYdUpdT9crDz8o6UusXO8Ife78f4EUp6f2KKafDGESpovsZKVJSPn%2Fy8rWqkz4%2BFIXCrme2qLeJBmHKwbujoLdleUdXj53wa2gSAZ%2FsEnYytAf6HaL4XDoXOQeSWzXllX9b3BZML766p%2FVHsskHKb9FdE8IdmlLUr9gcm6XLjhBI6dj2MKvA8HUv1vOGTDfmd3MBjqkARYGnHaSpyJcFAv49Nn7xtOHP5VduDucAhaqBjAJg3L%2F2swWGiQYbrTNDf3cj3TzwdHM0D2CdXDxo2weyZ7XsuliRiP1jnSbWnE4xGWlIPmrTpIG5YwoeaLy6AhKPtyGi%2F3hrg2DX1TYK3IfgHou%2FOqS0nNu%2By0QzVpdQw38%2FailaL%2B6cwCcPqYRpsFAjMe1Czhr%2BJMSs9GG6TaxL2SxiJ7433Cd&X-Amz-Signature=a7043599cdece29d3733c7665573f0222c5a40a662ddfcf915a4404245545b4f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "children": [
+            {
+              "type": "text",
+              "value": "📄 PDF"
+            }
+          ]
+        }
+      ],
+      "data": {
+        "originalType": "pdf",
+        "fileType": "file",
+        "expiryTime": "2026-02-19T19:07:16.166Z"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "O un element interactiu qualsevol:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "url": "https://mapaor4.github.io/notion/Plotly/tenkas.html",
+          "children": [
+            {
+              "type": "text",
+              "value": "🔗 Embed"
+            }
+          ]
+        }
+      ],
+      "data": {
+        "originalType": "embed"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Doncs això seria tot. També es poden posar bases de dades però de moment no entrem a aquí."
+        }
+      ]
+    }
+  ]
+}

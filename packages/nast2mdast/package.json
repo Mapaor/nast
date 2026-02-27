@@ -1,0 +1,52 @@
+{
+  "name": "@nast/nast2mdast",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Convert NAST (Notion AST) to mdast (Markdown AST)",
+  "keywords": [
+    "nast",
+    "mdast",
+    "notion",
+    "markdown",
+    "ast",
+    "unified",
+    "converter"
+  ],
+  "author": "Mapaor <pardo.marti@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Mapaor/nast/tree/main/packages/nast2mdast",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mapaor/nast.git",
+    "directory": "packages/nast2mdast"
+  },
+  "bugs": {
+    "url": "https://github.com/Mapaor/nast/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index-DD0XlKnh.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run typecheck && pnpm run build",
+    "example": "tsx scripts/example.ts"
+  },
+  "dependencies": {
+    "@types/mdast": "^4.0.3",
+    "@types/unist": "^3.0.2"
+  }
+}

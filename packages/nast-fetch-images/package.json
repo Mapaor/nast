@@ -1,0 +1,47 @@
+{
+  "name": "@nast/nast-fetch-images",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Fetches images from NAST (unified-like Notion Abstract Syntax Tree)",
+  "keywords": [
+    "notion",
+    "ast",
+    "nast",
+    "fetch",
+    "converter",
+    "images"
+  ],
+  "author": "Mapaor <pardo.marti@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Mapaor/nast/tree/main/packages/nast-fetch-images",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mapaor/nast.git",
+    "directory": "packages/nast-fetch-images"
+  },
+  "bugs": {
+    "url": "https://github.com/Mapaor/nast/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index-kpGq3v5p.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run typecheck && pnpm run build",
+    "example": "tsx scripts/example.ts"
+  }
+}

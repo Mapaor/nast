@@ -1,0 +1,50 @@
+{
+  "name": "@nast/nast2typst",
+  "type": "module",
+  "version": "0.2.0",
+  "description": "Converts NAST (unified-like Notion Abstract Syntax Tree) to Typst markup language.",
+  "keywords": [
+    "notion",
+    "ast",
+    "unified",
+    "nast",
+    "typst",
+    "converter"
+  ],
+  "author": "Mapaor <pardo.marti@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Mapaor/nast/tree/main/packages/nast2typst",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mapaor/nast.git",
+    "directory": "packages/nast2typst"
+  },
+  "bugs": {
+    "url": "https://github.com/Mapaor/nast/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index-CgBLzCnj.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run typecheck && pnpm run build",
+    "example": "tsx scripts/example.ts"
+  },
+  "dependencies": {
+    "tex2typst": "^0.5.6"
+  }
+}

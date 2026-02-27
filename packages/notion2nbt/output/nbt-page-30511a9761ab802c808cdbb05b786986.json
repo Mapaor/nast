@@ -1,0 +1,1133 @@
+{
+  "id": "30511a97-61ab-802c-808c-dbb05b786986",
+  "type": "page",
+  "properties": {
+    "title": "Demo per export a Typst",
+    "icon": {
+      "type": "emoji",
+      "emoji": "✴️"
+    },
+    "notionProperties": {
+      "title": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Demo per export a Typst",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Demo per export a Typst",
+            "href": null
+          }
+        ]
+      }
+    }
+  },
+  "children": [
+    {
+      "id": "30511a97-61ab-8022-acc3-f0f86753e3b8",
+      "type": "heading_1",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Això és un heading de nivell 1"
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-80c6-b174-c8c5a69b9641",
+      "type": "heading_2",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Això és un heading de nivell 2"
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-80e2-bd4b-d31bdb201955",
+      "type": "heading_3",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Això és un heading de nivell 3"
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "30511a97-61ab-80cb-9d0c-d546ead309f7",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Això és text normal. Bla bla bla… Lorem ipsum dolor sit amet."
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30511a97-61ab-80da-bd0b-ed56b0fa238a",
+      "type": "equation",
+      "properties": {
+        "expression": "e^{i\\pi}+1=0"
+      }
+    },
+    {
+      "id": "30511a97-61ab-801d-b14f-f36cb9b993de",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "A dalt tenim una block equation i ara una inline equation "
+          },
+          {
+            "type": "equation",
+            "content": "\\frac{a}{b}=c",
+            "equation": {
+              "expression": "\\frac{a}{b}=c"
+            }
+          },
+          {
+            "type": "text",
+            "content": " molt xula."
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30511a97-61ab-801e-940e-f6c315c7a719",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "El següent té "
+          },
+          {
+            "type": "text",
+            "content": "negreta",
+            "annotations": {
+              "bold": true
+            }
+          },
+          {
+            "type": "text",
+            "content": ", "
+          },
+          {
+            "type": "text",
+            "content": "cursiva",
+            "annotations": {
+              "italic": true
+            }
+          },
+          {
+            "type": "text",
+            "content": ", "
+          },
+          {
+            "type": "text",
+            "content": "subratllat",
+            "annotations": {
+              "underline": true
+            }
+          },
+          {
+            "type": "text",
+            "content": " i "
+          },
+          {
+            "type": "text",
+            "content": "strikethrough",
+            "annotations": {
+              "strikethrough": true
+            }
+          },
+          {
+            "type": "text",
+            "content": "."
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30511a97-61ab-805d-a02b-dabaa3d42b05",
+      "type": "toggle",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Això és un toggle block"
+          }
+        ],
+        "color": "default"
+      },
+      "children": [
+        {
+          "id": "30511a97-61ab-80ca-b6ab-c62bd2914537",
+          "type": "paragraph",
+          "properties": {
+            "rich_text": [
+              {
+                "type": "text",
+                "content": "I això és un block children del toggle block."
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "30511a97-61ab-8092-93c9-fea14eeb82d0",
+          "type": "paragraph",
+          "properties": {
+            "rich_text": [
+              {
+                "type": "text",
+                "content": "Aquest és el segon children block, podem tenir tots els children que vulguem"
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "id": "30511a97-61ab-805b-8a1f-cddefd0f8df5",
+      "type": "bulleted_list_item",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Això és una bulleted list"
+          }
+        ],
+        "color": "default"
+      },
+      "children": [
+        {
+          "id": "30511a97-61ab-80ec-8c9c-d6fc002e06c6",
+          "type": "bulleted_list_item",
+          "properties": {
+            "rich_text": [
+              {
+                "type": "text",
+                "content": "I això una nested bulleted list"
+              }
+            ],
+            "color": "default"
+          },
+          "children": [
+            {
+              "id": "30511a97-61ab-80e9-b90c-fbc8756d5847",
+              "type": "numbered_list_item",
+              "properties": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "content": "També podem posar numbered lists"
+                  }
+                ],
+                "color": "default"
+              }
+            },
+            {
+              "id": "30511a97-61ab-80ed-8cb8-fca02ce6b5ef",
+              "type": "numbered_list_item",
+              "properties": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "content": "Aquesta numbered list està nested dins les altres dues bulleted lists"
+                  }
+                ],
+                "color": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "31111a97-61ab-8016-b722-e5e55e79da87",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "També podem tenir checklists (to-do list)"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "31111a97-61ab-8010-86f6-cf087374c5ed",
+      "type": "to_do",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Comprar llet (fet)"
+          }
+        ],
+        "checked": true,
+        "color": "default"
+      }
+    },
+    {
+      "id": "31111a97-61ab-8061-a97d-e5aaf94790a2",
+      "type": "to_do",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Escombrar l’habitació (pendent de fer)"
+          }
+        ],
+        "checked": false,
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-8080-965c-fa1acc062f62",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "A continuació una subpàgina"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-80fa-9156-c1501e88d148",
+      "type": "child_page",
+      "properties": {
+        "title": "Example checklists, columnes i toggles"
+      }
+    },
+    {
+      "id": "30611a97-61ab-809d-a3c8-d15314c36f97",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "També podem tenir mentions de persones com "
+          },
+          {
+            "type": "mention",
+            "content": "@Martí Pardo",
+            "mention": {
+              "type": "user",
+              "user": {
+                "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea",
+                "name": "Martí Pardo",
+                "avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/bf26a5b1-4b9f-45bf-b973-7d6c6f085392/Black_hole.webp"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "content": " o de dates com "
+          },
+          {
+            "type": "mention",
+            "content": "2026-02-14",
+            "mention": {
+              "type": "date",
+              "date": {
+                "start": "2026-02-14",
+                "end": null,
+                "time_zone": null
+              }
+            }
+          },
+          {
+            "type": "text",
+            "content": " o de subpàgines a les que tenim accés com "
+          },
+          {
+            "type": "mention",
+            "content": "Example checklists, columnes i toggles",
+            "href": "https://www.notion.so/30611a9761ab80fa9156c1501e88d148",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "30611a97-61ab-80fa-9156-c1501e88d148"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "content": " o de subpàgines a les que no tenim accés com "
+          },
+          {
+            "type": "mention",
+            "content": "Untitled",
+            "href": "https://www.notion.so/24211a9761ab80e7876fe59ce53a817e",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "24211a97-61ab-80e7-876f-e59ce53a817e"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "content": "."
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-8070-b5c1-d8114dc736fa",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Finalment podem tenir imatges, provinents d’un fitxer local:"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-80b7-8272-fb65a7596d34",
+      "type": "image",
+      "properties": {
+        "file": {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/8bf850cf-4aa2-4006-a926-7c8716480d59/Wikipedia-logo-v2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q6OS73CR%2F20260227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260227T160251Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIAG%2Bpo%2BhP25z4hguOO0P4fRT3kywguEQCWL2gLtLN%2BOOAiEA%2BHRD5BOE7jT0ZynVYTmAJ%2BszygWNeAB0SBoC%2BU4X0rAq%2FwMIQRAAGgw2Mzc0MjMxODM4MDUiDJ0KSUoTRWwOfKP14SrcAwKVrDApH1cwk1N0sXi6b2jW8cDed9GyaRrrycpJG0XuEqHChSb1aelREaaNSKkHLNN%2FxyZ2XF2vZM0ODNus%2BAoTmHycyMmlA%2Fy3sSgRcve0sYg9ixd20EkqGyX4Su1Ex7td7wbshuEH0Lb16L8GyABcrBC0e8J8nzyn7IvaY%2Bao4wG6Rn6fERMZbbSYt86%2BqQhCyghGMAt0dg9Tiij9omuKQiz18Y7tuPPpNYAHjNHI58ubpGQ1LZDkiL2W0qNrTavul%2Bk0ujoIJjqP7QJSQRtmfwlOrWnZ5W5BFuIaXgudywDR02j6CZSxhDUiT5y7pAKk1tQg78igOH0xz5mH0WKFdfGPNtDsubNiXaZfXT0bydMIRZtzmrKS0%2B9Ua6mj3friK0%2FczjsPi58DtJ7dBL76VDzcylg1N1VZ%2FjcbLN6enwT92JHi0RvqWBJrK%2BEAbFsKTEXdc0j2R%2Bkt5ncczjVvTAMwEllBpzvInIxiczT4tKGvF6QcKfZnNwswdf4N%2FvqKP%2FHpOdk1%2F7RiDJswyqGe%2FWdb68dna6YH3jtMKb5ZtXO9wVzZ7RYLxMEX1TWzPTaGYYRcVeqctAnhwHD8Vgagkw%2FtLDbFfIVBZchBMmx4H%2B%2Fk6gvWfHKq1ZBKMN%2F5hs0GOqUB6695NGYqKC1037B8D5fI1dGxxRyGpzJ09lX95vwnskMdNtmzmtWE4ac4symcscKjaZ6LCF4Ryi6CkkqjCYSJ7fdKedoM81YKziR%2BUiShp6WqSSS5L%2FoDRUwwY9D6H3RkOMTCHNc2n8IZjSt5RNpm83KY9GFima%2BhuXT9cpCIGCkx2pVj40fDDDjXJ7GVmxY9Ao2OsVQwsK8uJw09txirACe1i3D%2B&X-Amz-Signature=505adb142581e80809c8d206857541464a534b7a0cae013e57cc9d1c48f3096e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-02-27T17:02:51.089Z"
+        },
+        "caption": []
+      }
+    },
+    {
+      "id": "30611a97-61ab-800f-a237-e1d000aff48b",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "O provinents d’una URL d’internet (externes):"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-800c-8086-d6c7a9bbd517",
+      "type": "image",
+      "properties": {
+        "file": {
+          "type": "external",
+          "url": "https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg"
+        },
+        "caption": [
+          {
+            "type": "text",
+            "content": "A més una imatge pot contenir una caption, la qual és "
+          },
+          {
+            "type": "text",
+            "content": "rich",
+            "annotations": {
+              "italic": true
+            }
+          },
+          {
+            "type": "text",
+            "content": " text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "30611a97-61ab-80e3-bb36-e27eea7d680a",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "I no estem! Podem tenir també callouts:"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-8083-9a9d-ebcde79caadc",
+      "type": "callout",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Això és un callout senzill"
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "📌"
+        },
+        "color": "gray_background"
+      },
+      "children": [
+        {
+          "id": "30611a97-61ab-8084-a539-f22322e8fbcd",
+          "type": "paragraph",
+          "properties": {
+            "rich_text": [
+              {
+                "type": "text",
+                "content": "El qual pot tenir children blocks, que ara en l’exemple és text però podrien ser qualsevol cosa."
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "id": "30611a97-61ab-8009-b2c9-f7cdcff69713",
+      "type": "callout",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "I els callouts poden no tenir icona, i tenir un altre color de fons"
+          }
+        ],
+        "color": "pink_background"
+      }
+    },
+    {
+      "id": "30611a97-61ab-8009-b1df-d5a2693e346a",
+      "type": "callout",
+      "properties": {
+        "rich_text": [],
+        "color": "pink_background"
+      },
+      "children": [
+        {
+          "id": "30611a97-61ab-80eb-bb66-e353bb396f03",
+          "type": "heading_3",
+          "properties": {
+            "rich_text": [
+              {
+                "type": "text",
+                "content": "I poden començar amb un títol"
+              }
+            ],
+            "is_toggleable": false,
+            "color": "default"
+          }
+        },
+        {
+          "id": "30611a97-61ab-80e6-9f10-e6989d88ad13",
+          "type": "paragraph",
+          "properties": {
+            "rich_text": [
+              {
+                "type": "text",
+                "content": "I tenir un nombre il·limitat"
+              }
+            ],
+            "color": "default"
+          }
+        },
+        {
+          "id": "30611a97-61ab-80ba-a9ad-f1b8c692b098",
+          "type": "paragraph",
+          "properties": {
+            "rich_text": [
+              {
+                "type": "text",
+                "content": "De children blocks."
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "id": "30611a97-61ab-80ea-8aa4-eb4e9f0fe6a5",
+      "type": "quote",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "I també podem tenir cites"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-8036-9eb6-f32739e8c1b5",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "També podem posar separadors"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-8079-b5d5-f0d656b75771",
+      "type": "divider",
+      "properties": {}
+    },
+    {
+      "id": "31211a97-61ab-80fe-8936-c9c7a399e954",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Aii ens estàvem deixant els toggle headings"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "31211a97-61ab-8050-b535-f16c45b42b98",
+      "type": "heading_3",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Això és un toggle heading de nivell 3"
+          }
+        ],
+        "is_toggleable": true,
+        "color": "default"
+      },
+      "children": [
+        {
+          "id": "31211a97-61ab-80c7-aa72-dad6d0dd001c",
+          "type": "paragraph",
+          "properties": {
+            "rich_text": [
+              {
+                "type": "text",
+                "content": "I a dins hi pot haver tot tipus de blocks."
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "id": "31311a97-61ab-80dd-804d-c95784cddd3d",
+      "type": "heading_2",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Això és un toggle heading de nivell 3"
+          }
+        ],
+        "is_toggleable": true,
+        "color": "default"
+      },
+      "children": [
+        {
+          "id": "31311a97-61ab-8049-87f3-e5fa5b3b8031",
+          "type": "paragraph",
+          "properties": {
+            "rich_text": [
+              {
+                "type": "text",
+                "content": "I a dins hi pot haver tot tipus de blocks."
+              }
+            ],
+            "color": "default"
+          }
+        }
+      ]
+    },
+    {
+      "id": "30611a97-61ab-8034-960f-d80f5a43238e",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "I el text pot estar de "
+          },
+          {
+            "type": "text",
+            "content": "color gris",
+            "annotations": {
+              "color": "gray"
+            }
+          },
+          {
+            "type": "text",
+            "content": " o tenir el "
+          },
+          {
+            "type": "text",
+            "content": "fons verd",
+            "annotations": {
+              "color": "green_background"
+            }
+          },
+          {
+            "type": "text",
+            "content": " o qualsevol dels colors permesos en Notion."
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-80ce-a525-c735214cb82e",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "També podem posar codi inline "
+          },
+          {
+            "type": "text",
+            "content": "let numero = 5;",
+            "annotations": {
+              "code": true
+            }
+          },
+          {
+            "type": "text",
+            "content": " o tenir un bloc de codi:"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-80da-952d-dfa84a077a6a",
+      "type": "code",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "console.log(\"Hola bon dia\");"
+          }
+        ],
+        "language": "javascript",
+        "caption": []
+      }
+    },
+    {
+      "id": "31111a97-61ab-802a-9cde-f00b17db36ab",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Ah i podem posar columnes"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "31111a97-61ab-802d-a3fb-edb5fd8dda14",
+      "type": "column_list",
+      "properties": {},
+      "children": [
+        {
+          "id": "31111a97-61ab-803d-985c-fa9765a06de1",
+          "type": "column",
+          "properties": {
+            "width_ratio": 0.5
+          },
+          "children": [
+            {
+              "id": "31111a97-61ab-802b-b72c-dcbfc89d60ec",
+              "type": "paragraph",
+              "properties": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "content": "I a cada columna hi pot haver qualsevol tipus de bloc"
+                  }
+                ],
+                "color": "default"
+              }
+            },
+            {
+              "id": "31111a97-61ab-80ad-8f85-dbfa36316263",
+              "type": "heading_3",
+              "properties": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "content": "Com ara un heading"
+                  }
+                ],
+                "is_toggleable": false,
+                "color": "default"
+              }
+            }
+          ]
+        },
+        {
+          "id": "31111a97-61ab-80f5-a39d-d21481bb6258",
+          "type": "column",
+          "properties": {
+            "width_ratio": 0.5
+          },
+          "children": [
+            {
+              "id": "31111a97-61ab-80b1-9735-f36820ea231c",
+              "type": "quote",
+              "properties": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "content": "Podem començar la columna amb una cita"
+                  }
+                ],
+                "color": "default"
+              }
+            },
+            {
+              "id": "31111a97-61ab-8035-b040-ec68e481e0bb",
+              "type": "paragraph",
+              "properties": {
+                "rich_text": [
+                  {
+                    "type": "text",
+                    "content": "I després posar text, etc."
+                  }
+                ],
+                "color": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30611a97-61ab-80b9-bfe6-c315407b6cc0",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "També es poden posar també taules simples"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-80a4-8acd-f8a85cbe6769",
+      "type": "table",
+      "properties": {
+        "table_width": 3,
+        "has_column_header": true,
+        "has_row_header": true
+      },
+      "children": [
+        {
+          "id": "30611a97-61ab-80cb-a982-d1f42bf15d69",
+          "type": "table_row",
+          "properties": {
+            "cells": [
+              [],
+              [
+                {
+                  "type": "text",
+                  "content": "Dissabte"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Diumenge"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "30611a97-61ab-8009-b553-e03b3ba3da3a",
+          "type": "table_row",
+          "properties": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "content": "Matí"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Netejar l’habitació"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Programar"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "30611a97-61ab-8098-87c5-da804ecaf1f2",
+          "type": "table_row",
+          "properties": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "content": "Tarda"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Festa d’aniversari"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Estudiar Relativitat General"
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "30611a97-61ab-8022-9b50-d0961b96a6a6",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "El text també pot contenir "
+          },
+          {
+            "type": "text",
+            "content": "links",
+            "href": "http://google.com/"
+          },
+          {
+            "type": "text",
+            "content": " inline o com a mention "
+          },
+          {
+            "type": "mention",
+            "content": "https://www.youtube.com/channel/UC-uhE2wGJlkstikv01jE8fA",
+            "href": "https://www.youtube.com/channel/UC-uhE2wGJlkstikv01jE8fA",
+            "mention": {
+              "type": "link_mention",
+              "link_mention": {
+                "href": "https://www.youtube.com/channel/UC-uhE2wGJlkstikv01jE8fA",
+                "title": "Comissió de Festes Física UB",
+                "icon_url": "https://www.youtube.com/s/desktop/2a3cb36e/img/favicon_144x144.png",
+                "description": "Som Fisicomfest. Associació de festes de Física UB\n\n\nInstagram: https://www.instagram.com/fisicomfest...\nTwitter: https://twitter.com/FisicomfestUB\nTikTok: https://www.tiktok.com/@fisicomub\n",
+                "link_provider": "YouTube",
+                "thumbnail_url": "https://yt3.ggpht.com/ytc/AIdro_kk6OGl-qUXzO0xRyzCIU9EDNRIVL9aIb_nMO0uZoiAWQ=s800-c-k-c0x00ffffff-no-rj"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "content": " o també podem convertir els links en bookmarks:"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-8059-b734-f030995ef923",
+      "type": "bookmark",
+      "properties": {
+        "url": "https://google.com",
+        "caption": []
+      }
+    },
+    {
+      "id": "30611a97-61ab-800b-a84a-e234ac47b3be",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "I a part de imatges, vídeos i similar, també podem pujar-hi fitxers locals:"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-804b-8fe3-f3323a12ea2d",
+      "type": "file",
+      "properties": {
+        "file": {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/b64269bf-7677-40bd-bd27-39fd86a5deb3/Normativa_reguladora_de_lavaluaci_UB-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q6OS73CR%2F20260227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260227T160251Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIAG%2Bpo%2BhP25z4hguOO0P4fRT3kywguEQCWL2gLtLN%2BOOAiEA%2BHRD5BOE7jT0ZynVYTmAJ%2BszygWNeAB0SBoC%2BU4X0rAq%2FwMIQRAAGgw2Mzc0MjMxODM4MDUiDJ0KSUoTRWwOfKP14SrcAwKVrDApH1cwk1N0sXi6b2jW8cDed9GyaRrrycpJG0XuEqHChSb1aelREaaNSKkHLNN%2FxyZ2XF2vZM0ODNus%2BAoTmHycyMmlA%2Fy3sSgRcve0sYg9ixd20EkqGyX4Su1Ex7td7wbshuEH0Lb16L8GyABcrBC0e8J8nzyn7IvaY%2Bao4wG6Rn6fERMZbbSYt86%2BqQhCyghGMAt0dg9Tiij9omuKQiz18Y7tuPPpNYAHjNHI58ubpGQ1LZDkiL2W0qNrTavul%2Bk0ujoIJjqP7QJSQRtmfwlOrWnZ5W5BFuIaXgudywDR02j6CZSxhDUiT5y7pAKk1tQg78igOH0xz5mH0WKFdfGPNtDsubNiXaZfXT0bydMIRZtzmrKS0%2B9Ua6mj3friK0%2FczjsPi58DtJ7dBL76VDzcylg1N1VZ%2FjcbLN6enwT92JHi0RvqWBJrK%2BEAbFsKTEXdc0j2R%2Bkt5ncczjVvTAMwEllBpzvInIxiczT4tKGvF6QcKfZnNwswdf4N%2FvqKP%2FHpOdk1%2F7RiDJswyqGe%2FWdb68dna6YH3jtMKb5ZtXO9wVzZ7RYLxMEX1TWzPTaGYYRcVeqctAnhwHD8Vgagkw%2FtLDbFfIVBZchBMmx4H%2B%2Fk6gvWfHKq1ZBKMN%2F5hs0GOqUB6695NGYqKC1037B8D5fI1dGxxRyGpzJ09lX95vwnskMdNtmzmtWE4ac4symcscKjaZ6LCF4Ryi6CkkqjCYSJ7fdKedoM81YKziR%2BUiShp6WqSSS5L%2FoDRUwwY9D6H3RkOMTCHNc2n8IZjSt5RNpm83KY9GFima%2BhuXT9cpCIGCkx2pVj40fDDDjXJ7GVmxY9Ao2OsVQwsK8uJw09txirACe1i3D%2B&X-Amz-Signature=906cdb1fb0b89b1ee304cf577cb8f6f59f50d65dd80a51cf019a85084974dde2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-02-27T17:02:51.313Z"
+        },
+        "caption": []
+      }
+    },
+    {
+      "id": "30611a97-61ab-8073-be70-db5caf1df913",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "O fitxers provinents d’una URL externa:"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-8068-b370-c75768ee90db",
+      "type": "file",
+      "properties": {
+        "file": {
+          "type": "external",
+          "url": "https://linear.axler.net/LADR4e.pdf"
+        },
+        "caption": []
+      }
+    },
+    {
+      "id": "30611a97-61ab-80ec-bf1d-dba957a6d57d",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "També podem posar elements embed com ara un vídeo de Youtube:"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-804f-bc28-e233b83a85cf",
+      "type": "video",
+      "properties": {
+        "file": {
+          "type": "external",
+          "url": "https://www.youtube.com/watch?v=aXRTczANuIs"
+        },
+        "caption": []
+      }
+    },
+    {
+      "id": "30611a97-61ab-801f-9391-cf5126abc396",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Un PDF local pujat com a embed:"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-80d1-9b1a-ce581366c7e6",
+      "type": "pdf",
+      "properties": {
+        "file": {
+          "type": "file",
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/1c232d7f-92cf-4bc7-8a0d-f1c4b45d6a27/Taules_Clebsch-Gordan-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q6OS73CR%2F20260227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260227T160251Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIAG%2Bpo%2BhP25z4hguOO0P4fRT3kywguEQCWL2gLtLN%2BOOAiEA%2BHRD5BOE7jT0ZynVYTmAJ%2BszygWNeAB0SBoC%2BU4X0rAq%2FwMIQRAAGgw2Mzc0MjMxODM4MDUiDJ0KSUoTRWwOfKP14SrcAwKVrDApH1cwk1N0sXi6b2jW8cDed9GyaRrrycpJG0XuEqHChSb1aelREaaNSKkHLNN%2FxyZ2XF2vZM0ODNus%2BAoTmHycyMmlA%2Fy3sSgRcve0sYg9ixd20EkqGyX4Su1Ex7td7wbshuEH0Lb16L8GyABcrBC0e8J8nzyn7IvaY%2Bao4wG6Rn6fERMZbbSYt86%2BqQhCyghGMAt0dg9Tiij9omuKQiz18Y7tuPPpNYAHjNHI58ubpGQ1LZDkiL2W0qNrTavul%2Bk0ujoIJjqP7QJSQRtmfwlOrWnZ5W5BFuIaXgudywDR02j6CZSxhDUiT5y7pAKk1tQg78igOH0xz5mH0WKFdfGPNtDsubNiXaZfXT0bydMIRZtzmrKS0%2B9Ua6mj3friK0%2FczjsPi58DtJ7dBL76VDzcylg1N1VZ%2FjcbLN6enwT92JHi0RvqWBJrK%2BEAbFsKTEXdc0j2R%2Bkt5ncczjVvTAMwEllBpzvInIxiczT4tKGvF6QcKfZnNwswdf4N%2FvqKP%2FHpOdk1%2F7RiDJswyqGe%2FWdb68dna6YH3jtMKb5ZtXO9wVzZ7RYLxMEX1TWzPTaGYYRcVeqctAnhwHD8Vgagkw%2FtLDbFfIVBZchBMmx4H%2B%2Fk6gvWfHKq1ZBKMN%2F5hs0GOqUB6695NGYqKC1037B8D5fI1dGxxRyGpzJ09lX95vwnskMdNtmzmtWE4ac4symcscKjaZ6LCF4Ryi6CkkqjCYSJ7fdKedoM81YKziR%2BUiShp6WqSSS5L%2FoDRUwwY9D6H3RkOMTCHNc2n8IZjSt5RNpm83KY9GFima%2BhuXT9cpCIGCkx2pVj40fDDDjXJ7GVmxY9Ao2OsVQwsK8uJw09txirACe1i3D%2B&X-Amz-Signature=1104cd429992900b828733f177300ae2fc65f78c6209b863bd4cf4ab956fd7fd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-02-27T17:02:51.323Z"
+        },
+        "caption": []
+      }
+    },
+    {
+      "id": "30611a97-61ab-80b7-b427-c63c8ef93dff",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "O un element interactiu qualsevol:"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "30611a97-61ab-807f-9cfd-c3ab1e2175a3",
+      "type": "embed",
+      "properties": {
+        "url": "https://mapaor4.github.io/notion/Plotly/tenkas.html",
+        "caption": []
+      }
+    },
+    {
+      "id": "30611a97-61ab-8065-9767-d1d87e2a58df",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Doncs això seria tot. També es poden posar bases de dades però de moment no entrem a aquí."
+          }
+        ],
+        "color": "default"
+      }
+    }
+  ],
+  "processed_at": "2026-02-27T16:02:58.273Z"
+}

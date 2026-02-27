@@ -1,0 +1,48 @@
+{
+  "name": "@nast/nbt2nast",
+  "type": "module",
+  "version": "0.3.0",
+  "description": "Converts NBT (Notion Block Tree) to NAST (unified-like Notion Abstract Syntax Tree)",
+  "keywords": [
+    "notion",
+    "ast",
+    "unified",
+    "nast",
+    "tree",
+    "converter"
+  ],
+  "author": "Mapaor <pardo.marti@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Mapaor/nast/tree/main/packages/nbt2nast",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mapaor/nast.git",
+    "directory": "packages/nbt2nast"
+  },
+  "bugs": {
+    "url": "https://github.com/Mapaor/nast/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index-Ce52KW7l.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run typecheck && pnpm run build",
+    "example": "tsx scripts/example.ts",
+    "convert": "tsx scripts/convert.ts"
+  }
+}

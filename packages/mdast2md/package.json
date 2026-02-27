@@ -1,0 +1,54 @@
+{
+  "name": "@nast/mdast2md",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Convert mdast (Markdown AST) to markdown",
+  "keywords": [
+    "mdast",
+    "unified",
+    "markdown",
+    "ast",
+    "converter"
+  ],
+  "author": "Mapaor <pardo.marti@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Mapaor/nast/tree/main/packages/mdast2md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mapaor/nast.git",
+    "directory": "packages/mdast2md"
+  },
+  "bugs": {
+    "url": "https://github.com/Mapaor/nast/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index-HD_0iH-M.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run typecheck && pnpm run build",
+    "example": "tsx scripts/example.ts"
+  },
+  "dependencies": {
+    "@types/mdast": "^4.0.3",
+    "@types/unist": "^3.0.2",
+    "mdast-util-to-markdown": "^2.1.0",
+    "mdast-util-gfm": "^3.0.0",
+    "mdast-util-frontmatter": "^2.0.0",
+    "mdast-util-math": "^3.0.0"
+  }
+}

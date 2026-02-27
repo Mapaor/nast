@@ -1,0 +1,962 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        {
+          "type": "text",
+          "value": "Això és un heading de nivell 1"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "Això és un heading de nivell 2"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Això és un heading de nivell 3"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Això és text normal. Bla bla bla… Lorem ipsum dolor sit amet."
+        }
+      ]
+    },
+    {
+      "type": "math",
+      "value": "e^{i\\pi}+1=0"
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "A dalt tenim una block equation i ara una inline equation "
+        },
+        {
+          "type": "inlineMath",
+          "value": "\\frac{a}{b}=c"
+        },
+        {
+          "type": "text",
+          "value": " molt xula."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "El següent té "
+        },
+        {
+          "type": "strong",
+          "children": [
+            {
+              "type": "text",
+              "value": "negreta"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "emphasis",
+          "children": [
+            {
+              "type": "text",
+              "value": "cursiva"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": ", "
+        },
+        {
+          "type": "underline",
+          "children": [
+            {
+              "type": "text",
+              "value": "subratllat"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": " i "
+        },
+        {
+          "type": "delete",
+          "children": [
+            {
+              "type": "text",
+              "value": "strikethrough"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    },
+    {
+      "type": "toggle",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Això és un toggle block"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "I això és un block children del toggle block."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Aquest és el segon children block, podem tenir tots els children que vulguem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "children": [
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Això és una bulleted list"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "children": [
+                {
+                  "type": "listItem",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "I això una nested bulleted list"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "list",
+                      "ordered": true,
+                      "children": [
+                        {
+                          "type": "listItem",
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "També podem posar numbered lists"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "listItem",
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "Aquesta numbered list està nested dins les altres dues bulleted lists"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "També podem tenir checklists (to-do list)"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "children": [
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Comprar llet (fet)"
+                }
+              ]
+            }
+          ],
+          "checked": true
+        },
+        {
+          "type": "listItem",
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Escombrar l’habitació (pendent de fer)"
+                }
+              ]
+            }
+          ],
+          "checked": false
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "A continuació una subpàgina"
+        }
+      ]
+    },
+    {
+      "type": "childPage",
+      "title": "Example checklists, columnes i toggles",
+      "pageId": "30611a97-61ab-80fa-9156-c1501e88d148"
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "També podem tenir mentions de persones com "
+        },
+        {
+          "type": "mention",
+          "mentionType": "user",
+          "value": "@Martí Pardo",
+          "data": {
+            "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea",
+            "name": "Martí Pardo",
+            "avatarUrl": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/bf26a5b1-4b9f-45bf-b973-7d6c6f085392/Black_hole.webp"
+          }
+        },
+        {
+          "type": "text",
+          "value": " o de dates com "
+        },
+        {
+          "type": "mention",
+          "mentionType": "date",
+          "value": "2026-02-14",
+          "data": {
+            "start": "2026-02-14",
+            "end": null,
+            "timeZone": null
+          }
+        },
+        {
+          "type": "text",
+          "value": " o de subpàgines a les que tenim accés com "
+        },
+        {
+          "type": "mention",
+          "mentionType": "page",
+          "value": "Example checklists, columnes i toggles",
+          "data": {
+            "id": "30611a97-61ab-80fa-9156-c1501e88d148",
+            "url": "https://www.notion.so/30611a9761ab80fa9156c1501e88d148"
+          }
+        },
+        {
+          "type": "text",
+          "value": " o de subpàgines a les que no tenim accés com "
+        },
+        {
+          "type": "mention",
+          "mentionType": "page",
+          "value": "Untitled",
+          "data": {
+            "id": "24211a97-61ab-80e7-876f-e59ce53a817e",
+            "url": "https://www.notion.so/24211a9761ab80e7876fe59ce53a817e"
+          }
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Finalment podem tenir imatges, provinents d’un fitxer local:"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/8bf850cf-4aa2-4006-a926-7c8716480d59/Wikipedia-logo-v2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q6OS73CR%2F20260227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260227T160251Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIAG%2Bpo%2BhP25z4hguOO0P4fRT3kywguEQCWL2gLtLN%2BOOAiEA%2BHRD5BOE7jT0ZynVYTmAJ%2BszygWNeAB0SBoC%2BU4X0rAq%2FwMIQRAAGgw2Mzc0MjMxODM4MDUiDJ0KSUoTRWwOfKP14SrcAwKVrDApH1cwk1N0sXi6b2jW8cDed9GyaRrrycpJG0XuEqHChSb1aelREaaNSKkHLNN%2FxyZ2XF2vZM0ODNus%2BAoTmHycyMmlA%2Fy3sSgRcve0sYg9ixd20EkqGyX4Su1Ex7td7wbshuEH0Lb16L8GyABcrBC0e8J8nzyn7IvaY%2Bao4wG6Rn6fERMZbbSYt86%2BqQhCyghGMAt0dg9Tiij9omuKQiz18Y7tuPPpNYAHjNHI58ubpGQ1LZDkiL2W0qNrTavul%2Bk0ujoIJjqP7QJSQRtmfwlOrWnZ5W5BFuIaXgudywDR02j6CZSxhDUiT5y7pAKk1tQg78igOH0xz5mH0WKFdfGPNtDsubNiXaZfXT0bydMIRZtzmrKS0%2B9Ua6mj3friK0%2FczjsPi58DtJ7dBL76VDzcylg1N1VZ%2FjcbLN6enwT92JHi0RvqWBJrK%2BEAbFsKTEXdc0j2R%2Bkt5ncczjVvTAMwEllBpzvInIxiczT4tKGvF6QcKfZnNwswdf4N%2FvqKP%2FHpOdk1%2F7RiDJswyqGe%2FWdb68dna6YH3jtMKb5ZtXO9wVzZ7RYLxMEX1TWzPTaGYYRcVeqctAnhwHD8Vgagkw%2FtLDbFfIVBZchBMmx4H%2B%2Fk6gvWfHKq1ZBKMN%2F5hs0GOqUB6695NGYqKC1037B8D5fI1dGxxRyGpzJ09lX95vwnskMdNtmzmtWE4ac4symcscKjaZ6LCF4Ryi6CkkqjCYSJ7fdKedoM81YKziR%2BUiShp6WqSSS5L%2FoDRUwwY9D6H3RkOMTCHNc2n8IZjSt5RNpm83KY9GFima%2BhuXT9cpCIGCkx2pVj40fDDDjXJ7GVmxY9Ao2OsVQwsK8uJw09txirACe1i3D%2B&X-Amz-Signature=505adb142581e80809c8d206857541464a534b7a0cae013e57cc9d1c48f3096e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "title": null,
+      "alt": null,
+      "data": {
+        "fileType": "file",
+        "expiryTime": "2026-02-27T17:02:51.089Z"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "O provinents d’una URL d’internet (externes):"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg",
+      "title": null,
+      "alt": null,
+      "data": {
+        "fileType": "external",
+        "caption": [
+          {
+            "type": "text",
+            "value": "A més una imatge pot contenir una caption, la qual és "
+          },
+          {
+            "type": "emphasis",
+            "children": [
+              {
+                "type": "text",
+                "value": "rich"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "value": " text."
+          }
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "I no estem! Podem tenir també callouts:"
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "data": {
+        "icon": {
+          "type": "emoji",
+          "value": "📌"
+        },
+        "color": "gray_background"
+      },
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Això és un callout senzill"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "El qual pot tenir children blocks, que ara en l’exemple és text però podrien ser qualsevol cosa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "data": {
+        "icon": null,
+        "color": "pink_background"
+      },
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "I els callouts poden no tenir icona, i tenir un altre color de fons"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "data": {
+        "icon": null,
+        "color": "pink_background"
+      },
+      "children": [
+        {
+          "type": "heading",
+          "depth": 3,
+          "children": [
+            {
+              "type": "text",
+              "value": "I poden començar amb un títol"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "I tenir un nombre il·limitat"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "De children blocks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "I també podem tenir cites"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "També podem posar separadors"
+        }
+      ]
+    },
+    {
+      "type": "thematicBreak"
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Aii ens estàvem deixant els toggle headings"
+        }
+      ]
+    },
+    {
+      "type": "toggle",
+      "children": [
+        {
+          "type": "heading",
+          "depth": 3,
+          "children": [
+            {
+              "type": "text",
+              "value": "Això és un toggle heading de nivell 3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "I a dins hi pot haver tot tipus de blocks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "toggle",
+      "children": [
+        {
+          "type": "heading",
+          "depth": 2,
+          "children": [
+            {
+              "type": "text",
+              "value": "Això és un toggle heading de nivell 3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "I a dins hi pot haver tot tipus de blocks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "I el text pot estar de "
+        },
+        {
+          "type": "text",
+          "value": "color gris",
+          "data": {
+            "color": "gray"
+          }
+        },
+        {
+          "type": "text",
+          "value": " o tenir el "
+        },
+        {
+          "type": "text",
+          "value": "fons verd",
+          "data": {
+            "backgroundColor": "green"
+          }
+        },
+        {
+          "type": "text",
+          "value": " o qualsevol dels colors permesos en Notion."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "També podem posar codi inline "
+        },
+        {
+          "type": "inlineCode",
+          "value": "let numero = 5;"
+        },
+        {
+          "type": "text",
+          "value": " o tenir un bloc de codi:"
+        }
+      ]
+    },
+    {
+      "type": "code",
+      "lang": "javascript",
+      "value": "console.log(\"Hola bon dia\");"
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Ah i podem posar columnes"
+        }
+      ]
+    },
+    {
+      "type": "columnList",
+      "children": [
+        {
+          "type": "column",
+          "widthRatio": 0.5,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "I a cada columna hi pot haver qualsevol tipus de bloc"
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "depth": 3,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Com ara un heading"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "column",
+          "widthRatio": 0.5,
+          "children": [
+            {
+              "type": "blockquote",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "Podem començar la columna amb una cita"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "I després posar text, etc."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "També es poden posar també taules simples"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "hasColumnHeader": true,
+      "hasRowHeader": true,
+      "children": [
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": []
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Dissabte"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Diumenge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Matí"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Netejar l’habitació"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Programar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "children": [
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Tarda"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Festa d’aniversari"
+                }
+              ]
+            },
+            {
+              "type": "tableCell",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "Estudiar Relativitat General"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "El text també pot contenir "
+        },
+        {
+          "type": "link",
+          "url": "http://google.com/",
+          "children": [
+            {
+              "type": "text",
+              "value": "links"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": " inline o com a mention "
+        },
+        {
+          "type": "link",
+          "url": "https://www.youtube.com/channel/UC-uhE2wGJlkstikv01jE8fA",
+          "children": [
+            {
+              "type": "text",
+              "value": "https://www.youtube.com/channel/UC-uhE2wGJlkstikv01jE8fA"
+            }
+          ],
+          "data": {
+            "title": "Comissió de Festes Física UB",
+            "iconUrl": "https://www.youtube.com/s/desktop/2a3cb36e/img/favicon_144x144.png",
+            "description": "Som Fisicomfest. Associació de festes de Física UB\n\n\nInstagram: https://www.instagram.com/fisicomfest...\nTwitter: https://twitter.com/FisicomfestUB\nTikTok: https://www.tiktok.com/@fisicomub\n",
+            "provider": "YouTube",
+            "thumbnailUrl": "https://yt3.ggpht.com/ytc/AIdro_kk6OGl-qUXzO0xRyzCIU9EDNRIVL9aIb_nMO0uZoiAWQ=s800-c-k-c0x00ffffff-no-rj"
+          }
+        },
+        {
+          "type": "text",
+          "value": " o també podem convertir els links en bookmarks:"
+        }
+      ]
+    },
+    {
+      "type": "bookmark",
+      "url": "https://google.com"
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "I a part de imatges, vídeos i similar, també podem pujar-hi fitxers locals:"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/b64269bf-7677-40bd-bd27-39fd86a5deb3/Normativa_reguladora_de_lavaluaci_UB-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q6OS73CR%2F20260227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260227T160251Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIAG%2Bpo%2BhP25z4hguOO0P4fRT3kywguEQCWL2gLtLN%2BOOAiEA%2BHRD5BOE7jT0ZynVYTmAJ%2BszygWNeAB0SBoC%2BU4X0rAq%2FwMIQRAAGgw2Mzc0MjMxODM4MDUiDJ0KSUoTRWwOfKP14SrcAwKVrDApH1cwk1N0sXi6b2jW8cDed9GyaRrrycpJG0XuEqHChSb1aelREaaNSKkHLNN%2FxyZ2XF2vZM0ODNus%2BAoTmHycyMmlA%2Fy3sSgRcve0sYg9ixd20EkqGyX4Su1Ex7td7wbshuEH0Lb16L8GyABcrBC0e8J8nzyn7IvaY%2Bao4wG6Rn6fERMZbbSYt86%2BqQhCyghGMAt0dg9Tiij9omuKQiz18Y7tuPPpNYAHjNHI58ubpGQ1LZDkiL2W0qNrTavul%2Bk0ujoIJjqP7QJSQRtmfwlOrWnZ5W5BFuIaXgudywDR02j6CZSxhDUiT5y7pAKk1tQg78igOH0xz5mH0WKFdfGPNtDsubNiXaZfXT0bydMIRZtzmrKS0%2B9Ua6mj3friK0%2FczjsPi58DtJ7dBL76VDzcylg1N1VZ%2FjcbLN6enwT92JHi0RvqWBJrK%2BEAbFsKTEXdc0j2R%2Bkt5ncczjVvTAMwEllBpzvInIxiczT4tKGvF6QcKfZnNwswdf4N%2FvqKP%2FHpOdk1%2F7RiDJswyqGe%2FWdb68dna6YH3jtMKb5ZtXO9wVzZ7RYLxMEX1TWzPTaGYYRcVeqctAnhwHD8Vgagkw%2FtLDbFfIVBZchBMmx4H%2B%2Fk6gvWfHKq1ZBKMN%2F5hs0GOqUB6695NGYqKC1037B8D5fI1dGxxRyGpzJ09lX95vwnskMdNtmzmtWE4ac4symcscKjaZ6LCF4Ryi6CkkqjCYSJ7fdKedoM81YKziR%2BUiShp6WqSSS5L%2FoDRUwwY9D6H3RkOMTCHNc2n8IZjSt5RNpm83KY9GFima%2BhuXT9cpCIGCkx2pVj40fDDDjXJ7GVmxY9Ao2OsVQwsK8uJw09txirACe1i3D%2B&X-Amz-Signature=906cdb1fb0b89b1ee304cf577cb8f6f59f50d65dd80a51cf019a85084974dde2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "name": "",
+      "data": {
+        "fileType": "file",
+        "expiryTime": "2026-02-27T17:02:51.313Z"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "O fitxers provinents d’una URL externa:"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "url": "https://linear.axler.net/LADR4e.pdf",
+      "name": "",
+      "data": {
+        "fileType": "external"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "També podem posar elements embed com ara un vídeo de Youtube:"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=aXRTczANuIs",
+      "data": {
+        "fileType": "external"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Un PDF local pujat com a embed:"
+        }
+      ]
+    },
+    {
+      "type": "pdf",
+      "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/1c232d7f-92cf-4bc7-8a0d-f1c4b45d6a27/Taules_Clebsch-Gordan-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q6OS73CR%2F20260227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260227T160251Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIAG%2Bpo%2BhP25z4hguOO0P4fRT3kywguEQCWL2gLtLN%2BOOAiEA%2BHRD5BOE7jT0ZynVYTmAJ%2BszygWNeAB0SBoC%2BU4X0rAq%2FwMIQRAAGgw2Mzc0MjMxODM4MDUiDJ0KSUoTRWwOfKP14SrcAwKVrDApH1cwk1N0sXi6b2jW8cDed9GyaRrrycpJG0XuEqHChSb1aelREaaNSKkHLNN%2FxyZ2XF2vZM0ODNus%2BAoTmHycyMmlA%2Fy3sSgRcve0sYg9ixd20EkqGyX4Su1Ex7td7wbshuEH0Lb16L8GyABcrBC0e8J8nzyn7IvaY%2Bao4wG6Rn6fERMZbbSYt86%2BqQhCyghGMAt0dg9Tiij9omuKQiz18Y7tuPPpNYAHjNHI58ubpGQ1LZDkiL2W0qNrTavul%2Bk0ujoIJjqP7QJSQRtmfwlOrWnZ5W5BFuIaXgudywDR02j6CZSxhDUiT5y7pAKk1tQg78igOH0xz5mH0WKFdfGPNtDsubNiXaZfXT0bydMIRZtzmrKS0%2B9Ua6mj3friK0%2FczjsPi58DtJ7dBL76VDzcylg1N1VZ%2FjcbLN6enwT92JHi0RvqWBJrK%2BEAbFsKTEXdc0j2R%2Bkt5ncczjVvTAMwEllBpzvInIxiczT4tKGvF6QcKfZnNwswdf4N%2FvqKP%2FHpOdk1%2F7RiDJswyqGe%2FWdb68dna6YH3jtMKb5ZtXO9wVzZ7RYLxMEX1TWzPTaGYYRcVeqctAnhwHD8Vgagkw%2FtLDbFfIVBZchBMmx4H%2B%2Fk6gvWfHKq1ZBKMN%2F5hs0GOqUB6695NGYqKC1037B8D5fI1dGxxRyGpzJ09lX95vwnskMdNtmzmtWE4ac4symcscKjaZ6LCF4Ryi6CkkqjCYSJ7fdKedoM81YKziR%2BUiShp6WqSSS5L%2FoDRUwwY9D6H3RkOMTCHNc2n8IZjSt5RNpm83KY9GFima%2BhuXT9cpCIGCkx2pVj40fDDDjXJ7GVmxY9Ao2OsVQwsK8uJw09txirACe1i3D%2B&X-Amz-Signature=1104cd429992900b828733f177300ae2fc65f78c6209b863bd4cf4ab956fd7fd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+      "data": {
+        "fileType": "file",
+        "expiryTime": "2026-02-27T17:02:51.323Z"
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "O un element interactiu qualsevol:"
+        }
+      ]
+    },
+    {
+      "type": "embed",
+      "url": "https://mapaor4.github.io/notion/Plotly/tenkas.html"
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Doncs això seria tot. També es poden posar bases de dades però de moment no entrem a aquí."
+        }
+      ]
+    }
+  ],
+  "data": {
+    "pageId": "30511a97-61ab-802c-808c-dbb05b786986",
+    "title": "Demo per export a Typst",
+    "processedAt": "2026-02-27T16:02:58.273Z",
+    "icon": {
+      "type": "emoji",
+      "value": "✴️"
+    }
+  }
+}

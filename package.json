@@ -1,0 +1,26 @@
+{
+  "name": "@nast/monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "NAST - Notion Abstract Syntax Tree tools monorepo",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev": "pnpm -r run dev",
+    "test": "pnpm -r run test",
+    "typecheck": "pnpm -r run typecheck",
+    "clean": "pnpm -r exec rm -rf dist",
+    "publish:all": "pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsdown": "^0.12.9",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

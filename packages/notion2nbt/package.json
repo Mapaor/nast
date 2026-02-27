@@ -1,0 +1,57 @@
+{
+  "name": "@nast/notion2nbt",
+  "type": "module",
+  "version": "0.6.0",
+  "description": "Transform Notion pages into Notion Block Trees (NBT) for any rendering target using the official Notion API. A rendering-agnostic TypeScript library with full type safety.",
+  "keywords": [
+    "notion",
+    "nbt",
+    "block-tree",
+    "notion-block-tree",
+    "notion-api",
+    "typescript",
+    "parser",
+    "converter",
+    "markdown",
+    "latex",
+    "notion-to-nbt",
+    "notion-blocks"
+  ],
+  "author": "Mapaor <pardo.marti@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Mapaor/nast/tree/main/packages/notion2nbt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mapaor/nast.git",
+    "directory": "packages/notion2nbt"
+  },
+  "bugs": {
+    "url": "https://github.com/Mapaor/nast/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run typecheck && pnpm run build",
+    "fetch-page": "node --env-file=.env.local --import tsx scripts/fetch-page.ts",
+    "get-children": "node --env-file=.env.local --import tsx scripts/get-children.ts"
+  },
+  "dependencies": {
+    "@notionhq/client": "^5.7.0"
+  }
+}
