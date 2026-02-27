@@ -2,13 +2,13 @@
  * Notion-specific block converters
  */
 
-import type { Content as MdastContent, BlockContent, DefinitionContent } from 'mdast';
-import type { NastNode } from '../types/nast';
+import type { RootContent, BlockContent, DefinitionContent } from 'mdast';
+import type { NASTCallout, NASTToggle, NASTChildPage } from '../types/nast';
 
 /**
  * Convert Notion callout to blockquote with original data
  */
-export function convertCallout(node: NastNode): MdastContent {
+export function convertCallout(node: NASTCallout): RootContent {
   // Import convertNode to handle children
   const { convertNode } = require('./node');
   
@@ -50,7 +50,7 @@ export function convertCallout(node: NastNode): MdastContent {
 /**
  * Convert Notion toggle to blockquote with original data
  */
-export function convertToggle(node: NastNode): MdastContent {
+export function convertToggle(node: NASTToggle): RootContent {
   // Import convertNode to handle children
   const { convertNode } = require('./node');
   
@@ -82,7 +82,7 @@ export function convertToggle(node: NastNode): MdastContent {
 /**
  * Convert childPage to paragraph with link
  */
-export function convertChildPage(node: NastNode): MdastContent {
+export function convertChildPage(node: NASTChildPage): RootContent {
   return {
     type: 'paragraph',
     children: [

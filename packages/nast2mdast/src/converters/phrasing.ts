@@ -1,92 +1,116 @@
 import type { PhrasingContent } from 'mdast';
-import type { NastNode } from '../types/nast';
+import type {
+  NASTNode,
+  NASTText,
+  NASTStrong,
+  NASTEmphasis,
+  NASTDelete,
+  NASTUnderline,
+  NASTInlineCode,
+  NASTInlineMath,
+  NASTLink,
+  NASTMention
+} from '../types/nast';
 
 /**
  * Convert phrasing (inline) content
  */
-export function convertPhrasingContent(nodes: NastNode[]): PhrasingContent[] {
+export function convertPhrasingContent(nodes: NASTNode[]): PhrasingContent[] {
   const result: PhrasingContent[] = [];
 
   for (const node of nodes) {
     switch (node.type) {
-      case 'text':
+      case 'text': {
+        const textNode = node as NASTText;
         result.push({
           type: 'text',
-          value: node.value || '',
-          data: node.data
+          value: textNode.value || '',
+          data: textNode.data
         });
         break;
+      }
 
-      case 'strong':
+      case 'strong': {
+        const strongNode = node as NASTStrong;
         result.push({
           type: 'strong',
-          children: node.children ? convertPhrasingContent(node.children) : []
+          children: strongNode.children ? convertPhrasingContent(strongNode.children) : []
         });
         break;
+      }
 
-      case 'emphasis':
+      case 'emphasis': {
+        const emphasisNode = node as NASTEmphasis;
         result.push({
           type: 'emphasis',
-          children: node.children ? convertPhrasingContent(node.children) : []
+          children: emphasisNode.children ? convertPhrasingContent(emphasisNode.children) : []
         });
         break;
+      }
 
-      case 'delete':
+      case 'delete': {
+        const deleteNode = node as NASTDelete;
         result.push({
           type: 'delete',
-          children: node.children ? convertPhrasingContent(node.children) : []
+          children: deleteNode.children ? convertPhrasingContent(deleteNode.children) : []
         } as any);
         break;
+      }
 
-      case 'underline':
+      case 'underline': {
+        const underlineNode = node as NASTUnderline;
         // Underline doesn't exist in standard mdast, wrap in emphasis with data
         result.push({
           type: 'emphasis',
-          children: node.children ? convertPhrasingContent(node.children) : [],
+          children: underlineNode.children ? convertPhrasingContent(underlineNode.children) : [],
           data: {
-            originalType: 'underline',
-            ...node.data
+            originalType: 'underline'
           }
         });
         break;
+      }
 
-      case 'inlineCode':
+      case 'inlineCode': {
+        const inlineCodeNode = node as NASTInlineCode;
         result.push({
           type: 'inlineCode',
-          value: node.value || ''
+          value: inlineCodeNode.value || ''
         });
         break;
+      }
 
-      case 'inlineMath':
+      case 'inlineMath': {
+        const inlineMathNode = node as NASTInlineMath;
         result.push({
           type: 'inlineMath',
-          value: node.value || '',
-          data: node.data
+          value: inlineMathNode.value || ''
         } as any);
         break;
+      }
 
-      case 'link':
+      case 'link': {
+        const linkNode = node as NASTLink;
         result.push({
           type: 'link',
-          url: node.url || '',
-          title: node.title || null,
-          children: node.children ? convertPhrasingContent(node.children) : [],
-          data: node.data
+          url: linkNode.url || '',
+          title: linkNode.data?.title || null,
+          children: linkNode.children ? convertPhrasingContent(linkNode.children) : [],
+          data: linkNode.data
         });
         break;
+      }
 
       case 'mention':
-        result.push(convertMention(node));
+        result.push(convertMention(node as NASTMention));
         break;
 
       default:
         // Unknown inline type, convert to text
         result.push({
           type: 'text',
-          value: node.value || `[${node.type}]`,
+          value: `[${node.type}]`,
           data: {
-            originalType: node.type,
-            ...node.data
+            originalType: node.type
           }
         });
     }
@@ -98,7 +122,7 @@ export function convertPhrasingContent(nodes: NastNode[]): PhrasingContent[] {
 /**
  * Convert mention to text or link
  */
-export function convertMention(node: NastNode): PhrasingContent {
+export function convertMention(node: NASTMention): PhrasingContent {
   switch (node.mentionType) {
     case 'user':
       return {
@@ -107,7 +131,7 @@ export function convertMention(node: NastNode): PhrasingContent {
         data: {
           originalType: 'mention',
           mentionType: 'user',
-          ...node.data
+          mentionData: node.data
         }
       };
 
@@ -118,22 +142,24 @@ export function convertMention(node: NastNode): PhrasingContent {
         data: {
           originalType: 'mention',
           mentionType: 'date',
-          ...node.data
+          mentionData: node.data
         }
       };
 
-    case 'page':
+    case 'page': {
+      const pageData = node.data as { url?: string; id?: string } | undefined;
       return {
         type: 'link',
-        url: node.data?.url || '#',
+        url: pageData?.url || '#',
         children: [{ type: 'text', value: node.value || 'Page' }],
         data: {
           originalType: 'mention',
           mentionType: 'page',
-          pageId: node.data?.id,
-          ...node.data
+          pageId: pageData?.id,
+          mentionData: node.data
         }
       };
+    }
 
     default:
       return {
@@ -141,7 +167,7 @@ export function convertMention(node: NastNode): PhrasingContent {
         value: node.value || '@Mention',
         data: {
           originalType: 'mention',
-          ...node.data
+          mentionData: node.data
         }
       };
   }

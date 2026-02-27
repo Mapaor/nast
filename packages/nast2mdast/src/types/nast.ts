@@ -4,7 +4,41 @@
  * Re-exports canonical types from @nast/types with aliases for backward compatibility.
  */
 
-import type { NASTRoot, NASTNode } from '@nast/types';
+import type {
+  NASTRoot,
+  NASTNode,
+  NASTParagraph,
+  NASTHeading,
+  NASTText,
+  NASTStrong,
+  NASTEmphasis,
+  NASTUnderline,
+  NASTDelete,
+  NASTInlineCode,
+  NASTLink,
+  NASTMention,
+  NASTMath,
+  NASTInlineMath,
+  NASTCode,
+  NASTBlockquote,
+  NASTCallout,
+  NASTToggle,
+  NASTList,
+  NASTListItem,
+  NASTColumnList,
+  NASTColumn,
+  NASTImage,
+  NASTThematicBreak,
+  NASTTable,
+  NASTTableRow,
+  NASTTableCell,
+  NASTChildPage,
+  NASTVideo,
+  NASTFile,
+  NASTPDF,
+  NASTBookmark,
+  NASTEmbed
+} from '@nast/types';
 
 /**
  * NAST Node type
@@ -18,5 +52,39 @@ export type NastNode = NASTNode;
  */
 export type NastRoot = NASTRoot;
 
-// Also re-export the canonical types for new code
-export type { NASTRoot, NASTNode };
+// Re-export all types from @nast/types
+export type {
+  NASTRoot,
+  NASTNode,
+  NASTParagraph,
+  NASTHeading,
+  NASTText,
+  NASTStrong,
+  NASTEmphasis,
+  NASTUnderline,
+  NASTDelete,
+  NASTInlineCode,
+  NASTLink,
+  NASTMention,
+  NASTMath,
+  NASTInlineMath,
+  NASTCode,
+  NASTBlockquote,
+  NASTCallout,
+  NASTToggle,
+  NASTList,
+  NASTListItem,
+  NASTColumnList,
+  NASTColumn,
+  NASTImage,
+  NASTThematicBreak,
+  NASTTable,
+  NASTTableRow,
+  NASTTableCell,
+  NASTChildPage,
+  NASTVideo,
+  NASTFile,
+  NASTPDF,
+  NASTBookmark,
+  NASTEmbed
+};

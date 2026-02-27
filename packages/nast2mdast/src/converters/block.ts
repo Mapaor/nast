@@ -2,11 +2,21 @@
  * Block-level converters for standard markdown blocks
  */
 
-import type { Content as MdastContent, BlockContent, DefinitionContent } from 'mdast';
-import type { NastNode } from '../types/nast';
+import type { RootContent, BlockContent, DefinitionContent } from 'mdast';
+import type {
+  NASTHeading,
+  NASTParagraph,
+  NASTBlockquote,
+  NASTList,
+  NASTListItem,
+  NASTCode,
+  NASTTable,
+  NASTTableRow,
+  NASTTableCell
+} from '../types/nast';
 import { convertPhrasingContent } from './phrasing';
 
-export function convertHeading(node: NastNode): MdastContent {
+export function convertHeading(node: NASTHeading): RootContent {
   return {
     type: 'heading',
     depth: node.depth || 1,
@@ -14,7 +24,7 @@ export function convertHeading(node: NastNode): MdastContent {
   };
 }
 
-export function convertParagraph(node: NastNode): MdastContent {
+export function convertParagraph(node: NASTParagraph): RootContent {
   return {
     type: 'paragraph',
     children: node.children ? convertPhrasingContent(node.children) : [],
@@ -22,7 +32,7 @@ export function convertParagraph(node: NastNode): MdastContent {
   };
 }
 
-export function convertBlockquote(node: NastNode): MdastContent {
+export function convertBlockquote(node: NASTBlockquote): RootContent {
   // Import convertNode to handle children - will be imported from node.ts
   const { convertNode } = require('./node');
   
@@ -46,7 +56,7 @@ export function convertBlockquote(node: NastNode): MdastContent {
   };
 }
 
-export function convertList(node: NastNode): MdastContent {
+export function convertList(node: NASTList): RootContent {
   // Import convertNode to handle children
   const { convertNode } = require('./node');
   
@@ -62,12 +72,11 @@ export function convertList(node: NastNode): MdastContent {
   return {
     type: 'list',
     ordered: node.ordered || false,
-    children,
-    data: node.data
+    children
   };
 }
 
-export function convertListItem(node: NastNode): MdastContent {
+export function convertListItem(node: NASTListItem): RootContent {
   // Import convertNode to handle children
   const { convertNode } = require('./node');
   
@@ -91,17 +100,17 @@ export function convertListItem(node: NastNode): MdastContent {
   };
 }
 
-export function convertCode(node: NastNode): MdastContent {
+export function convertCode(node: NASTCode): RootContent {
   return {
     type: 'code',
     lang: node.lang || null,
-    meta: node.meta || null,
+    meta: null,
     value: node.value || '',
     data: node.data
   };
 }
 
-export function convertTable(node: NastNode): MdastContent {
+export function convertTable(node: NASTTable): RootContent {
   // Import convertNode to handle children
   const { convertNode } = require('./node');
   
@@ -125,7 +134,7 @@ export function convertTable(node: NastNode): MdastContent {
   };
 }
 
-export function convertTableRow(node: NastNode): any {
+export function convertTableRow(node: NASTTableRow): any {
   // Import convertNode to handle children
   const { convertNode } = require('./node');
   
@@ -144,7 +153,7 @@ export function convertTableRow(node: NastNode): any {
   };
 }
 
-export function convertTableCell(node: NastNode): any {
+export function convertTableCell(node: NASTTableCell): any {
   return {
     type: 'tableCell',
     children: node.children ? convertPhrasingContent(node.children) : []

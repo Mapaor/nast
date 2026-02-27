@@ -2,14 +2,21 @@
  * Media and embed converters
  */
 
-import type { Content as MdastContent } from 'mdast';
-import type { NastNode } from '../types/nast';
+import type { RootContent } from 'mdast';
+import type {
+  NASTImage,
+  NASTBookmark,
+  NASTFile,
+  NASTVideo,
+  NASTPDF,
+  NASTEmbed
+} from '../types/nast';
 import { convertPhrasingContent } from './phrasing';
 
 /**
  * Convert image node
  */
-export function convertImage(node: NastNode): MdastContent | MdastContent[] {
+export function convertImage(node: NASTImage): RootContent | RootContent[] {
   const imageNode: any = {
     type: 'image',
     url: node.url || '',
@@ -45,7 +52,7 @@ export function convertImage(node: NastNode): MdastContent | MdastContent[] {
 /**
  * Convert bookmark to paragraph with link
  */
-export function convertBookmark(node: NastNode): MdastContent {
+export function convertBookmark(node: NASTBookmark): RootContent {
   return {
     type: 'paragraph',
     children: [
@@ -65,7 +72,7 @@ export function convertBookmark(node: NastNode): MdastContent {
 /**
  * Convert file to paragraph with link
  */
-export function convertFile(node: NastNode): MdastContent {
+export function convertFile(node: NASTFile): RootContent {
   const fileName = node.name || 'File';
   return {
     type: 'paragraph',
@@ -86,7 +93,7 @@ export function convertFile(node: NastNode): MdastContent {
 /**
  * Convert video to paragraph with link
  */
-export function convertVideo(node: NastNode): MdastContent {
+export function convertVideo(node: NASTVideo): RootContent {
   return {
     type: 'paragraph',
     children: [
@@ -106,7 +113,7 @@ export function convertVideo(node: NastNode): MdastContent {
 /**
  * Convert PDF to paragraph with link
  */
-export function convertPdf(node: NastNode): MdastContent {
+export function convertPdf(node: NASTPDF): RootContent {
   return {
     type: 'paragraph',
     children: [
@@ -126,7 +133,7 @@ export function convertPdf(node: NastNode): MdastContent {
 /**
  * Convert embed to paragraph with link
  */
-export function convertEmbed(node: NastNode): MdastContent {
+export function convertEmbed(node: NASTEmbed): RootContent {
   return {
     type: 'paragraph',
     children: [
