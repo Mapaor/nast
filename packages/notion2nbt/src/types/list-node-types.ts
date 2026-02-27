@@ -1,41 +1,13 @@
-import type { NotionBlock } from './core-types'
-import type { RichTextNode, NotionColor } from './rich-text-types'
+/**
+ * List node types re-exported from @nast/types for backward compatibility
+ */
+export type {
+  NBTBulletedListItemNode as BulletedListItemNode,
+  NBTNumberedListItemNode as NumberedListItemNode,
+  NBTToDoNode as ToDoNode,
+  NBTListItemNode as ListItemNode,
+  NBTToggleNode as ToggleNode,
+} from '@nast/types';
 
-export interface BulletedListItemNode extends NotionBlock {
-  type: 'bulleted_list_item'
-  properties: {
-    rich_text: RichTextNode[]
-    color?: NotionColor
-  }
-  children?: NotionBlock[]
-}
-
-export interface NumberedListItemNode extends NotionBlock {
-  type: 'numbered_list_item'
-  properties: {
-    rich_text: RichTextNode[]
-    color?: NotionColor
-  }
-  children?: NotionBlock[]
-}
-
-export interface ToDoNode extends NotionBlock {
-  type: 'to_do'
-  properties: {
-    rich_text: RichTextNode[]
-    checked: boolean
-    color?: NotionColor
-  }
-  children?: NotionBlock[]
-}
-
-export type ListItemNode = BulletedListItemNode | NumberedListItemNode | ToDoNode
-
-export interface ToggleNode extends NotionBlock {
-  type: 'toggle'
-  properties: {
-    rich_text: RichTextNode[]
-    color?: NotionColor
-  }
-  children?: NotionBlock[]
-}
+// Re-export NotionBlock for backward compatibility
+export type { NBTBlock as NotionBlock } from '@nast/types';

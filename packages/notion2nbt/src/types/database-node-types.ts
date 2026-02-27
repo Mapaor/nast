@@ -1,17 +1,10 @@
-import type { NotionBlock } from './core-types'
-import type { IconInfo } from './file-types'
+/**
+ * Database node types re-exported from @nast/types for backward compatibility
+ */
+export type {
+  NBTChildDatabaseNode as ChildDatabaseNode,
+  NBTChildPageNode as ChildPageNode,
+} from '@nast/types';
 
-export interface ChildDatabaseNode extends NotionBlock {
-  type: 'child_database'
-  properties: {
-    title: string
-  }
-}
-
-export interface ChildPageNode extends NotionBlock {
-  type: 'child_page'
-  properties: {
-    title: string
-    icon?: IconInfo
-  }
-}
+// Re-export NotionBlock for backward compatibility
+export type { NBTBlock as NotionBlock } from '@nast/types';

@@ -80,6 +80,9 @@ importers:
 
   packages/notion2nbt:
     dependencies:
+      '@nast/types':
+        specifier: workspace:*
+        version: link:../types
       '@notionhq/client':
         specifier: ^5.7.0
         version: 5.11.0

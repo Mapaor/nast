@@ -1,7 +1,7 @@
 {
   "name": "@nast/notion2nbt",
   "type": "module",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Transform Notion pages into Notion Block Trees (NBT) for any rendering target using the official Notion API. A rendering-agnostic TypeScript library with full type safety.",
   "keywords": [
     "notion",
@@ -52,6 +52,7 @@
     "get-children": "node --env-file=.env.local --import tsx scripts/get-children.ts"
   },
   "dependencies": {
-    "@notionhq/client": "^5.7.0"
+    "@notionhq/client": "^5.7.0",
+    "@nast/types": "workspace:*"
   }
 }

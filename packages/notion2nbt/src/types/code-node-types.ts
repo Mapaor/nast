@@ -1,19 +1,10 @@
-import type { NotionBlock } from './core-types'
-import type { RichTextNode, NotionColor } from './rich-text-types'
+/**
+ * Code node types re-exported from @nast/types for backward compatibility
+ */
+export type {
+  NBTCodeNode as CodeNode,
+  NBTEquationNode as EquationNode,
+} from '@nast/types';
 
-export interface CodeNode extends NotionBlock {
-  type: 'code'
-  properties: {
-    rich_text: RichTextNode[]
-    language: string
-    caption?: RichTextNode[]
-    color?: NotionColor
-  }
-}
-
-export interface EquationNode extends NotionBlock {
-  type: 'equation'
-  properties: {
-    expression: string
-  }
-}
+// Re-export NotionBlock for backward compatibility
+export type { NBTBlock as NotionBlock } from '@nast/types';

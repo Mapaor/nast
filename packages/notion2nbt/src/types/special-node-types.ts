@@ -1,30 +1,12 @@
-import type { NotionBlock } from './core-types'
-import type { NotionColor } from './rich-text-types'
+/**
+ * Special node types re-exported from @nast/types for backward compatibility
+ */
+export type {
+  NBTSyncedBlockNode as SyncedBlockNode,
+  NBTBreadcrumbNode as BreadcrumbNode,
+  NBTDividerNode as DividerNode,
+  NBTTableOfContentsNode as TableOfContentsNode,
+} from '@nast/types';
 
-export interface SyncedBlockNode extends NotionBlock {
-  type: 'synced_block'
-  properties: {
-    synced_from?: {
-      type: 'block_id'
-      block_id: string
-    } | null
-  }
-  children?: NotionBlock[]
-}
-
-export interface BreadcrumbNode extends NotionBlock {
-  type: 'breadcrumb'
-  properties: Record<string, never>
-}
-
-export interface DividerNode extends NotionBlock {
-  type: 'divider'
-  properties: Record<string, never>
-}
-
-export interface TableOfContentsNode extends NotionBlock {
-  type: 'table_of_contents'
-  properties: {
-    color?: NotionColor
-  }
-}
+// Re-export NotionBlock for backward compatibility
+export type { NBTBlock as NotionBlock } from '@nast/types';

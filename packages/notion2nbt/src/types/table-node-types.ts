@@ -1,19 +1,10 @@
-import type { NotionBlock } from './core-types'
-import type { RichTextNode } from './rich-text-types'
+/**
+ * Table node types re-exported from @nast/types for backward compatibility
+ */
+export type {
+  NBTTableNode as TableNode,
+  NBTTableRowNode as TableRowNode,
+} from '@nast/types';
 
-export interface TableNode extends NotionBlock {
-  type: 'table'
-  properties: {
-    table_width: number
-    has_column_header: boolean
-    has_row_header: boolean
-  }
-  children?: TableRowNode[]
-}
-
-export interface TableRowNode extends NotionBlock {
-  type: 'table_row'
-  properties: {
-    cells: RichTextNode[][]
-  }
-}
+// Re-export NotionBlock for backward compatibility
+export type { NBTBlock as NotionBlock } from '@nast/types';

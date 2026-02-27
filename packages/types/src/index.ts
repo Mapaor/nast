@@ -54,11 +54,61 @@ export type {
 
 // NBT types
 export type {
+  // Core types
   NBTBlock,
   NBTNodeMetadata,
   NBTPageProperties,
   NBTPageNode,
   NBTDocument,
+  // Text block types
+  NBTParagraphNode,
+  NBTHeadingNode,
+  NBTQuoteNode,
+  NBTCalloutNode,
+  // List block types
+  NBTBulletedListItemNode,
+  NBTNumberedListItemNode,
+  NBTToDoNode,
+  NBTListItemNode,
+  NBTToggleNode,
+  // Code and equation types
+  NBTCodeNode,
+  NBTEquationNode,
+  // Media block types
+  NBTImageNode,
+  NBTVideoNode,
+  NBTAudioNode,
+  NBTFileNode,
+  NBTPDFNode,
+  // Link and embed types
+  NBTBookmarkNode,
+  NBTEmbedNode,
+  NBTLinkPreviewNode,
+  // Table types
+  NBTTableNode,
+  NBTTableRowNode,
+  // Layout types
+  NBTColumnListNode,
+  NBTColumnNode,
+  // Database and page reference types
+  NBTChildDatabaseNode,
+  NBTChildPageNode,
+  // Special types
+  NBTSyncedBlockNode,
+  NBTBreadcrumbNode,
+  NBTDividerNode,
+  NBTTableOfContentsNode,
+  // Union type
+  NBTBlockNode,
+  // Processing types
+  NBTProcessResult,
+  NBTProcessMetadata,
+  NBTProcessError,
+  NBTProcessOptions,
+  NBTGetPageOptions,
+  // Legacy aliases
+  NotionBlock,
+  NodeMetadata,
   NBTRichText,
 } from './nbt.js';
 

@@ -1,11 +1,7 @@
-export interface FileInfo {
-  type: 'file' | 'external'
-  url: string
-  expiry_time?: string
-}
-
-export interface IconInfo {
-  type: 'emoji' | 'external' | 'file'
-  emoji?: string
-  url?: string
-}
+/**
+ * File types re-exported from @nast/types for backward compatibility
+ */
+export type {
+  FileInfo,
+  IconInfo,
+} from '@nast/types';
