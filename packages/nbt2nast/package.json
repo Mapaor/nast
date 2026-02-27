@@ -44,5 +44,8 @@
     "prepublishOnly": "pnpm run typecheck && pnpm run build",
     "example": "tsx scripts/example.ts",
     "convert": "tsx scripts/convert.ts"
+  },
+  "dependencies": {
+    "@nast/types": "workspace:*"
   }
 }

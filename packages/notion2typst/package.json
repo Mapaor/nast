@@ -43,9 +43,10 @@
     "example": "node --env-file=.env.local --import tsx scripts/example.ts"
   },
   "dependencies": {
-    "@nast/nast-fetch-images": "^0.1.0",
-    "@nast/nast2typst": "^0.2.0",
-    "@nast/nbt2nast": "^0.3.0",
-    "@nast/notion2nbt": "^0.6.0"
+    "@nast/nast-fetch-images": "workspace:*",
+    "@nast/nast2typst": "workspace:*",
+    "@nast/nbt2nast": "workspace:*",
+    "@nast/notion2nbt": "workspace:*",
+    "@nast/types": "workspace:*"
   }
 }

@@ -43,5 +43,8 @@
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "pnpm run typecheck && pnpm run build",
     "example": "tsx scripts/example.ts"
+  },
+  "dependencies": {
+    "@nast/types": "workspace:*"
   }
 }

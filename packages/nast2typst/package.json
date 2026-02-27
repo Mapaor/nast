@@ -45,6 +45,7 @@
     "example": "tsx scripts/example.ts"
   },
   "dependencies": {
+    "@nast/types": "workspace:*",
     "tex2typst": "^0.5.6"
   }
 }
