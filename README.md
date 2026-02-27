@@ -33,28 +33,14 @@ pnpm add @nast/notion2nbt @nast/nbt2nast @nast/nast2typst @nast/nast2mdast @nast
 Example usage:
 
 ```ts
-import { fetchPage } from '@nast/notion2nbt';
-import { convertToNast } from '@nast/nbt2nast';
-import { toTypst } from '@nast/nast2typst';
+import { notion2typst, getExtensionFromContentType } from '../src/index';
 
-// Set your Notion token and page ID
-const NOTION_TOKEN = process.env.NOTION_TOKEN;
-const PAGE_ID = 'your-notion-page-id';
+const result = await notion2typst({notionToken: NOTION_TOKEN!, pageId: PAGE_ID!, fetchImages: true});
 
-if (!NOTION_TOKEN) {
-  throw new Error('NOTION_TOKEN environment variable is required');
-}
-
-// Fetch a Notion page
-const nbt = await fetchPage(PAGE_ID, { auth: NOTION_TOKEN });
-
-// Convert NBT to NAST
-const nast = convertToNast(nbt);
-
-// Convert NAST to Typst markup
-const typst = toTypst(nast);
-
-console.log(typst);
+const typstCode = result.typstCode;
+const images = result.images[i];
 ```
 
-For detailed documentation, visit the [npm nast org page](https://www.npmjs.com/org/nast) where you'll find a npm link to each of the packages.
+See the [example](/packages/notion2typst/scripts/example.ts) script for an example featuring saving the Typst code and images to the file system.
+
+For detailed documentation, visit the [npm nast org page](https://www.npmjs.com/org/nast) where you'll find a npm link for each of the packages.
