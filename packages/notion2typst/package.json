@@ -1,0 +1,51 @@
+{
+  "name": "@nast/notion2typst",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "A wrapper around nbt2nast and nast2typst to convert Notion content directly to Typst",
+  "keywords": [
+    "notion",
+    "ast",
+    "nast",
+    "typst"
+  ],
+  "author": "Mapaor <pardo.marti@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Mapaor/nast/tree/main/packages/notion2typst",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mapaor/nast.git",
+    "directory": "packages/notion2typst"
+  },
+  "bugs": {
+    "url": "https://github.com/Mapaor/nast/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index-Ce52KW7l.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run typecheck && pnpm run build",
+    "example": "node --env-file=.env.local --import tsx scripts/example.ts"
+  },
+  "dependencies": {
+    "@nast/nast-fetch-images": "^0.1.0",
+    "@nast/nast2typst": "^0.2.0",
+    "@nast/nbt2nast": "^0.3.0",
+    "@nast/notion2nbt": "^0.6.0"
+  }
+}
