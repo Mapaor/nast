@@ -33,7 +33,7 @@ pnpm add @nast/notion2nbt @nast/nbt2nast @nast/nast2typst @nast/nast2mdast @nast
 Example usage:
 
 ```ts
-import { notion2typst, getExtensionFromContentType } from '../src/index';
+import { notion2typst, getExtensionFromContentType } from notion2typst;
 
 const result = await notion2typst({notionToken: NOTION_TOKEN!, pageId: PAGE_ID!, fetchImages: true});
 
