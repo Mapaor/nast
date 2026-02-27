@@ -13,7 +13,7 @@ Notion Abstract Syntax Tree tools - a monorepo of npm packages for transforming 
 | [@nast/mdast2md](packages/mdast2md) | Convert mdast to Markdown |
 | [@nast/nast-fetch-images](packages/nast-fetch-images) | Fetch images from NAST |
 
-## Architecture
+## Tech stack
 
 - **TypeScript** - Full type safety
 - **TSDown** - Fast bundling with ESM output
@@ -22,52 +22,39 @@ Notion Abstract Syntax Tree tools - a monorepo of npm packages for transforming 
 
 ## Getting Started
 
-### Prerequisites
+## Usage
 
-- Node.js >= 20.0.0
-- PNPM >= 9.0.0
-
-### Installation
+Install the packages you need:
 
 ```bash
-# Install pnpm if you don't have it
-npm install -g pnpm
-
-# Install all dependencies
-pnpm install
+pnpm add @nast/notion2nbt @nast/nbt2nast @nast/nast2typst @nast/nast2mdast @nast/mdast2md @nast/nast-fetch-images
 ```
 
-### Development
+Example usage:
 
-```bash
-# Build all packages
-pnpm build
+```ts
+import { fetchPage } from '@nast/notion2nbt';
+import { convertToNast } from '@nast/nbt2nast';
+import { toTypst } from '@nast/nast2typst';
 
-# Build a specific package
-pnpm --filter @nast/notion2nbt build
+// Set your Notion token and page ID
+const NOTION_TOKEN = process.env.NOTION_TOKEN;
+const PAGE_ID = 'your-notion-page-id';
 
-# Run dev mode (watch) for all packages
-pnpm dev
+if (!NOTION_TOKEN) {
+  throw new Error('NOTION_TOKEN environment variable is required');
+}
 
-# Type check all packages
-pnpm typecheck
+// Fetch a Notion page
+const nbt = await fetchPage(PAGE_ID, { auth: NOTION_TOKEN });
 
-# Run tests
-pnpm test
+// Convert NBT to NAST
+const nast = convertToNast(nbt);
+
+// Convert NAST to Typst markup
+const typst = toTypst(nast);
+
+console.log(typst);
 ```
 
-### Package Structure
-
-Each package follows this structure:
-
-```
-packages/<package-name>/
-├── src/
-│   └── index.ts      # Main entry point
-├── scripts/          # Development scripts
-├── input/            # Test input files
-├── output/           # Test output files
-├── package.json
-├── tsconfig.json
-└── tsdown.config.ts
-```
+For detailed documentation, visit the [npm nast org page](https://www.npmjs.com/org/nast) where you'll find a npm link to each of the packages.
