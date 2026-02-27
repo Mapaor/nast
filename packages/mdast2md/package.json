@@ -1,7 +1,7 @@
 {
   "name": "@nast/mdast2md",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert mdast (Markdown AST) to markdown",
   "keywords": [
     "mdast",
@@ -30,7 +30,7 @@
   },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
-  "types": "./dist/index-HD_0iH-M.d.ts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "README.md"
