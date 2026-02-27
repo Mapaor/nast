@@ -1,7 +1,7 @@
 {
   "name": "@nast/notion2typst",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A wrapper around nbt2nast and nast2typst to convert Notion content directly to Typst",
   "keywords": [
     "notion",
@@ -29,7 +29,7 @@
   },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
-  "types": "./dist/index-Ce52KW7l.d.ts",
+  "types": "./dist/index-CJVMSA--.d.ts",
   "files": [
     "dist",
     "README.md"

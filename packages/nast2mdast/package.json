@@ -1,7 +1,7 @@
 {
   "name": "@nast/nast2mdast",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Convert NAST (Notion AST) to mdast (Markdown AST)",
   "keywords": [
     "nast",
@@ -32,7 +32,7 @@
   },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
-  "types": "./dist/index-DD0XlKnh.d.ts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "README.md"

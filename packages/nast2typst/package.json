@@ -1,7 +1,7 @@
 {
   "name": "@nast/nast2typst",
   "type": "module",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Converts NAST (unified-like Notion Abstract Syntax Tree) to Typst markup language.",
   "keywords": [
     "notion",
@@ -31,7 +31,7 @@
   },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
-  "types": "./dist/index-CgBLzCnj.d.ts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "README.md"

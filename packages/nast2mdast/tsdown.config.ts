@@ -6,6 +6,9 @@ export default defineConfig({
   // Config options
   entry: ['src/index.ts'],
   format: ['esm'],
-  dts: true,
+  dts: {
+    resolve: true,
+  },
   clean: true,
+  hash: false,
 })

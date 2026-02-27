@@ -1,7 +1,7 @@
 {
   "name": "@nast/nbt2nast",
   "type": "module",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Converts NBT (Notion Block Tree) to NAST (unified-like Notion Abstract Syntax Tree)",
   "keywords": [
     "notion",
@@ -31,7 +31,7 @@
   },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
-  "types": "./dist/index-Ce52KW7l.d.ts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "README.md"

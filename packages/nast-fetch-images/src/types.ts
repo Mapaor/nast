@@ -1,32 +1,21 @@
-export interface NASTImage {
-  type: "image";
-  url: string;
-  title: string | null | undefined;
-  alt: string | null | undefined;
-  data: {
-    fileType: "file" | "external";
-    expiryTime?: string;
-    caption?: Array<any>;
-    blockId?: string;
-  };
-}
+/**
+ * NAST Fetch Images Type Definitions
+ *
+ * Re-exports canonical types from @nast/types for backward compatibility.
+ */
 
+export type {
+  NASTImage,
+  NASTNode,
+  DownloadedImage,
+  FetchImagesResult,
+} from '@nast/types';
 
-export interface DownloadedImage {
-  url: string;
-  contentType: string;
-  data: ArrayBuffer;
-}
-
+/**
+ * Generic block type for traversal
+ */
 export interface Block {
   type: string;
+  children?: Block[];
   [key: string]: any;
-}
-
-export interface FetchImagesResult {
-  images: DownloadedImage[];
-  imageCount: number;
-  imageFileCount: number;
-  imageExternalCount: number;
-  expiredCount: number;
 }

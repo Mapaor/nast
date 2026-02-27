@@ -1,26 +1,24 @@
 // Import from the underlying packages
 import { Notion2NBT } from '@nast/notion2nbt';
-// @ts-expect-error - Type definitions are present but not correctly exported
 import { nbt2nast } from '@nast/nbt2nast';
-// @ts-expect-error - Type definitions are present but not correctly exported
 import { nast2typst } from '@nast/nast2typst';
-// @ts-expect-error - Type definitions are present but not correctly exported
 import { fetchImagesFromBlocks } from '@nast/nast-fetch-images';
+
+// Import types from centralized @nast/types
+import type { DownloadedImage, NASTRoot } from '@nast/types';
 
 // Re-export for convenience
 export { Notion2NBT, nbt2nast, nast2typst, fetchImagesFromBlocks };
 
-// Re-export commonly used types (these should be available once the packages are properly built)
+// Re-export commonly used types 
 export type { NotionBlock } from '@nast/notion2nbt';
+export type { NASTRoot, NASTNode, NBTBlock, DownloadedImage } from '@nast/types';
 
 /**
  * Image data from the fetchImagesFromBlocks function
+ * @deprecated Use DownloadedImage from @nast/types instead
  */
-export interface ImageData {
-  url: string;
-  data: ArrayBuffer;
-  contentType: string;
-}
+export type ImageData = DownloadedImage;
 
 /**
  * Options for the notion2typst function
@@ -45,7 +43,7 @@ export interface Notion2TypstResult {
   /** The generated Typst code */
   typstCode: string;
   /** Downloaded images (if fetchImages was true) */
-  images: ImageData[];
+  images: DownloadedImage[];
   /** Image fetch statistics (if fetchImages was true) */
   imageStats: {
     /** Total number of image blocks found */
@@ -60,7 +58,7 @@ export interface Notion2TypstResult {
     file: number;
   };
   /** The intermediate NAST representation */
-  nast: any;
+  nast: NASTRoot;
 }
 
 /**
@@ -119,7 +117,7 @@ export async function notion2typst(
   console.log('✓ NAST converted to Typst');
 
   // Step 4: Fetch images (if enabled)
-  let images: ImageData[] = [];
+  let images: DownloadedImage[] = [];
   let imageStats = {
     totalImages: 0,
     downloaded: 0,

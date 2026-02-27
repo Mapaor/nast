@@ -45,10 +45,17 @@ importers:
         specifier: ^2.1.0
         version: 2.1.2
 
-  packages/nast-fetch-images: {}
+  packages/nast-fetch-images:
+    dependencies:
+      '@nast/types':
+        specifier: workspace:*
+        version: link:../types
 
   packages/nast2mdast:
     dependencies:
+      '@nast/types':
+        specifier: workspace:*
+        version: link:../types
       '@types/mdast':
         specifier: ^4.0.3
         version: 4.0.4
@@ -58,17 +65,44 @@ importers:
 
   packages/nast2typst:
     dependencies:
+      '@nast/types':
+        specifier: workspace:*
+        version: link:../types
       tex2typst:
         specifier: ^0.5.6
         version: 0.5.6
 
-  packages/nbt2nast: {}
+  packages/nbt2nast:
+    dependencies:
+      '@nast/types':
+        specifier: workspace:*
+        version: link:../types
 
   packages/notion2nbt:
     dependencies:
       '@notionhq/client':
         specifier: ^5.7.0
         version: 5.11.0
+
+  packages/notion2typst:
+    dependencies:
+      '@nast/nast-fetch-images':
+        specifier: workspace:*
+        version: link:../nast-fetch-images
+      '@nast/nast2typst':
+        specifier: workspace:*
+        version: link:../nast2typst
+      '@nast/nbt2nast':
+        specifier: workspace:*
+        version: link:../nbt2nast
+      '@nast/notion2nbt':
+        specifier: workspace:*
+        version: link:../notion2nbt
+      '@nast/types':
+        specifier: workspace:*
+        version: link:../types
+
+  packages/types: {}
 
 packages:
 
