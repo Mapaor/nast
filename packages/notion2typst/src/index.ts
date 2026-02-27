@@ -2,13 +2,13 @@
 import { Notion2NBT } from '@nast/notion2nbt';
 import { nbt2nast } from '@nast/nbt2nast';
 import { nast2typst } from '@nast/nast2typst';
-import { fetchImagesFromBlocks } from '@nast/nast-fetch-images';
+import { fetchImagesFromBlocks, getExtensionFromContentType } from '@nast/nast-fetch-images';
 
 // Import types from centralized @nast/types
 import type { DownloadedImage, NASTRoot } from '@nast/types';
 
 // Re-export for convenience
-export { Notion2NBT, nbt2nast, nast2typst, fetchImagesFromBlocks };
+export { Notion2NBT, nbt2nast, nast2typst, fetchImagesFromBlocks, getExtensionFromContentType };
 
 // Re-export commonly used types 
 export type { NotionBlock } from '@nast/notion2nbt';

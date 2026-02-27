@@ -85,3 +85,22 @@ export async function fetchImagesFromBlocks(
     expiredCount,
   };
 }
+
+/**
+ * Gets the file extension for a given content type
+ * @param contentType - The MIME content type (e.g., 'image/png')
+ * @returns The file extension including the dot (e.g., '.png'), or '.bin' if unknown
+ */
+export function getExtensionFromContentType(contentType: string): string {
+  const map: Record<string, string> = {
+    'image/jpeg': '.jpg',
+    'image/jpg': '.jpg',
+    'image/png': '.png',
+    'image/gif': '.gif',
+    'image/webp': '.webp',
+    'image/svg+xml': '.svg',
+    'image/bmp': '.bmp',
+  };
+
+  return map[contentType] || '.bin';
+}

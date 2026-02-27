@@ -1,4 +1,4 @@
-import { fetchImagesFromBlocks } from "../src";
+import { fetchImagesFromBlocks, getExtensionFromContentType } from "../src";
 import { readFile, writeFile } from "fs/promises";
 import { join } from "path";
 
@@ -55,20 +55,6 @@ async function main() {
   }
 
   console.log("\nDone!");
-}
-
-function getExtensionFromContentType(contentType: string): string {
-  const map: Record<string, string> = {
-    "image/jpeg": ".jpg",
-    "image/jpg": ".jpg",
-    "image/png": ".png",
-    "image/gif": ".gif",
-    "image/webp": ".webp",
-    "image/svg+xml": ".svg",
-    "image/bmp": ".bmp",
-  };
-
-  return map[contentType] || ".bin";
 }
 
 main().catch((error) => {
