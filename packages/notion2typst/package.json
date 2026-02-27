@@ -1,7 +1,7 @@
 {
   "name": "@nast/notion2typst",
   "type": "module",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A wrapper around nbt2nast and nast2typst to convert Notion content directly to Typst",
   "keywords": [
     "notion",
@@ -43,10 +43,10 @@
     "example": "node --env-file=.env.local --import tsx scripts/example.ts"
   },
   "dependencies": {
-    "@nast/nast-fetch-images": "workspace:*",
-    "@nast/nast2typst": "workspace:*",
-    "@nast/nbt2nast": "workspace:*",
-    "@nast/notion2nbt": "workspace:*",
-    "@nast/types": "workspace:*"
+    "@nast/nast-fetch-images": "workspace:^",
+    "@nast/nast2typst": "workspace:^",
+    "@nast/nbt2nast": "workspace:^",
+    "@nast/notion2nbt": "workspace:^",
+    "@nast/types": "workspace:^"
   }
 }
