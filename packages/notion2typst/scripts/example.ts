@@ -19,7 +19,6 @@ const outputDir = join(__dirname, '../output');
 mkdirSync(outputDir, { recursive: true });
 const typstPath = join(outputDir, `page-${PAGE_ID}.typ`);
 
-
 console.log('=== Notion to Typst Conversion ===\n');
 console.log(`Page ID: ${PAGE_ID}`);
 
@@ -32,21 +31,17 @@ console.log(`\nTypst code saved to: ${typstPath}`);
 console.log(`   Lines: ${result.typstCode.split('\n').length}`);
 
 // Save images
-if (result.images.length > 0) {
-  console.log(`\nSaving ${result.images.length} images...`);
+for (let i = 0; i < result.images.length; i++) {
+  const image = result.images[i];
   
-  for (let i = 0; i < result.images.length; i++) {
-    const image = result.images[i];
-    
-    // Determine file extension from content type
-    const extension = getExtensionFromContentType(image.contentType);
-    const filename = `image-${i + 1}${extension}`;
-    const imagePath = join(outputDir, filename);
-    
-    // Write the image data to file
-    writeFileSync(imagePath, Buffer.from(image.data));
-    console.log(`   ✓ ${filename} (${image.contentType})`);
-  }
+  // Determine file extension from content type
+  const extension = getExtensionFromContentType(image.contentType);
+  const filename = `image-${i + 1}${extension}`;
+  const imagePath = join(outputDir, filename);
+  
+  // Write the image data to file
+  writeFileSync(imagePath, Buffer.from(image.data));
+  console.log(`   ✓ ${filename} (${image.contentType})`);
 }
 
 console.log('\nConversion completed successfully!');
