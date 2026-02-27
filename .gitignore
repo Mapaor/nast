@@ -32,3 +32,6 @@ coverage
 
 # Turbo
 .turbo
+
+# NPMRC may contain a auth token
+.npmrc
