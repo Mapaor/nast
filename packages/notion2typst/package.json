@@ -1,7 +1,7 @@
 {
   "name": "@nast/notion2typst",
   "type": "module",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A wrapper around nbt2nast and nast2typst to convert Notion content directly to Typst",
   "keywords": [
     "notion",
