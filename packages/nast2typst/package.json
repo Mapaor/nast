@@ -1,7 +1,7 @@
 {
   "name": "@nast/nast2typst",
   "type": "module",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Converts NAST (unified-like Notion Abstract Syntax Tree) to Typst markup language.",
   "keywords": [
     "notion",

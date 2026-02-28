@@ -56,7 +56,7 @@ export function handleVideo(node: NASTVideo, context: ProcessingContext): string
   }
 
   let result = comment;
-  result += `#link("${videoUrl}")[🎥 Video]\n`;
+  result += `#link("${videoUrl}")[🎥 Video]\\ \n`;
   
   if (node.data.caption && node.data.caption.length > 0) {
     const caption = node.data.caption.map(child => processNode(child, context)).join('');
@@ -83,7 +83,7 @@ export function handleFile(node: NASTFile, context: ProcessingContext): string {
 
   const fileName = node.name || 'File';
   let result = comment;
-  result += `#link("${fileUrl}")[📄 ${fileName}]\n`;
+  result += `#link("${fileUrl}")[📄 ${fileName}]\\ \n`;
   
   if (node.data.caption && node.data.caption.length > 0) {
     const caption = node.data.caption.map(child => processNode(child, context)).join('');
@@ -109,7 +109,7 @@ export function handlePDF(node: NASTPDF, context: ProcessingContext): string {
   }
 
   let result = comment;
-  result += `#link("${pdfUrl}")[📕 PDF Document]\n`;
+  result += `#link("${pdfUrl}")[📕 PDF Document]\\ \n`;
   
   if (node.data.caption && node.data.caption.length > 0) {
     const caption = node.data.caption.map(child => processNode(child, context)).join('');
@@ -120,7 +120,7 @@ export function handlePDF(node: NASTPDF, context: ProcessingContext): string {
 }
 
 export function handleBookmark(node: NASTBookmark, context: ProcessingContext): string {
-  let result = `#link("${node.url}")[${node.url}]\n`;
+  let result = `#link("${node.url}")[${node.url}]\\ \n`;
   
   if (node.data?.caption && node.data.caption.length > 0) {
     const caption = node.data.caption.map(child => processNode(child, context)).join('');
@@ -133,7 +133,7 @@ export function handleBookmark(node: NASTBookmark, context: ProcessingContext): 
 export function handleEmbed(node: NASTEmbed, context: ProcessingContext): string {
   // Embeds are similar to bookmarks in Typst
   let result = `// Embedded content: ${node.url}\n`;
-  result += `#link("${node.url}")[🔗 Embedded Content]\n`;
+  result += `#link("${node.url}")[🔗 Embedded Content]\\ \n`;
   
   if (node.data?.caption && node.data.caption.length > 0) {
     const caption = node.data.caption.map(child => processNode(child, context)).join('');
