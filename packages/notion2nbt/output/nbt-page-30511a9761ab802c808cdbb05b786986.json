@@ -429,8 +429,8 @@
       "properties": {
         "file": {
           "type": "file",
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/8bf850cf-4aa2-4006-a926-7c8716480d59/Wikipedia-logo-v2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q6OS73CR%2F20260227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260227T160251Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIAG%2Bpo%2BhP25z4hguOO0P4fRT3kywguEQCWL2gLtLN%2BOOAiEA%2BHRD5BOE7jT0ZynVYTmAJ%2BszygWNeAB0SBoC%2BU4X0rAq%2FwMIQRAAGgw2Mzc0MjMxODM4MDUiDJ0KSUoTRWwOfKP14SrcAwKVrDApH1cwk1N0sXi6b2jW8cDed9GyaRrrycpJG0XuEqHChSb1aelREaaNSKkHLNN%2FxyZ2XF2vZM0ODNus%2BAoTmHycyMmlA%2Fy3sSgRcve0sYg9ixd20EkqGyX4Su1Ex7td7wbshuEH0Lb16L8GyABcrBC0e8J8nzyn7IvaY%2Bao4wG6Rn6fERMZbbSYt86%2BqQhCyghGMAt0dg9Tiij9omuKQiz18Y7tuPPpNYAHjNHI58ubpGQ1LZDkiL2W0qNrTavul%2Bk0ujoIJjqP7QJSQRtmfwlOrWnZ5W5BFuIaXgudywDR02j6CZSxhDUiT5y7pAKk1tQg78igOH0xz5mH0WKFdfGPNtDsubNiXaZfXT0bydMIRZtzmrKS0%2B9Ua6mj3friK0%2FczjsPi58DtJ7dBL76VDzcylg1N1VZ%2FjcbLN6enwT92JHi0RvqWBJrK%2BEAbFsKTEXdc0j2R%2Bkt5ncczjVvTAMwEllBpzvInIxiczT4tKGvF6QcKfZnNwswdf4N%2FvqKP%2FHpOdk1%2F7RiDJswyqGe%2FWdb68dna6YH3jtMKb5ZtXO9wVzZ7RYLxMEX1TWzPTaGYYRcVeqctAnhwHD8Vgagkw%2FtLDbFfIVBZchBMmx4H%2B%2Fk6gvWfHKq1ZBKMN%2F5hs0GOqUB6695NGYqKC1037B8D5fI1dGxxRyGpzJ09lX95vwnskMdNtmzmtWE4ac4symcscKjaZ6LCF4Ryi6CkkqjCYSJ7fdKedoM81YKziR%2BUiShp6WqSSS5L%2FoDRUwwY9D6H3RkOMTCHNc2n8IZjSt5RNpm83KY9GFima%2BhuXT9cpCIGCkx2pVj40fDDDjXJ7GVmxY9Ao2OsVQwsK8uJw09txirACe1i3D%2B&X-Amz-Signature=505adb142581e80809c8d206857541464a534b7a0cae013e57cc9d1c48f3096e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-02-27T17:02:51.089Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/8bf850cf-4aa2-4006-a926-7c8716480d59/Wikipedia-logo-v2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46663LZ4ULJ%2F20260301%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260301T180824Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDl0FKCmY07V9WrUARTL1T%2BMnT%2Fho%2F2Yh05IteR%2B3m0%2FgIhANRk5h2BiuCBYfTYfDAb1wF5BJEe2j7ZfvxzgsNnibR5Kv8DCG8QABoMNjM3NDIzMTgzODA1Igyalparcvsz98PIfF0q3ANAP79OmcRK5eCxINQJUV5BxWCMlTLyYFBJTkhcgj1trnlBtnajFBQ9esCOxDedeE3wrvgheS2a%2FIK%2FZk9hJdT5eBCw3Xfx65x%2Ff7t6%2BWlb1wcc2EJly1NRSWeq8udzeWnGbgzRNT3OrFZNM7zv4Z0LeFri6bc0tQ5nn9D6x8lYoKfcKd1LDeeYi9oLH4Ag7Pmi8xEi%2FcQCXROO5HZTrQ7yn7Ys21HlvIu59WwpBy8aYK333bonkn0IN76SWqBE3Isug6FT6XXySOUASR6L%2BR9EehMYpgy9dgwaHhQx3mpkaM3S1F%2BSCSyiVdnRUzZx537laAPMxuyYFoqcYvvScuuMCitPNDYYBY%2BulPZxZ8YMYLW6proXBs2uHoJcAlRlYgJ5BOhNWIWWEGm2rkCpR%2BZFSyW%2BlhhFQsGWSD0QDwCArJlSAT7X6U8HoAXZgYSu8eQlS0BefmyTy%2BbvJqpn0eqqsnGGX7MEL6LcHtnz68Hpyv8o2azThGz3i7GSThEusb%2FBwnF44J%2B1xf8rN%2FVCYYM91jWgYE4jB4Om3LZCJJ2zxSj5tIrCMDgiDQse0SFcce7rxRGItb1Jg8JUb%2F0g%2BRuKZIzyAw%2F79AeGD2vF2mTex6arcj1m4bydNF5ymDDIjpHNBjqkAWlpA8pEyyyFhXbQ5g92R%2B%2FxbFewhGEklTQtpPtO3rpkUS6jdUA2raGpI39lVOy1ttetHptHY9UK7tZQLYy3uoHJeV8ToqFdsG8kwfY6haRLGEFSbX48mZp0OLvWXNyZKtS6JY6TZM%2FBUuVknoXdCMINNnfpdwoKWSnWLEiPU7%2BBWf25CWThE6BjhvHsS5hvO39%2BXLg1szI3u%2BDMAinZjwp60pQk&X-Amz-Signature=c73ca124acc461110c17f1828a385fe8ae25102a163361806da081c88b9ea908&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-03-01T19:08:24.100Z"
         },
         "caption": []
       }
@@ -856,7 +856,7 @@
         "rich_text": [
           {
             "type": "text",
-            "content": "També es poden posar també taules simples"
+            "content": "També es poden posar també taules simples. Un exemple amb headers:"
           }
         ],
         "color": "default"
@@ -938,7 +938,234 @@
               [
                 {
                   "type": "text",
-                  "content": "Estudiar Relativitat General"
+                  "content": "Estudiar "
+                },
+                {
+                  "type": "text",
+                  "content": "Relativitat ",
+                  "annotations": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "General"
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "31611a97-61ab-8088-aabb-fc99a68d3175",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "Sense headers:"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "31611a97-61ab-80e7-96a2-de96a1faf9b2",
+      "type": "table",
+      "properties": {
+        "table_width": 3,
+        "has_column_header": false,
+        "has_row_header": false
+      },
+      "children": [
+        {
+          "id": "31611a97-61ab-8033-8138-ec49283ccd60",
+          "type": "table_row",
+          "properties": {
+            "cells": [
+              [],
+              [
+                {
+                  "type": "text",
+                  "content": "Dissabte"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Diumenge"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "31611a97-61ab-8018-8cb3-c42364a2f6dc",
+          "type": "table_row",
+          "properties": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "content": "Matí"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Netejar l’habitació"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Programar"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "31611a97-61ab-80fd-ac99-e82f7a56c64e",
+          "type": "table_row",
+          "properties": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "content": "Tarda"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Festa d’aniversari"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Estudiar "
+                },
+                {
+                  "type": "text",
+                  "content": "Relativitat ",
+                  "annotations": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "General"
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "31611a97-61ab-804c-a954-e61cd215e5c2",
+      "type": "paragraph",
+      "properties": {
+        "rich_text": [
+          {
+            "type": "text",
+            "content": "O amb només un dels headers (header column en aquest cas)"
+          }
+        ],
+        "color": "default"
+      }
+    },
+    {
+      "id": "31611a97-61ab-8033-8e95-f1d4ed32f740",
+      "type": "table",
+      "properties": {
+        "table_width": 3,
+        "has_column_header": false,
+        "has_row_header": true
+      },
+      "children": [
+        {
+          "id": "31611a97-61ab-8089-a4d3-fbbc7403a5f3",
+          "type": "table_row",
+          "properties": {
+            "cells": [
+              [],
+              [
+                {
+                  "type": "text",
+                  "content": "Dissabte"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Diumenge"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "31611a97-61ab-80af-aeea-fd13b24bcd17",
+          "type": "table_row",
+          "properties": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "content": "Matí"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Netejar l’habitació"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Programar"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "31611a97-61ab-8074-aad2-c803042974a2",
+          "type": "table_row",
+          "properties": {
+            "cells": [
+              [
+                {
+                  "type": "text",
+                  "content": "Tarda"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Festa d’aniversari"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "content": "Estudiar "
+                },
+                {
+                  "type": "text",
+                  "content": "Relativitat ",
+                  "annotations": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "content": "General"
                 }
               ]
             ]
@@ -1015,8 +1242,8 @@
       "properties": {
         "file": {
           "type": "file",
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/b64269bf-7677-40bd-bd27-39fd86a5deb3/Normativa_reguladora_de_lavaluaci_UB-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q6OS73CR%2F20260227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260227T160251Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIAG%2Bpo%2BhP25z4hguOO0P4fRT3kywguEQCWL2gLtLN%2BOOAiEA%2BHRD5BOE7jT0ZynVYTmAJ%2BszygWNeAB0SBoC%2BU4X0rAq%2FwMIQRAAGgw2Mzc0MjMxODM4MDUiDJ0KSUoTRWwOfKP14SrcAwKVrDApH1cwk1N0sXi6b2jW8cDed9GyaRrrycpJG0XuEqHChSb1aelREaaNSKkHLNN%2FxyZ2XF2vZM0ODNus%2BAoTmHycyMmlA%2Fy3sSgRcve0sYg9ixd20EkqGyX4Su1Ex7td7wbshuEH0Lb16L8GyABcrBC0e8J8nzyn7IvaY%2Bao4wG6Rn6fERMZbbSYt86%2BqQhCyghGMAt0dg9Tiij9omuKQiz18Y7tuPPpNYAHjNHI58ubpGQ1LZDkiL2W0qNrTavul%2Bk0ujoIJjqP7QJSQRtmfwlOrWnZ5W5BFuIaXgudywDR02j6CZSxhDUiT5y7pAKk1tQg78igOH0xz5mH0WKFdfGPNtDsubNiXaZfXT0bydMIRZtzmrKS0%2B9Ua6mj3friK0%2FczjsPi58DtJ7dBL76VDzcylg1N1VZ%2FjcbLN6enwT92JHi0RvqWBJrK%2BEAbFsKTEXdc0j2R%2Bkt5ncczjVvTAMwEllBpzvInIxiczT4tKGvF6QcKfZnNwswdf4N%2FvqKP%2FHpOdk1%2F7RiDJswyqGe%2FWdb68dna6YH3jtMKb5ZtXO9wVzZ7RYLxMEX1TWzPTaGYYRcVeqctAnhwHD8Vgagkw%2FtLDbFfIVBZchBMmx4H%2B%2Fk6gvWfHKq1ZBKMN%2F5hs0GOqUB6695NGYqKC1037B8D5fI1dGxxRyGpzJ09lX95vwnskMdNtmzmtWE4ac4symcscKjaZ6LCF4Ryi6CkkqjCYSJ7fdKedoM81YKziR%2BUiShp6WqSSS5L%2FoDRUwwY9D6H3RkOMTCHNc2n8IZjSt5RNpm83KY9GFima%2BhuXT9cpCIGCkx2pVj40fDDDjXJ7GVmxY9Ao2OsVQwsK8uJw09txirACe1i3D%2B&X-Amz-Signature=906cdb1fb0b89b1ee304cf577cb8f6f59f50d65dd80a51cf019a85084974dde2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-02-27T17:02:51.313Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/b64269bf-7677-40bd-bd27-39fd86a5deb3/Normativa_reguladora_de_lavaluaci_UB-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46663LZ4ULJ%2F20260301%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260301T180824Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDl0FKCmY07V9WrUARTL1T%2BMnT%2Fho%2F2Yh05IteR%2B3m0%2FgIhANRk5h2BiuCBYfTYfDAb1wF5BJEe2j7ZfvxzgsNnibR5Kv8DCG8QABoMNjM3NDIzMTgzODA1Igyalparcvsz98PIfF0q3ANAP79OmcRK5eCxINQJUV5BxWCMlTLyYFBJTkhcgj1trnlBtnajFBQ9esCOxDedeE3wrvgheS2a%2FIK%2FZk9hJdT5eBCw3Xfx65x%2Ff7t6%2BWlb1wcc2EJly1NRSWeq8udzeWnGbgzRNT3OrFZNM7zv4Z0LeFri6bc0tQ5nn9D6x8lYoKfcKd1LDeeYi9oLH4Ag7Pmi8xEi%2FcQCXROO5HZTrQ7yn7Ys21HlvIu59WwpBy8aYK333bonkn0IN76SWqBE3Isug6FT6XXySOUASR6L%2BR9EehMYpgy9dgwaHhQx3mpkaM3S1F%2BSCSyiVdnRUzZx537laAPMxuyYFoqcYvvScuuMCitPNDYYBY%2BulPZxZ8YMYLW6proXBs2uHoJcAlRlYgJ5BOhNWIWWEGm2rkCpR%2BZFSyW%2BlhhFQsGWSD0QDwCArJlSAT7X6U8HoAXZgYSu8eQlS0BefmyTy%2BbvJqpn0eqqsnGGX7MEL6LcHtnz68Hpyv8o2azThGz3i7GSThEusb%2FBwnF44J%2B1xf8rN%2FVCYYM91jWgYE4jB4Om3LZCJJ2zxSj5tIrCMDgiDQse0SFcce7rxRGItb1Jg8JUb%2F0g%2BRuKZIzyAw%2F79AeGD2vF2mTex6arcj1m4bydNF5ymDDIjpHNBjqkAWlpA8pEyyyFhXbQ5g92R%2B%2FxbFewhGEklTQtpPtO3rpkUS6jdUA2raGpI39lVOy1ttetHptHY9UK7tZQLYy3uoHJeV8ToqFdsG8kwfY6haRLGEFSbX48mZp0OLvWXNyZKtS6JY6TZM%2FBUuVknoXdCMINNnfpdwoKWSnWLEiPU7%2BBWf25CWThE6BjhvHsS5hvO39%2BXLg1szI3u%2BDMAinZjwp60pQk&X-Amz-Signature=07c1f44f63692c3c331d65d82a6b7979fb5db7cbc032c2d74fd41a3ec9d35d03&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-03-01T19:08:24.368Z"
         },
         "caption": []
       }
@@ -1088,8 +1315,8 @@
       "properties": {
         "file": {
           "type": "file",
-          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/1c232d7f-92cf-4bc7-8a0d-f1c4b45d6a27/Taules_Clebsch-Gordan-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Q6OS73CR%2F20260227%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260227T160251Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIAG%2Bpo%2BhP25z4hguOO0P4fRT3kywguEQCWL2gLtLN%2BOOAiEA%2BHRD5BOE7jT0ZynVYTmAJ%2BszygWNeAB0SBoC%2BU4X0rAq%2FwMIQRAAGgw2Mzc0MjMxODM4MDUiDJ0KSUoTRWwOfKP14SrcAwKVrDApH1cwk1N0sXi6b2jW8cDed9GyaRrrycpJG0XuEqHChSb1aelREaaNSKkHLNN%2FxyZ2XF2vZM0ODNus%2BAoTmHycyMmlA%2Fy3sSgRcve0sYg9ixd20EkqGyX4Su1Ex7td7wbshuEH0Lb16L8GyABcrBC0e8J8nzyn7IvaY%2Bao4wG6Rn6fERMZbbSYt86%2BqQhCyghGMAt0dg9Tiij9omuKQiz18Y7tuPPpNYAHjNHI58ubpGQ1LZDkiL2W0qNrTavul%2Bk0ujoIJjqP7QJSQRtmfwlOrWnZ5W5BFuIaXgudywDR02j6CZSxhDUiT5y7pAKk1tQg78igOH0xz5mH0WKFdfGPNtDsubNiXaZfXT0bydMIRZtzmrKS0%2B9Ua6mj3friK0%2FczjsPi58DtJ7dBL76VDzcylg1N1VZ%2FjcbLN6enwT92JHi0RvqWBJrK%2BEAbFsKTEXdc0j2R%2Bkt5ncczjVvTAMwEllBpzvInIxiczT4tKGvF6QcKfZnNwswdf4N%2FvqKP%2FHpOdk1%2F7RiDJswyqGe%2FWdb68dna6YH3jtMKb5ZtXO9wVzZ7RYLxMEX1TWzPTaGYYRcVeqctAnhwHD8Vgagkw%2FtLDbFfIVBZchBMmx4H%2B%2Fk6gvWfHKq1ZBKMN%2F5hs0GOqUB6695NGYqKC1037B8D5fI1dGxxRyGpzJ09lX95vwnskMdNtmzmtWE4ac4symcscKjaZ6LCF4Ryi6CkkqjCYSJ7fdKedoM81YKziR%2BUiShp6WqSSS5L%2FoDRUwwY9D6H3RkOMTCHNc2n8IZjSt5RNpm83KY9GFima%2BhuXT9cpCIGCkx2pVj40fDDDjXJ7GVmxY9Ao2OsVQwsK8uJw09txirACe1i3D%2B&X-Amz-Signature=1104cd429992900b828733f177300ae2fc65f78c6209b863bd4cf4ab956fd7fd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-          "expiry_time": "2026-02-27T17:02:51.323Z"
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/1c232d7f-92cf-4bc7-8a0d-f1c4b45d6a27/Taules_Clebsch-Gordan-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46663LZ4ULJ%2F20260301%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260301T180824Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDl0FKCmY07V9WrUARTL1T%2BMnT%2Fho%2F2Yh05IteR%2B3m0%2FgIhANRk5h2BiuCBYfTYfDAb1wF5BJEe2j7ZfvxzgsNnibR5Kv8DCG8QABoMNjM3NDIzMTgzODA1Igyalparcvsz98PIfF0q3ANAP79OmcRK5eCxINQJUV5BxWCMlTLyYFBJTkhcgj1trnlBtnajFBQ9esCOxDedeE3wrvgheS2a%2FIK%2FZk9hJdT5eBCw3Xfx65x%2Ff7t6%2BWlb1wcc2EJly1NRSWeq8udzeWnGbgzRNT3OrFZNM7zv4Z0LeFri6bc0tQ5nn9D6x8lYoKfcKd1LDeeYi9oLH4Ag7Pmi8xEi%2FcQCXROO5HZTrQ7yn7Ys21HlvIu59WwpBy8aYK333bonkn0IN76SWqBE3Isug6FT6XXySOUASR6L%2BR9EehMYpgy9dgwaHhQx3mpkaM3S1F%2BSCSyiVdnRUzZx537laAPMxuyYFoqcYvvScuuMCitPNDYYBY%2BulPZxZ8YMYLW6proXBs2uHoJcAlRlYgJ5BOhNWIWWEGm2rkCpR%2BZFSyW%2BlhhFQsGWSD0QDwCArJlSAT7X6U8HoAXZgYSu8eQlS0BefmyTy%2BbvJqpn0eqqsnGGX7MEL6LcHtnz68Hpyv8o2azThGz3i7GSThEusb%2FBwnF44J%2B1xf8rN%2FVCYYM91jWgYE4jB4Om3LZCJJ2zxSj5tIrCMDgiDQse0SFcce7rxRGItb1Jg8JUb%2F0g%2BRuKZIzyAw%2F79AeGD2vF2mTex6arcj1m4bydNF5ymDDIjpHNBjqkAWlpA8pEyyyFhXbQ5g92R%2B%2FxbFewhGEklTQtpPtO3rpkUS6jdUA2raGpI39lVOy1ttetHptHY9UK7tZQLYy3uoHJeV8ToqFdsG8kwfY6haRLGEFSbX48mZp0OLvWXNyZKtS6JY6TZM%2FBUuVknoXdCMINNnfpdwoKWSnWLEiPU7%2BBWf25CWThE6BjhvHsS5hvO39%2BXLg1szI3u%2BDMAinZjwp60pQk&X-Amz-Signature=89ca3b4fcb700064ab252832c8ccbd37b1af68d6c9ec5bf722de12acd24367c2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+          "expiry_time": "2026-03-01T19:08:24.369Z"
         },
         "caption": []
       }
@@ -1129,5 +1356,5 @@
       }
     }
   ],
-  "processed_at": "2026-02-27T16:02:58.273Z"
+  "processed_at": "2026-03-01T18:08:36.184Z"
 }

@@ -1,0 +1,2489 @@
+[
+  {
+    "object": "block",
+    "id": "30511a97-61ab-8022-acc3-f0f86753e3b8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-12T19:43:00.000Z",
+    "last_edited_time": "2026-02-13T14:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Això és un heading de nivell 1",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Això és un heading de nivell 1",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80c6-b174-c8c5a69b9641",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:14:00.000Z",
+    "last_edited_time": "2026-02-13T14:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Això és un heading de nivell 2",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Això és un heading de nivell 2",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80e2-bd4b-d31bdb201955",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:14:00.000Z",
+    "last_edited_time": "2026-02-13T14:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Això és un heading de nivell 3",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Això és un heading de nivell 3",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30511a97-61ab-80cb-9d0c-d546ead309f7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-12T19:43:00.000Z",
+    "last_edited_time": "2026-02-12T19:43:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Això és text normal. Bla bla bla… Lorem ipsum dolor sit amet.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Això és text normal. Bla bla bla… Lorem ipsum dolor sit amet.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30511a97-61ab-80da-bd0b-ed56b0fa238a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-12T19:43:00.000Z",
+    "last_edited_time": "2026-02-12T19:43:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "equation",
+    "equation": {
+      "expression": "e^{i\\pi}+1=0"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30511a97-61ab-801d-b14f-f36cb9b993de",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-12T19:43:00.000Z",
+    "last_edited_time": "2026-02-12T19:44:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A dalt tenim una block equation i ara una inline equation ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A dalt tenim una block equation i ara una inline equation ",
+          "href": null
+        },
+        {
+          "type": "equation",
+          "equation": {
+            "expression": "\\frac{a}{b}=c"
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\\frac{a}{b}=c",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " molt xula.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " molt xula.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30511a97-61ab-801e-940e-f6c315c7a719",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-12T19:44:00.000Z",
+    "last_edited_time": "2026-02-13T14:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "El següent té ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "El següent té ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "negreta",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "negreta",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "cursiva",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "cursiva",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "subratllat",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": true,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "subratllat",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " i ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " i ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "strikethrough",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": true,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "strikethrough",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30511a97-61ab-805d-a02b-dabaa3d42b05",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-12T22:00:00.000Z",
+    "last_edited_time": "2026-02-12T22:01:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "toggle",
+    "toggle": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Això és un toggle block",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Això és un toggle block",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30511a97-61ab-805b-8a1f-cddefd0f8df5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-12T22:01:00.000Z",
+    "last_edited_time": "2026-02-13T14:03:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Això és una bulleted list",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Això és una bulleted list",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "31111a97-61ab-8016-b722-e5e55e79da87",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-24T16:27:00.000Z",
+    "last_edited_time": "2026-02-24T16:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "També podem tenir checklists (to-do list)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "També podem tenir checklists (to-do list)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "31111a97-61ab-8010-86f6-cf087374c5ed",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-24T16:27:00.000Z",
+    "last_edited_time": "2026-02-25T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "to_do",
+    "to_do": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Comprar llet (fet)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Comprar llet (fet)",
+          "href": null
+        }
+      ],
+      "checked": true,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "31111a97-61ab-8061-a97d-e5aaf94790a2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-24T16:27:00.000Z",
+    "last_edited_time": "2026-02-25T13:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "to_do",
+    "to_do": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Escombrar l’habitació (pendent de fer)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Escombrar l’habitació (pendent de fer)",
+          "href": null
+        }
+      ],
+      "checked": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8080-965c-fa1acc062f62",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:03:00.000Z",
+    "last_edited_time": "2026-02-13T14:03:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A continuació una subpàgina",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A continuació una subpàgina",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80fa-9156-c1501e88d148",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:03:00.000Z",
+    "last_edited_time": "2026-02-27T11:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "child_page",
+    "child_page": {
+      "title": "Example checklists, columnes i toggles"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-809d-a3c8-d15314c36f97",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:02:00.000Z",
+    "last_edited_time": "2026-02-13T14:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "També podem tenir mentions de persones com ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "També podem tenir mentions de persones com ",
+          "href": null
+        },
+        {
+          "type": "mention",
+          "mention": {
+            "type": "user",
+            "user": {
+              "object": "user",
+              "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea",
+              "name": "Martí Pardo",
+              "avatar_url": "https://s3-us-west-2.amazonaws.com/public.notion-static.com/bf26a5b1-4b9f-45bf-b973-7d6c6f085392/Black_hole.webp",
+              "type": "person",
+              "person": {
+                "email": "mpardoor24@alumnes.ub.edu"
+              }
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "@Martí Pardo",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " o de dates com ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " o de dates com ",
+          "href": null
+        },
+        {
+          "type": "mention",
+          "mention": {
+            "type": "date",
+            "date": {
+              "start": "2026-02-14",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "2026-02-14",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " o de subpàgines a les que tenim accés com ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " o de subpàgines a les que tenim accés com ",
+          "href": null
+        },
+        {
+          "type": "mention",
+          "mention": {
+            "type": "page",
+            "page": {
+              "id": "30611a97-61ab-80fa-9156-c1501e88d148"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Example checklists, columnes i toggles",
+          "href": "https://www.notion.so/30611a9761ab80fa9156c1501e88d148"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " o de subpàgines a les que no tenim accés com ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " o de subpàgines a les que no tenim accés com ",
+          "href": null
+        },
+        {
+          "type": "mention",
+          "mention": {
+            "type": "page",
+            "page": {
+              "id": "24211a97-61ab-80e7-876f-e59ce53a817e"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Untitled",
+          "href": "https://www.notion.so/24211a9761ab80e7876fe59ce53a817e"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8070-b5c1-d8114dc736fa",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:06:00.000Z",
+    "last_edited_time": "2026-02-13T14:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Finalment podem tenir imatges, provinents d’un fitxer local:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Finalment podem tenir imatges, provinents d’un fitxer local:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80b7-8272-fb65a7596d34",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:11:00.000Z",
+    "last_edited_time": "2026-02-13T14:11:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [],
+      "type": "file",
+      "file": {
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/8bf850cf-4aa2-4006-a926-7c8716480d59/Wikipedia-logo-v2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SR5VEHME%2F20260228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260228T114951Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHHU%2BCN1SsrrVaX2bs0683zoUVnpzYahS52%2FEFJmhTBqAiEAope0QZVLfVanuFucWw%2FHjxCHIFiE6QIbO0FCFHlQRuYq%2FwMIUhAAGgw2Mzc0MjMxODM4MDUiDCtxe9OFLlYGx3ELKyrcAzi9%2BvIPBQbd%2BN4mYDIMT4d4eHtPZy%2B7IZzb1Xt%2FZYfySe8befZebYC2NDMvbI9E2Y5NbpUKphlwJq6RhPP3Zo3u6Bsl1H05S4n6DflQdJ5V2jsu%2FYvdLfdmyEqUhzu66yWTTe5a4nl2fzmNsnrJ3pDj6kIgRHVo2TwxH5ay4drbAfl%2BQx9bAIvu7%2BjGKQSpHXhw%2FH5w%2BGzmXgNlNtPxQV0%2BPtKdQdj%2Fr3DMAjs%2F09RYKdHrGdI5sgPHTJYIMnXUoiVOYZ7q6xDx81tH5ptz2acXaCiJ0%2FekTiIrXN%2BzcHAWXXM9Fj4jYS9TdRbqF0Tqa9PdVsNtiPN7Ca8l2tkQJOMAn8pab7J%2BMbQWTrvF52r778Xm0tMADtL6HMJf6FjJdzuavEOHOVALf%2Bt%2BA%2BLFTrA2QRvrZAwAtVNa0wFWFaV57L6tg8nv7%2BiA%2FCJtprKgK5SYcAMsbLrYU7zTgeGQ3w1p120JBZFWTmN2tAS0cL2UD3fCJOuqwrWSIF6gM5NSR9Kx8Er4o5Wc7HDVusqmFC%2Bk8zCBiDH8nUPSWOCyMvGH5jBN1v2A775mG7sSeNcLpnp6vHHc0g9iy0jKegD3wNSvGC%2Bs5%2Be3CpxGaFSVNi1QR4ay2OukZ0%2FEPyDrML7kis0GOqUBsS0dkO297rV815bEv1lSxJielG%2BGYG5pWEosP14gIsEyFXK%2Bl%2F6p7mxK2Vc0TTcqUtJj1I6Uw8xR6jtHk7FOHzofVo%2F9qbJPNZgh6uA9iUEPIesfuHgqxWHf0MXmPDc2mWjU1UYYQjp9HcWjj7RNKfV6znUvrkyQBrlRdR%2B3ihrEBJSzuie1U9dQuL%2BfdzcLZkhJdMaHE9x7txzXbKTGLDz2nWyS&X-Amz-Signature=fabb135e40c91a72cbbd7a63f4201b5f4bad931b612f214b41ab5018f18744df&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "expiry_time": "2026-02-28T12:49:51.825Z"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-800f-a237-e1d000aff48b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:06:00.000Z",
+    "last_edited_time": "2026-02-13T14:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "O provinents d’una URL d’internet (externes):",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "O provinents d’una URL d’internet (externes):",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-800c-8086-d6c7a9bbd517",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:08:00.000Z",
+    "last_edited_time": "2026-02-17T16:19:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A més una imatge pot contenir una caption, la qual és ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A més una imatge pot contenir una caption, la qual és ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "rich",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "rich",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " text.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " text.",
+          "href": null
+        }
+      ],
+      "type": "external",
+      "external": {
+        "url": "https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80e3-bb36-e27eea7d680a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:12:00.000Z",
+    "last_edited_time": "2026-02-13T14:12:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I no estem! Podem tenir també callouts:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I no estem! Podem tenir també callouts:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8083-9a9d-ebcde79caadc",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:12:00.000Z",
+    "last_edited_time": "2026-02-13T14:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Això és un callout senzill",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Això és un callout senzill",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "📌"
+      },
+      "color": "gray_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8009-b2c9-f7cdcff69713",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:13:00.000Z",
+    "last_edited_time": "2026-02-13T14:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I els callouts poden no tenir icona, i tenir un altre color de fons",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I els callouts poden no tenir icona, i tenir un altre color de fons",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "pink_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8009-b1df-d5a2693e346a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:13:00.000Z",
+    "last_edited_time": "2026-02-13T14:13:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [],
+      "icon": null,
+      "color": "pink_background"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80ea-8aa4-eb4e9f0fe6a5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:12:00.000Z",
+    "last_edited_time": "2026-02-13T14:12:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "quote",
+    "quote": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I també podem tenir cites",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I també podem tenir cites",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8036-9eb6-f32739e8c1b5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:14:00.000Z",
+    "last_edited_time": "2026-02-13T14:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "També podem posar separadors",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "També podem posar separadors",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8079-b5d5-f0d656b75771",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:14:00.000Z",
+    "last_edited_time": "2026-02-13T14:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "31211a97-61ab-80fe-8936-c9c7a399e954",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-25T13:44:00.000Z",
+    "last_edited_time": "2026-02-25T13:44:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Aii ens estàvem deixant els toggle headings",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Aii ens estàvem deixant els toggle headings",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "31211a97-61ab-8050-b535-f16c45b42b98",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-25T13:44:00.000Z",
+    "last_edited_time": "2026-02-25T13:44:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Això és un toggle heading de nivell 3",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Això és un toggle heading de nivell 3",
+          "href": null
+        }
+      ],
+      "is_toggleable": true,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "31311a97-61ab-80dd-804d-c95784cddd3d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-26T13:57:00.000Z",
+    "last_edited_time": "2026-02-26T13:57:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Això és un toggle heading de nivell 3",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Això és un toggle heading de nivell 3",
+          "href": null
+        }
+      ],
+      "is_toggleable": true,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8034-960f-d80f5a43238e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:14:00.000Z",
+    "last_edited_time": "2026-02-21T18:08:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I el text pot estar de ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I el text pot estar de ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "color gris",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "gray"
+          },
+          "plain_text": "color gris",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " o tenir el ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " o tenir el ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "fons verd",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "green_background"
+          },
+          "plain_text": "fons verd",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " o qualsevol dels colors permesos en Notion.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " o qualsevol dels colors permesos en Notion.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80ce-a525-c735214cb82e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:16:00.000Z",
+    "last_edited_time": "2026-02-24T11:44:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "També podem posar codi inline ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "També podem posar codi inline ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "let numero = 5;",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "let numero = 5;",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " o tenir un bloc de codi:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " o tenir un bloc de codi:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80da-952d-dfa84a077a6a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:16:00.000Z",
+    "last_edited_time": "2026-02-13T14:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "console.log(\"Hola bon dia\");",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "console.log(\"Hola bon dia\");",
+          "href": null
+        }
+      ],
+      "language": "javascript"
+    }
+  },
+  {
+    "object": "block",
+    "id": "31111a97-61ab-802a-9cde-f00b17db36ab",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-24T11:45:00.000Z",
+    "last_edited_time": "2026-02-24T11:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Ah i podem posar columnes",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Ah i podem posar columnes",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "31111a97-61ab-802d-a3fb-edb5fd8dda14",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-24T11:45:00.000Z",
+    "last_edited_time": "2026-02-24T11:46:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "column_list",
+    "column_list": {}
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80b9-bfe6-c315407b6cc0",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:28:00.000Z",
+    "last_edited_time": "2026-02-24T11:46:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "També es poden posar també taules simples",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "També es poden posar també taules simples",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80a4-8acd-f8a85cbe6769",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:29:00.000Z",
+    "last_edited_time": "2026-02-13T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 3,
+      "has_column_header": true,
+      "has_row_header": true
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8022-9b50-d0961b96a6a6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:17:00.000Z",
+    "last_edited_time": "2026-02-13T14:23:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "El text també pot contenir ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "El text també pot contenir ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "links",
+            "link": {
+              "url": "http://google.com/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "links",
+          "href": "http://google.com/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " inline o com a mention ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " inline o com a mention ",
+          "href": null
+        },
+        {
+          "type": "mention",
+          "mention": {
+            "type": "link_mention",
+            "link_mention": {
+              "href": "https://www.youtube.com/channel/UC-uhE2wGJlkstikv01jE8fA",
+              "title": "Comissió de Festes Física UB",
+              "icon_url": "https://www.youtube.com/s/desktop/2a3cb36e/img/favicon_144x144.png",
+              "description": "Som Fisicomfest. Associació de festes de Física UB\n\n\nInstagram: https://www.instagram.com/fisicomfest...\nTwitter: https://twitter.com/FisicomfestUB\nTikTok: https://www.tiktok.com/@fisicomub\n",
+              "link_provider": "YouTube",
+              "thumbnail_url": "https://yt3.ggpht.com/ytc/AIdro_kk6OGl-qUXzO0xRyzCIU9EDNRIVL9aIb_nMO0uZoiAWQ=s800-c-k-c0x00ffffff-no-rj"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "https://www.youtube.com/channel/UC-uhE2wGJlkstikv01jE8fA",
+          "href": "https://www.youtube.com/channel/UC-uhE2wGJlkstikv01jE8fA"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " o també podem convertir els links en bookmarks:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " o també podem convertir els links en bookmarks:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8059-b734-f030995ef923",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:18:00.000Z",
+    "last_edited_time": "2026-02-13T14:18:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bookmark",
+    "bookmark": {
+      "caption": [],
+      "url": "https://google.com"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-800b-a84a-e234ac47b3be",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:18:00.000Z",
+    "last_edited_time": "2026-02-13T14:19:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I a part de imatges, vídeos i similar, també podem pujar-hi fitxers locals:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I a part de imatges, vídeos i similar, també podem pujar-hi fitxers locals:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-804b-8fe3-f3323a12ea2d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:20:00.000Z",
+    "last_edited_time": "2026-02-13T14:21:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "file",
+    "file": {
+      "caption": [],
+      "type": "file",
+      "file": {
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/b64269bf-7677-40bd-bd27-39fd86a5deb3/Normativa_reguladora_de_lavaluaci_UB-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SR5VEHME%2F20260228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260228T114952Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHHU%2BCN1SsrrVaX2bs0683zoUVnpzYahS52%2FEFJmhTBqAiEAope0QZVLfVanuFucWw%2FHjxCHIFiE6QIbO0FCFHlQRuYq%2FwMIUhAAGgw2Mzc0MjMxODM4MDUiDCtxe9OFLlYGx3ELKyrcAzi9%2BvIPBQbd%2BN4mYDIMT4d4eHtPZy%2B7IZzb1Xt%2FZYfySe8befZebYC2NDMvbI9E2Y5NbpUKphlwJq6RhPP3Zo3u6Bsl1H05S4n6DflQdJ5V2jsu%2FYvdLfdmyEqUhzu66yWTTe5a4nl2fzmNsnrJ3pDj6kIgRHVo2TwxH5ay4drbAfl%2BQx9bAIvu7%2BjGKQSpHXhw%2FH5w%2BGzmXgNlNtPxQV0%2BPtKdQdj%2Fr3DMAjs%2F09RYKdHrGdI5sgPHTJYIMnXUoiVOYZ7q6xDx81tH5ptz2acXaCiJ0%2FekTiIrXN%2BzcHAWXXM9Fj4jYS9TdRbqF0Tqa9PdVsNtiPN7Ca8l2tkQJOMAn8pab7J%2BMbQWTrvF52r778Xm0tMADtL6HMJf6FjJdzuavEOHOVALf%2Bt%2BA%2BLFTrA2QRvrZAwAtVNa0wFWFaV57L6tg8nv7%2BiA%2FCJtprKgK5SYcAMsbLrYU7zTgeGQ3w1p120JBZFWTmN2tAS0cL2UD3fCJOuqwrWSIF6gM5NSR9Kx8Er4o5Wc7HDVusqmFC%2Bk8zCBiDH8nUPSWOCyMvGH5jBN1v2A775mG7sSeNcLpnp6vHHc0g9iy0jKegD3wNSvGC%2Bs5%2Be3CpxGaFSVNi1QR4ay2OukZ0%2FEPyDrML7kis0GOqUBsS0dkO297rV815bEv1lSxJielG%2BGYG5pWEosP14gIsEyFXK%2Bl%2F6p7mxK2Vc0TTcqUtJj1I6Uw8xR6jtHk7FOHzofVo%2F9qbJPNZgh6uA9iUEPIesfuHgqxWHf0MXmPDc2mWjU1UYYQjp9HcWjj7RNKfV6znUvrkyQBrlRdR%2B3ihrEBJSzuie1U9dQuL%2BfdzcLZkhJdMaHE9x7txzXbKTGLDz2nWyS&X-Amz-Signature=ca7258eccc9a6908243a6a886c03234e95cc953a923eeee8d9d05ae7dc52cd16&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "expiry_time": "2026-02-28T12:49:52.038Z"
+      },
+      "name": "Normativa reguladora de l’avaluació UB.pdf"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8073-be70-db5caf1df913",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:19:00.000Z",
+    "last_edited_time": "2026-02-13T14:19:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "O fitxers provinents d’una URL externa:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "O fitxers provinents d’una URL externa:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8068-b370-c75768ee90db",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:20:00.000Z",
+    "last_edited_time": "2026-02-13T14:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "file",
+    "file": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://linear.axler.net/LADR4e.pdf"
+      },
+      "name": "LADR4e.pdf"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80ec-bf1d-dba957a6d57d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:21:00.000Z",
+    "last_edited_time": "2026-02-13T14:21:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "També podem posar elements embed com ara un vídeo de Youtube:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "També podem posar elements embed com ara un vídeo de Youtube:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-804f-bc28-e233b83a85cf",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:21:00.000Z",
+    "last_edited_time": "2026-02-13T14:21:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "video",
+    "video": {
+      "caption": [],
+      "type": "external",
+      "external": {
+        "url": "https://www.youtube.com/watch?v=aXRTczANuIs"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-801f-9391-cf5126abc396",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:24:00.000Z",
+    "last_edited_time": "2026-02-13T14:26:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Un PDF local pujat com a embed:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Un PDF local pujat com a embed:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80d1-9b1a-ce581366c7e6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:27:00.000Z",
+    "last_edited_time": "2026-02-13T14:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "pdf",
+    "pdf": {
+      "caption": [],
+      "type": "file",
+      "file": {
+        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/77162674-5bd4-41b0-b268-0283b584b178/1c232d7f-92cf-4bc7-8a0d-f1c4b45d6a27/Taules_Clebsch-Gordan-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SR5VEHME%2F20260228%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260228T114952Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHHU%2BCN1SsrrVaX2bs0683zoUVnpzYahS52%2FEFJmhTBqAiEAope0QZVLfVanuFucWw%2FHjxCHIFiE6QIbO0FCFHlQRuYq%2FwMIUhAAGgw2Mzc0MjMxODM4MDUiDCtxe9OFLlYGx3ELKyrcAzi9%2BvIPBQbd%2BN4mYDIMT4d4eHtPZy%2B7IZzb1Xt%2FZYfySe8befZebYC2NDMvbI9E2Y5NbpUKphlwJq6RhPP3Zo3u6Bsl1H05S4n6DflQdJ5V2jsu%2FYvdLfdmyEqUhzu66yWTTe5a4nl2fzmNsnrJ3pDj6kIgRHVo2TwxH5ay4drbAfl%2BQx9bAIvu7%2BjGKQSpHXhw%2FH5w%2BGzmXgNlNtPxQV0%2BPtKdQdj%2Fr3DMAjs%2F09RYKdHrGdI5sgPHTJYIMnXUoiVOYZ7q6xDx81tH5ptz2acXaCiJ0%2FekTiIrXN%2BzcHAWXXM9Fj4jYS9TdRbqF0Tqa9PdVsNtiPN7Ca8l2tkQJOMAn8pab7J%2BMbQWTrvF52r778Xm0tMADtL6HMJf6FjJdzuavEOHOVALf%2Bt%2BA%2BLFTrA2QRvrZAwAtVNa0wFWFaV57L6tg8nv7%2BiA%2FCJtprKgK5SYcAMsbLrYU7zTgeGQ3w1p120JBZFWTmN2tAS0cL2UD3fCJOuqwrWSIF6gM5NSR9Kx8Er4o5Wc7HDVusqmFC%2Bk8zCBiDH8nUPSWOCyMvGH5jBN1v2A775mG7sSeNcLpnp6vHHc0g9iy0jKegD3wNSvGC%2Bs5%2Be3CpxGaFSVNi1QR4ay2OukZ0%2FEPyDrML7kis0GOqUBsS0dkO297rV815bEv1lSxJielG%2BGYG5pWEosP14gIsEyFXK%2Bl%2F6p7mxK2Vc0TTcqUtJj1I6Uw8xR6jtHk7FOHzofVo%2F9qbJPNZgh6uA9iUEPIesfuHgqxWHf0MXmPDc2mWjU1UYYQjp9HcWjj7RNKfV6znUvrkyQBrlRdR%2B3ihrEBJSzuie1U9dQuL%2BfdzcLZkhJdMaHE9x7txzXbKTGLDz2nWyS&X-Amz-Signature=1eddc01a6e8ea9a5fc1ac40c3bc567fc0782dd8b652ac7ab0997525f41cd3fe2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+        "expiry_time": "2026-02-28T12:49:52.048Z"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-80b7-b427-c63c8ef93dff",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:24:00.000Z",
+    "last_edited_time": "2026-02-13T14:24:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "O un element interactiu qualsevol:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "O un element interactiu qualsevol:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-807f-9cfd-c3ab1e2175a3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:25:00.000Z",
+    "last_edited_time": "2026-02-13T14:25:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "embed",
+    "embed": {
+      "caption": [],
+      "url": "https://mapaor4.github.io/notion/Plotly/tenkas.html"
+    }
+  },
+  {
+    "object": "block",
+    "id": "30611a97-61ab-8065-9767-d1d87e2a58df",
+    "parent": {
+      "type": "page_id",
+      "page_id": "30511a97-61ab-802c-808c-dbb05b786986"
+    },
+    "created_time": "2026-02-13T14:25:00.000Z",
+    "last_edited_time": "2026-02-13T14:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ffa78b8e-1ec7-4e62-9b1d-09dc44009dea"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Doncs això seria tot. També es poden posar bases de dades però de moment no entrem a aquí.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Doncs això seria tot. També es poden posar bases de dades però de moment no entrem a aquí.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  }
+]
