@@ -90,19 +90,19 @@ importers:
   packages/notion2typst:
     dependencies:
       '@nast/nast-fetch-images':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../nast-fetch-images
       '@nast/nast2typst':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../nast2typst
       '@nast/nbt2nast':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../nbt2nast
       '@nast/notion2nbt':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../notion2nbt
       '@nast/types':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../types
 
   packages/types: {}
