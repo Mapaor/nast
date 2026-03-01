@@ -7,7 +7,8 @@ import { handleList } from './handlers/lists';
 import { handleHeading } from './handlers/headings';
 import { handleToggle } from './handlers/toggle';
 import { handleTable } from './handlers/table';
-import { handleImage, handleVideo, handleFile, handlePDF, handleBookmark, handleEmbed } from './handlers/media';
+import { handleImage, handleVideo, handleFile, handlePDF } from './handlers/media';
+import { handleBookmark, handleEmbed } from './handlers/links';
 import { handleLink, handleMention, handleChildPage, handleColumnList } from './handlers/misc';
 
 export function processNode(node: NASTNode, context: ProcessingContext): string {

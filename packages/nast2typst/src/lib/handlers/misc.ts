@@ -14,6 +14,10 @@ export function handleMention(node: NASTMention): string {
     case 'date':
       return node.value;
     case 'page':
+      // Page mentions: link with italic text
+      if (node.data && typeof node.data === 'object' && 'url' in node.data) {
+        return `#link("${(node.data as any).url}")[_${node.value}_]`;
+      }
       return `_${node.value}_`;
     case 'database':
       return `_${node.value}_`;
@@ -23,7 +27,8 @@ export function handleMention(node: NASTMention): string {
 }
 
 export function handleChildPage(node: NASTChildPage): string {
-  return `${node.title}\n#link("https://notion.so/${node.pageId}")[📄 ${node.title}] // Child page\n`;
+  const url = `https://notion.so/${node.pageId.replace(/-/g, '')}`;
+  return `#child-page("${url}")[${node.title}]`;
 }
 
 export function handleColumnList(node: NASTColumnList, context: ProcessingContext): string {

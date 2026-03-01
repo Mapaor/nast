@@ -34,7 +34,7 @@ export function handleImage(node: NASTImage, context: ProcessingContext): string
     const caption = node.data.caption.map(child => processNode(child, context)).join('');
     result += `#figure(\n  image("${imagePath}"),\n  caption: [${caption}]\n)`;
   } else {
-    result += `#figure(\n  image("${imagePath}")\n)`;
+    result += `#image("${imagePath}")`;
   }
   
   return result + '\n';
@@ -55,13 +55,12 @@ export function handleVideo(node: NASTVideo, context: ProcessingContext): string
     comment = `// Source URL: ${node.url}\n`;
   }
 
-  let result = comment;
-  result += `#link("${videoUrl}")[🎥 Video]\\ \n`;
+  const caption = node.data.caption && node.data.caption.length > 0
+    ? node.data.caption.map(child => processNode(child, context)).join('')
+    : 'Video';
   
-  if (node.data.caption && node.data.caption.length > 0) {
-    const caption = node.data.caption.map(child => processNode(child, context)).join('');
-    result += `_${caption}_\n`;
-  }
+  let result = comment;
+  result += `#video("${videoUrl}", ext: "mp4")[${caption}]\n`;
   
   return result;
 }
@@ -82,13 +81,13 @@ export function handleFile(node: NASTFile, context: ProcessingContext): string {
   }
 
   const fileName = node.name || 'File';
-  let result = comment;
-  result += `#link("${fileUrl}")[📄 ${fileName}]\\ \n`;
   
-  if (node.data.caption && node.data.caption.length > 0) {
-    const caption = node.data.caption.map(child => processNode(child, context)).join('');
-    result += `_${caption}_\n`;
-  }
+  // Extract file extension from name
+  const extMatch = fileName.match(/\.([^.]+)$/);
+  const ext = extMatch ? extMatch[1] : 'file';
+  
+  let result = comment;
+  result += `#file("${fileUrl}", ext: "${ext}")[${fileName}]\n`;
   
   return result;
 }
@@ -108,37 +107,12 @@ export function handlePDF(node: NASTPDF, context: ProcessingContext): string {
     comment = `// Source URL: ${node.url}\n`;
   }
 
+  const caption = node.data.caption && node.data.caption.length > 0
+    ? node.data.caption.map(child => processNode(child, context)).join('')
+    : 'PDF Document';
+  
   let result = comment;
-  result += `#link("${pdfUrl}")[📕 PDF Document]\\ \n`;
-  
-  if (node.data.caption && node.data.caption.length > 0) {
-    const caption = node.data.caption.map(child => processNode(child, context)).join('');
-    result += `_${caption}_\n`;
-  }
-  
-  return result;
-}
-
-export function handleBookmark(node: NASTBookmark, context: ProcessingContext): string {
-  let result = `#link("${node.url}")[${node.url}]\\ \n`;
-  
-  if (node.data?.caption && node.data.caption.length > 0) {
-    const caption = node.data.caption.map(child => processNode(child, context)).join('');
-    result += `_${caption}_\n`;
-  }
-  
-  return result;
-}
-
-export function handleEmbed(node: NASTEmbed, context: ProcessingContext): string {
-  // Embeds are similar to bookmarks in Typst
-  let result = `// Embedded content: ${node.url}\n`;
-  result += `#link("${node.url}")[🔗 Embedded Content]\\ \n`;
-  
-  if (node.data?.caption && node.data.caption.length > 0) {
-    const caption = node.data.caption.map(child => processNode(child, context)).join('');
-    result += `_${caption}_\n`;
-  }
+  result += `#pdf("${pdfUrl}")[${caption}]\n`;
   
   return result;
 }
