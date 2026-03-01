@@ -2,9 +2,7 @@ import type {
   NASTImage,
   NASTVideo,
   NASTFile,
-  NASTPDF,
-  NASTBookmark,
-  NASTEmbed,
+  NASTPDF
 } from '../../../src/types.js';
 import type { ProcessingContext } from './utils.js';
 import { extractCleanAwsUrl, isAwsSignedUrl } from './utils.js';
