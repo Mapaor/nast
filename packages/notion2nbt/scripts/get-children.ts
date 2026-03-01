@@ -1,10 +1,16 @@
 import { Notion2NBT } from '../src/index';
 import { writeFileSync } from 'fs';
 import { join } from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
 
 // Configuration from environment variables
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const BLOCK_ID = process.env.BLOCK_ID || process.env.PAGE_ID || '';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
 
 if (!NOTION_TOKEN) {
   console.error('Error: NOTION_TOKEN environment variable is required');
