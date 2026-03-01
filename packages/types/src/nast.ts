@@ -325,13 +325,6 @@ export interface NASTLink {
   type: 'link';
   url: string;
   children: NASTNode[];
-  data?: {
-    title?: string;
-    iconUrl?: string;
-    description?: string;
-    provider?: string;
-    thumbnailUrl?: string;
-  };
 }
 
 /**
@@ -442,6 +435,10 @@ export interface NASTChildPage {
   type: 'childPage';
   title: string;
   pageId: string;
+  icon?: {
+    type: 'emoji' | 'file' | 'external';
+    value: string;
+  }
   data?: {
     blockId?: string;
   };
