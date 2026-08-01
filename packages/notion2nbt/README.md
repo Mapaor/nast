@@ -6,43 +6,70 @@ Given a pageId (or blockId) and a Notion token (sometimes also called integratio
 
 Note: Your Notion integration (internal or public) must be connected to the Notion page you want to fetch for the package to work.
 
-## Install
+## Installation
 
-```bash
-npm install notion2nbt
 ```
-
-## Usage
-
-```typescript
-import { Notion2NBT, type PageNode, traverseNBT } from 'notion2nbt'
-
-const client = new Notion2NBT({ auth: process.env.NOTION_TOKEN! })
-
-// Get page or block as a structure
-const page = await client.getPageV2('your-page-id')
-// const rootBlock = await client.getBlock('your-block-id')
-
-// Ensure everything works ok
-console.log(page.type)            
-console.log(page.properties.title)   
-console.log(page.properties.icon)  
-console.log(page.children)           
-
-// Access children directly
-for (const block of page.children || []) {
-  console.log(block.type, block.properties)
-}
+npm install @nast/notion2nbt
 ```
-
-## Transform Example
-See `scripts/fetch-page.ts` for an example.
-
-You can also use the wrappers `notion2md` and `notion2typst` to transform your Notion content to Markdown or to Typst.
 
 ## Features
 All 27+ Notion block types supported :)
 
+
+## Usage
+
+To test the package in a simple manner create an empty folder and inside it the following files: `get-nbt-example.js`, `.env.local` and `package.json`.
+
+1. In your env file put your environment variables:
+    ```
+    NOTION_TOKEN=your-notion-token
+    NOTION_PAGE_ID=your-page-id
+    ```
+
+2. In your `package.json` declare it as an ESM module:
+
+    ```json
+    {
+      "type": "module"
+    }
+    ```
+
+    Note: package name and version are not needed as we are just testing, not gonna publish this.
+
+3. In the script put the following simple example usage:
+
+    ```javascript
+    import { Notion2NBT } from '@nast/notion2nbt';
+
+    const token = process.env.NOTION_TOKEN;
+    const pageId = process.env.NOTION_PAGE_ID;
+
+    const client = new Notion2NBT({ auth: token });
+    const page = await client.getPage(pageId);
+
+    console.log(page);
+    ```
+
+4. Now install the package
+
+    ```bash
+    npm install @nast/notion2nbt
+    ```
+
+5. Test it out
+    ```bash
+    node --env-file=.env.local get-nbt-example.js
+    ```
+
+    Note: If you are in a NextJS or TSDown project (instead of a simple node one) the --env-file flag is not necessary.
+
+
+## Typescript example
+For a more complete example see  `scripts/fetch-page.ts`.
+
+## More direct options
+
+You can also use the wrappers `notion2md` and `notion2typst` to transform your Notion content to Markdown or to Typst.
 
 ## Typical Notion API Response
 

@@ -55,11 +55,11 @@ export class Notion2NBT {
    * 
    * @returns PageNode with type: 'page' and children array
    */
-  public async getPageV2(
+  public async getPage(
     pageId: string,
     options: GetPageOptions = {}
   ): Promise<PageNode> {
-    return PageOperations.getPageV2(pageId, this.client, this.cache, this.logger, options)
+    return PageOperations.getPage(pageId, this.client, this.cache, this.logger, options)
   }
 
   /**

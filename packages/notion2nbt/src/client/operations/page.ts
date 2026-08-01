@@ -23,7 +23,7 @@ import { cleanId } from '../utils/helpers'
  * 
  * @returns PageNode with type: 'page' and children array
  */
-export async function getPageV2(
+export async function getPage(
   pageId: string,
   client: Client,
   cache: Cache,
@@ -36,9 +36,9 @@ export async function getPageV2(
 
   // Check cache first (check for both old and new format)
   if (!options.forceRefresh) {
-    const cached = cache.get<PageNode>(`page_v2:${cleanPageId}`)
+    const cached = cache.get<PageNode>(`page:${cleanPageId}`)
     if (cached) {
-      logger.debug(`Cache hit for page (v2): ${cleanPageId}`)
+      logger.debug(`Cache hit for page: ${cleanPageId}`)
       return cached
     }
   }
@@ -93,7 +93,7 @@ export async function getPageV2(
   logger.info(`Page processed: ${childCount} top-level blocks`)
 
   // Cache the result
-  cache.set(`page_v2:${cleanPageId}`, pageNode)
+  cache.set(`page:${cleanPageId}`, pageNode)
 
   return pageNode
 }

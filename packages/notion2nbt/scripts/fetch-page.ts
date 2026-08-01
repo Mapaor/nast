@@ -48,8 +48,8 @@ async function fetchAndSavePageNBT() {
     // outputDir = "wd/output/"
     // (it's the `join` from `path`, not a string concatenation, it already resolves the path correctly) 
 
-    const page = await client.getPageV2(PAGE_ID);
-    // const page = await client.getPageV2(PAGE_ID, { includeMetadata: true });
+    const page = await client.getPage(PAGE_ID);
+    // const page = await client.getPage(PAGE_ID, { includeMetadata: true });
 
     console.log('Page fetched successfully!');
     console.log(`Total blocks (including page): ${countBlocks(page)}`);

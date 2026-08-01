@@ -103,7 +103,7 @@ export async function notion2typst(
     enableCache,
   });
 
-  const nbtPage = await notion2nbt.getPageV2(pageId);
+  const nbtPage = await notion2nbt.getPage(pageId);
   console.log('✓ Page fetched successfully');
 
   // Step 2: Convert NBT to NAST
