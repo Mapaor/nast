@@ -47,7 +47,8 @@ To test the package in a simple manner create an empty folder and inside it the 
     const client = new Notion2NBT({ auth: token });
     const page = await client.getPage(pageId);
 
-    console.log(page);
+    const pageJSON = JSON.stringify(page, null, 2);
+    console.log(pageJSON);
     ```
 
 4. Now install the package
