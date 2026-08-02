@@ -79,8 +79,18 @@ export {
 // Database and page processors
 export {
   processChildDatabaseToNBT,
-  processChildPageToNBT,
 } from './database-processors'
+
+// Child page processors (properties, icon, etc. but not it's children)
+export {
+  processChildPageToNBT,
+} from './child-page-processors'
+
+// Page processors (the main processor used, the one that build the NBT  main node corresponding of a Notion page)
+export {
+  processPageToNBT
+} from './page-processors'
+
 
 // Special block processors
 export {
