@@ -1,6 +1,6 @@
 import type { Client } from '@notionhq/client'
 import type { BlockObjectResponse } from '@notionhq/client/build/src/api-endpoints'
-import type { NotionBlock } from '../../types/nbt-types'
+import type { NBTBlock as NotionBlock } from '@nast/types'
 
 import { processBlocks } from '../../process-blocks-nbt'
 import { Logger } from '../utils/logger'
@@ -9,7 +9,7 @@ import { Cache } from '../utils/cache'
 /**
  * Get a single block by ID
  */
-export async function getBlock(
+export async function getBlockOperation(
   blockId: string,
   client: Client,
   cache: Cache,
@@ -66,7 +66,7 @@ export async function getBlocks(
 
     const batchResults = await Promise.all(
       batch.map(async (id) => {
-        const node = await getBlock(id, client, cache, logger)
+        const node = await getBlockOperation(id, client, cache, logger)
         return { id, node }
       })
     )
@@ -82,23 +82,6 @@ export async function getBlocks(
   logger.info(`Fetched ${Object.keys(results).length}/${blockIds.length} blocks`)
 
   return results
-}
-
-/**
- * Get database entries (placeholder - to be implemented)
- */
-export async function getDatabase(
-  databaseId: string,
-  client: Client,
-  logger: Logger
-): Promise<any[]> {
-  // NOT YET IMPLEMENTED!!!!
-  logger.warn('getDatabase() is a placeholder - implement with proper Notion API')
-  return []
-
-  // TODO: Implement with proper API call:
-  // const response = await client.databases.query({ database_id: databaseId })
-  // return response.results
 }
 
 /**

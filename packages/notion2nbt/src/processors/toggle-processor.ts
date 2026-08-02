@@ -1,7 +1,4 @@
-import type {
-  ToggleNode,
-  NotionColor,
-} from '../types/nbt-types'
+import type { NBTToggleNode as ToggleNode, NotionColor } from '@nast/types'
 
 import {
   extractMetadata,

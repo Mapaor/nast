@@ -2,17 +2,7 @@
  * NBT Utility Functions
  */
 
-import type {
-  RichTextNode,
-  TextAnnotations,
-  MentionData,
-  PageMention,
-  LinkMention,
-  DateMention,
-  FileInfo,
-  IconInfo,
-  NodeMetadata,
-} from '../types/nbt-types'
+import type { RichText as RichTextNode, TextAnnotations, MentionData, PageMention, LinkMention, DateMention, FileInfo, IconInfo, NBTNodeMetadata as NodeMetadata } from '@nast/types'
 
 // Types imported from the old notion types (will need to adapt)
 type NotionRichText = any // Will be replaced with proper import

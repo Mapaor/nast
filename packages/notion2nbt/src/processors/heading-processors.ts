@@ -1,8 +1,5 @@
 
-import type {
-  HeadingNode,
-  NotionColor,
-} from '../types/nbt-types'
+import type { NBTHeadingNode as HeadingNode, NotionColor } from '@nast/types'
 
 import {
   extractMetadata,

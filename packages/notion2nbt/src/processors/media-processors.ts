@@ -1,10 +1,4 @@
-import type {
-  ImageNode,
-  VideoNode,
-  AudioNode,
-  FileNode,
-  PDFNode,
-} from '../types/nbt-types'
+import type { NBTImageNode as ImageNode, NBTVideoNode as VideoNode, NBTAudioNode as AudioNode, NBTFileNode as FileNode, NBTPDFNode as PDFNode } from '@nast/types'
 
 import {
   extractMetadata,

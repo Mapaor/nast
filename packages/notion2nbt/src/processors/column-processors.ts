@@ -1,7 +1,4 @@
-import type {
-  ColumnListNode,
-  ColumnNode,
-} from '../types/nbt-types'
+import type { NBTColumnListNode as ColumnListNode, NBTColumnNode as ColumnNode } from '@nast/types'
 
 import {
   extractMetadata,

@@ -1,7 +1,4 @@
-import type {
-  ParagraphNode,
-  NotionColor,
-} from '../types/nbt-types'
+import type { NBTParagraphNode as ParagraphNode, NotionColor } from '@nast/types'
 
 import {
   extractMetadata,

@@ -1,7 +1,4 @@
-import type {
-  TableNode,
-  TableRowNode,
-} from '../types/nbt-types'
+import type { NBTTableNode as TableNode, NBTTableRowNode as TableRowNode } from '@nast/types'
 
 import {
   extractMetadata,

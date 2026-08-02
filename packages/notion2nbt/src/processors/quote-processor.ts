@@ -1,8 +1,5 @@
 
-import type {
-  QuoteNode,
-  NotionColor,
-} from '../types/nbt-types'
+import type { NBTQuoteNode as QuoteNode, NotionColor } from '@nast/types'
 
 import {
   extractMetadata,

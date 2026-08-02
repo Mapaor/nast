@@ -2,12 +2,9 @@
  * Notion Page Tree Builder
  */
 
-import type {
-  NotionBlock,
-  GetPageOptions,
-} from './types/nbt-types'
+import type { NBTBlock as NotionBlock, NBTGetPageOptions as GetPageOptions } from '@nast/types'
 
-import type { PageNode } from './types/page-node-types'
+import type { NBTPageNode as PageNode } from '@nast/types'
 
 import { processBlocks } from './process-blocks-nbt'
 import { processPageToNBT } from './processors/page-processors'
@@ -24,7 +21,7 @@ type PageResponse = any
  * @param includeMetadata - Whether to include metadata fields
  * @returns PageNode with children array
  */
-export function buildBlockTree(
+export function buildPageNode(
   pageResponse: PageResponse,
   childNodes: NotionBlock[] = [],
   includeMetadata: boolean = false
@@ -38,13 +35,13 @@ export function buildBlockTree(
 }
 
 /**
- * Get a complete page as a NotionBlock (PageNode)
+ * Get a complete page as a NotionBlock (PageNode) tree
  * 
- * This is the main entry point for fetching and processing a Notion page
+ * This is the main core entry point for fetching and processing a Notion page into a PageNode tree.
  * 
  * @returns PageNode with type: 'page' and children array
  */
-export async function getPageAsBlock(
+export async function getPageTree(
   pageId: string,
   fetchBlocksFn: (pageId: string) => Promise<Block[]>,
   fetchChildrenFn: (blockId: string) => Promise<Block[]>,
@@ -70,7 +67,7 @@ export async function getPageAsBlock(
   })
 
   // 4. Build PageNode (page as block with children array)
-  const pageNode = buildBlockTree(pageResponse, result.nodes, options.includeMetadata)
+  const pageNode = buildPageNode(pageResponse, result.nodes, options.includeMetadata)
 
   return pageNode
 }

@@ -1,8 +1,4 @@
-import type {
-  BookmarkNode,
-  EmbedNode,
-  LinkPreviewNode,
-} from '../types/nbt-types'
+import type { NBTBookmarkNode as BookmarkNode, NBTEmbedNode as EmbedNode, NBTLinkPreviewNode as LinkPreviewNode } from '@nast/types'
 
 import {
   extractMetadata,

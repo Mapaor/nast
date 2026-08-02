@@ -4,10 +4,7 @@
  * Functions that transform special-purpose Notion blocks into NBT nodes
  */
 
-import type {
-  SyncedBlockNode,
-  BreadcrumbNode,
-} from '../types/nbt-types'
+import type { NBTSyncedBlockNode as SyncedBlockNode, NBTBreadcrumbNode as BreadcrumbNode } from '@nast/types'
 
 import {
   extractMetadata,

@@ -1,9 +1,4 @@
-import type {
-  BulletedListItemNode,
-  NumberedListItemNode,
-  ToDoNode,
-  NotionColor,
-} from '../types/nbt-types'
+import type { NBTBulletedListItemNode as BulletedListItemNode, NBTNumberedListItemNode as NumberedListItemNode, NBTToDoNode as ToDoNode, NotionColor } from '@nast/types'
 
 import {
   extractMetadata,

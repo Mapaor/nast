@@ -1,8 +1,5 @@
 
-import type {
-  CalloutNode,
-  NotionColor,
-} from '../types/nbt-types'
+import type { NBTCalloutNode as CalloutNode, NotionColor } from '@nast/types'
 
 import {
   extractMetadata,

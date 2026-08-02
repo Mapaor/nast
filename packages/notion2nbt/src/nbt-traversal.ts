@@ -2,7 +2,7 @@
  * NBT Utility Functions
  */
 
-import type { NotionBlock } from './types/nbt-types'
+import type { NBTBlock as NotionBlock } from '@nast/types'
 
 /**
  * Traverse NBT depth-first, calling callback on each node

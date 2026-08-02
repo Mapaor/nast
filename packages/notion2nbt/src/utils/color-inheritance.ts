@@ -2,7 +2,7 @@
  * Color Inheritance Utilities
  */
 
-import type { NotionBlock } from '../types/nbt-types'
+import type { NBTBlock as NotionBlock } from '@nast/types'
 import { COLOR_SUPPORTED_TYPES } from '../constants/block-types'
 
 /**

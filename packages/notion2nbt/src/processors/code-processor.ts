@@ -1,7 +1,4 @@
-import type {
-  CodeNode,
-  NotionColor,
-} from '../types/nbt-types'
+import type { NBTCodeNode as CodeNode, NotionColor } from '@nast/types'
 
 import {
   extractMetadata,

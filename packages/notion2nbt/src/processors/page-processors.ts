@@ -2,8 +2,8 @@
  * Page Processor
  */
 
-import type { PageNode, PageProperties } from '../types/page-node-types'
-import type { NotionBlock } from '../types/core-types'
+import type { NBTPageNode as PageNode, NBTPageProperties as PageProperties } from '@nast/types'
+import type { NBTBlock as NotionBlock } from '@nast/types'
 import { processIconInfo, processFileInfo, extractMetadata } from '../utils/nbt-utils'
 
 /** 

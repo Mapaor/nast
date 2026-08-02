@@ -1,9 +1,4 @@
-import type {
-  NotionBlock,
-  ProcessResult,
-  ProcessOptions,
-  ProcessError,
-} from './types/nbt-types'
+import type { NBTBlock as NotionBlock, NBTProcessResult as ProcessResult, NBTProcessOptions as ProcessOptions, NBTProcessError as ProcessError } from '@nast/types'
 
 import {
   processParagraphToNBT,

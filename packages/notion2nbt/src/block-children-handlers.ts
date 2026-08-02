@@ -5,11 +5,7 @@
  * with specific logic (like color inheritance, special child types, etc.)
  */
 
-import type {
-  NotionBlock,
-  TableRowNode,
-  ColumnNode,
-} from './types/nbt-types'
+import type { NBTBlock as NotionBlock, NBTTableRowNode as TableRowNode, NBTColumnNode as ColumnNode } from '@nast/types'
 
 import {
   processTableToNBT,

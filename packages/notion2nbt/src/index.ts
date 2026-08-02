@@ -1,16 +1,16 @@
-// Types
+// We re-export types for backward compatibility
+// Users can do both `import { NotionBlock } from '@nast/notion2nbt'`
+// or `import { NBTBlock } from '@nast/types'`.
+// The latter is the recommended approach, as eventually we'll remove this re-export block.
 export type {
   // Core types
-  NotionBlock,  // New unified block type
-  NodeMetadata,
-  BlockNode,
+  NBTBlock as NotionBlock,
+  NBTNodeMetadata as NodeMetadata,
+  NBTPageNode as PageNode,
+  NBTPageProperties as PageProperties,
   
-  // Page types
-  PageNode,
-  PageProperties,
-  
-  // Rich text
-  RichTextNode,
+  // Rich text types
+  RichText as RichTextNode,
   TextAnnotations,
   NotionColor,
   EquationData,
@@ -21,68 +21,67 @@ export type {
   UserMention,
   DatabaseMention,
   
-  // File and media
+  // File and media types
   FileInfo,
   IconInfo,
   
-  // Text blocks
-  ParagraphNode,
-  HeadingNode,
-  QuoteNode,
-  CalloutNode,
+  // Text block node types
+  NBTParagraphNode as ParagraphNode,
+  NBTHeadingNode as HeadingNode,
+  NBTQuoteNode as QuoteNode,
+  NBTCalloutNode as CalloutNode,
   
-  // Lists
-  BulletedListItemNode,
-  NumberedListItemNode,
-  ToDoNode,
-  ListItemNode,
+  // List block node types
+  NBTBulletedListItemNode as BulletedListItemNode,
+  NBTNumberedListItemNode as NumberedListItemNode,
+  NBTToDoNode as ToDoNode,
+  NBTListItemNode as ListItemNode,
+  NBTToggleNode as ToggleNode,
   
-  // Toggle
-  ToggleNode,
+  // Code and equation node types
+  NBTCodeNode as CodeNode,
+  NBTEquationNode as EquationNode,
   
-  // Code and equations
-  CodeNode,
-  EquationNode,
+  // Media block node types
+  NBTImageNode as ImageNode,
+  NBTVideoNode as VideoNode,
+  NBTAudioNode as AudioNode,
+  NBTFileNode as FileNode,
+  NBTPDFNode as PDFNode,
   
-  // Media blocks
-  ImageNode,
-  VideoNode,
-  AudioNode,
-  FileNode,
-  PDFNode,
+  // Link and embed node types
+  NBTBookmarkNode as BookmarkNode,
+  NBTEmbedNode as EmbedNode,
+  NBTLinkPreviewNode as LinkPreviewNode,
   
-  // Embeds
-  BookmarkNode,
-  EmbedNode,
-  LinkPreviewNode,
+  // Table node types
+  NBTTableNode as TableNode,
+  NBTTableRowNode as TableRowNode,
   
-  // Tables
-  TableNode,
-  TableRowNode,
+  // Layout node types
+  NBTColumnListNode as ColumnListNode,
+  NBTColumnNode as ColumnNode,
   
-  // Columns
-  ColumnListNode,
-  ColumnNode,
+  // Database and page node types
+  NBTChildDatabaseNode as ChildDatabaseNode,
+  NBTChildPageNode as ChildPageNode,
   
-  // Database and pages
-  ChildDatabaseNode,
-  ChildPageNode,
+  // Special node types
+  NBTSyncedBlockNode as SyncedBlockNode,
+  NBTBreadcrumbNode as BreadcrumbNode,
+  NBTDividerNode as DividerNode,
+  NBTTableOfContentsNode as TableOfContentsNode,
   
-  // Synced blocks
-  SyncedBlockNode,
+  // Block node union type
+  NBTBlockNode as BlockNode,
   
-  // Utility blocks
-  BreadcrumbNode,
-  DividerNode,
-  TableOfContentsNode,
-  
-  // Processing types
-  ProcessResult,
-  ProcessMetadata,
-  ProcessError,
-  ProcessOptions,
-  GetPageOptions,
-} from './types/nbt-types'
+  // Processing and configuration types
+  NBTProcessResult as ProcessResult,
+  NBTProcessMetadata as ProcessMetadata,
+  NBTProcessError as ProcessError,
+  NBTProcessOptions as ProcessOptions,
+  NBTGetPageOptions as GetPageOptions,
+} from '@nast/types'
 
 // Utilities
 export {
@@ -139,11 +138,8 @@ export {
   processChildPageToNBT,
   processSyncedBlockToNBT,
   processBreadcrumbToNBT,
-} from './processors'
-
-export {
   processPageToNBT,
-} from './processors/page-processors'
+} from './processors'
 
 export {
   processBlocks,
@@ -151,8 +147,8 @@ export {
 
 
 export {
-  buildBlockTree,
-  getPageAsBlock,
+  buildPageNode,
+  getPageTree,
 } from './page-tree'
 
 export {

@@ -1,6 +1,4 @@
-import type {
-  EquationNode,
-} from '../types/nbt-types'
+import type { NBTEquationNode as EquationNode } from '@nast/types'
 
 import {
   extractMetadata,

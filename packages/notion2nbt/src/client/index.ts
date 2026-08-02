@@ -5,14 +5,9 @@
 import { Client } from '@notionhq/client'
 import type { BlockObjectResponse } from '@notionhq/client/build/src/api-endpoints'
 
-import type {
-  ProcessResult,
-  GetPageOptions,
-  ProcessOptions,
-  NotionBlock,
-} from '../types/nbt-types'
+import type { NBTGetPageOptions as GetPageOptions, NBTBlock as NotionBlock } from '@nast/types'
 
-import type { PageNode } from '../types/page-node-types'
+import type { NBTPageNode as PageNode } from '@nast/types'
 
 import { cachePageInfo } from '../utils/nbt-utils'
 
@@ -59,26 +54,17 @@ export class Notion2NBT {
     pageId: string,
     options: GetPageOptions = {}
   ): Promise<PageNode> {
-    return PageOperations.getPage(pageId, this.client, this.cache, this.logger, options)
+    return PageOperations.getPageOperation(pageId, this.client, this.cache, this.logger, options)
   }
 
   /**
-   * Get blocks from a page as a flat NBT array
-   * @deprecated
-   * Use this if you need a flat structure
+   * Alias for getPage: Get a complete Notion page as a PageNode tree
    */
-  public async getPageBlocks(
+  public async getPageTree(
     pageId: string,
-    options: ProcessOptions = {}
-  ): Promise<ProcessResult> {
-    return PageOperations.getPageBlocks(pageId, this.client, this.logger, options)
-  }
-
-  /**
-   * Get all blocks from a page with pagination
-   */
-  public async getAllBlocks(pageId: string): Promise<BlockObjectResponse[]> {
-    return PageOperations.getAllBlocks(pageId, this.client, this.logger)
+    options: GetPageOptions = {}
+  ): Promise<PageNode> {
+    return this.getPage(pageId, options)
   }
 
   /**
@@ -94,7 +80,7 @@ export class Notion2NBT {
    * Get a single block by ID
    */
   public async getBlock(blockId: string): Promise<NotionBlock | null> {
-    return BlockOperations.getBlock(blockId, this.client, this.cache, this.logger)
+    return BlockOperations.getBlockOperation(blockId, this.client, this.cache, this.logger)
   }
 
   /**
@@ -102,13 +88,6 @@ export class Notion2NBT {
    */
   public async getBlocks(blockIds: string[]): Promise<Record<string, NotionBlock>> {
     return BlockOperations.getBlocks(blockIds, this.client, this.cache, this.logger)
-  }
-
-  /**
-   * Get database entries
-   */
-  public async getDatabase(databaseId: string): Promise<any[]> {
-    return BlockOperations.getDatabase(databaseId, this.client, this.logger)
   }
 
   /**

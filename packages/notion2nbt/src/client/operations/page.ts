@@ -4,16 +4,10 @@
 
 import type { Client } from '@notionhq/client'
 import type { BlockObjectResponse, PageObjectResponse } from '@notionhq/client/build/src/api-endpoints'
-import type {
-  ProcessResult,
-  GetPageOptions,
-  ProcessOptions,
-} from '../../types/nbt-types'
+import type { NBTGetPageOptions as GetPageOptions } from '@nast/types'
+import type { NBTPageNode as PageNode } from '@nast/types'
 
-import type { PageNode } from '../../types/page-node-types'
-
-import { processBlocks } from '../../process-blocks-nbt'
-import { getPageAsBlock } from '../../page-tree'
+import { getPageTree } from '../../page-tree'
 import { Logger } from '../utils/logger'
 import { Cache } from '../utils/cache'
 import { cleanId } from '../utils/helpers'
@@ -23,7 +17,7 @@ import { cleanId } from '../utils/helpers'
  * 
  * @returns PageNode with type: 'page' and children array
  */
-export async function getPage(
+export async function getPageOperation(
   pageId: string,
   client: Client,
   cache: Cache,
@@ -67,7 +61,7 @@ export async function getPage(
   }
 
   // Get the page as PageNode (NotionBlock)
-  const pageNode = await getPageAsBlock(
+  const pageNode = await getPageTree(
     cleanPageId,
     fetchBlocks,
     fetchChildren,
@@ -96,90 +90,6 @@ export async function getPage(
   cache.set(`page:${cleanPageId}`, pageNode)
 
   return pageNode
-}
-
-/**
- * Get blocks from a page as a flat NBT array
- */
-export async function getPageBlocks(
-  pageId: string,
-  client: Client,
-  logger: Logger,
-  options: ProcessOptions = {}
-): Promise<ProcessResult> {
-  logger.info(`Fetching blocks for page: ${pageId}`)
-
-  const cleanPageId = cleanId(pageId)
-
-  // Fetch top-level blocks
-  const response = await client.blocks.children.list({
-    block_id: cleanPageId,
-    page_size: 100,
-  })
-
-  const blocks = response.results as BlockObjectResponse[]
-
-  // Create fetch function for children
-  const fetchChildren = async (blockId: string) => {
-    const res = await client.blocks.children.list({
-      block_id: blockId,
-      page_size: 100,
-    })
-    return res.results as BlockObjectResponse[]
-  }
-
-  // Process blocks
-  const result = await processBlocks(blocks as any[], fetchChildren, {
-    ...options,
-    onProgress: (current, total) => {
-      logger.debug(`Processing: ${current}/${total}`)
-      if (options.onProgress) {
-        options.onProgress(current, total)
-      }
-    },
-    onError: (error) => {
-      logger.error(`Error: ${error.message}`)
-      if (options.onError) {
-        options.onError(error)
-      }
-    },
-  })
-
-  logger.info(`Processed ${result.metadata.processed_blocks} blocks`)
-
-  return result
-}
-
-/**
- * Get all blocks from a page with pagination
- */
-export async function getAllBlocks(
-  pageId: string,
-  client: Client,
-  logger: Logger
-): Promise<BlockObjectResponse[]> {
-  logger.debug(`Fetching all blocks for page: ${pageId}`)
-
-  const blocks: BlockObjectResponse[] = []
-  let cursor: string | undefined = undefined
-  let hasMore = true
-
-  while (hasMore) {
-    const response = await client.blocks.children.list({
-      block_id: pageId,
-      start_cursor: cursor,
-      page_size: 100,
-    })
-
-    blocks.push(...(response.results as BlockObjectResponse[]))
-
-    hasMore = response.has_more
-    cursor = response.next_cursor || undefined
-  }
-
-  logger.debug(`Fetched ${blocks.length} total blocks`)
-
-  return blocks
 }
 
 /**
