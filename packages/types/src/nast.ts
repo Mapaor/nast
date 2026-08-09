@@ -5,6 +5,8 @@
  * It's designed to be easily converted to various output formats (Markdown, Typst, etc.)
  */
 
+import type { RichText } from "./common";
+
 // ============================================================================
 // Root & Document Types
 // ============================================================================
@@ -319,23 +321,34 @@ export interface NASTInlineMath {
 }
 
 /**
- * Link
+ * Inline Link Data
+ */
+export interface NASTLinkData {
+  title?: string;
+  iconUrl?: string;
+  description?: string;
+  provider?: string;
+  thumbnailUrl?: string;
+}
+
+/**
+ * Inline Link
  */
 export interface NASTLink {
   type: 'link';
-  url: string;
+  url: string; // Maybe we should just call it "value"?
   children: NASTNode[];
+  data?: NASTLinkData;
 }
 
 /**
  * Mention (@user, date, page, database)
  */
-export interface NASTMention {
-  type: 'mention';
-  mentionType: 'user' | 'date' | 'page' | 'database';
-  value: string;
-  data: unknown;
-}
+export type NASTMention = 
+  | { type: 'mention'; mentionType: 'user'; value: string; data: { id: string; name?: string; avatarUrl?: string } }
+  | { type: 'mention'; mentionType: 'date'; value: string; data: { start: string; end: string | null; timeZone: string | null } }
+  | { type: 'mention'; mentionType: 'page'; value: string; data: { id: string; url?: string } }
+  | { type: 'mention'; mentionType: 'database'; value: string; data: { id: string } };
 
 // ============================================================================
 // Media Types

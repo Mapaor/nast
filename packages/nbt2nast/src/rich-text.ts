@@ -1,9 +1,9 @@
-import type { NBTRichText, NASTNode } from "./types.js";
+import type { RichText, NASTNode, NASTLinkData } from "@nast/types";
 
 /**
  * Transforms NBT rich text array to NAST inline nodes
  */
-export function transformRichText(richTextArray: NBTRichText[]): NASTNode[] {
+export function transformRichText(richTextArray: RichText[]): NASTNode[] {
   const result: NASTNode[] = [];
 
   for (const richText of richTextArray) {
@@ -17,7 +17,7 @@ export function transformRichText(richTextArray: NBTRichText[]): NASTNode[] {
 /**
  * Transforms a single NBT rich text element to NAST node
  */
-function transformSingleRichText(richText: NBTRichText): NASTNode {
+function transformSingleRichText(richText: RichText): NASTNode {
   // Handle equation (inline math)
   if (richText.type === "equation") {
     return {
@@ -76,7 +76,7 @@ function transformSingleRichText(richText: NBTRichText): NASTNode {
  */
 function wrapWithAnnotations(
   node: NASTNode,
-  annotations: NBTRichText["annotations"]
+  annotations: RichText["annotations"]
 ): NASTNode {
   if (!annotations) return node;
 
@@ -139,7 +139,7 @@ function extractTextValue(node: NASTNode): string {
 /**
  * Transforms a mention rich text element
  */
-function transformMention(richText: NBTRichText): NASTNode {
+function transformMention(richText: RichText): NASTNode {
   const mention = richText.mention as any;
 
   if (!mention || !mention.type) {
@@ -152,7 +152,7 @@ function transformMention(richText: NBTRichText): NASTNode {
 
   // Handle link_mention mentions (external links with metadata)
   if (mention.type === "link_mention") {
-    const linkData: any = {};
+    const linkData: NASTLinkData = {};
     
     if (mention.link_mention) {
       const preview = mention.link_mention;
@@ -178,7 +178,7 @@ function transformMention(richText: NBTRichText): NASTNode {
 
   // Handle link_preview mentions (external links) - legacy support
   if (mention.type === "link_preview") {
-    const linkData: any = {};
+    const linkData: NASTLinkData = {};
     
     if (mention.link_preview) {
       const preview = mention.link_preview;
@@ -204,7 +204,7 @@ function transformMention(richText: NBTRichText): NASTNode {
 
   // Handle user mentions
   if (mention.type === "user") {
-    const userData: any = {
+    const userData: { id: string; name?: string; avatarUrl?: string } = {
       id: mention.user.id,
       name: mention.user.name,
     };
@@ -236,8 +236,8 @@ function transformMention(richText: NBTRichText): NASTNode {
 
   // Handle page mentions
   if (mention.type === "page") {
-    const pageData: any = {
-      ...mention.page,
+    const pageData: { id: string; url?: string } = {
+      id: mention.page.id,
     };
     
     // Add url if available
@@ -259,7 +259,7 @@ function transformMention(richText: NBTRichText): NASTNode {
       type: "mention",
       mentionType: "database",
       value: richText.content,
-      data: mention.database,
+      data: { id: mention.database.id },
     };
   }
 

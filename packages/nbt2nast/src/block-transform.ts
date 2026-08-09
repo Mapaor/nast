@@ -69,6 +69,7 @@ export function transformBlock(block: NBTBlock, preserveBlockId: boolean = false
       return transformFile(id, properties, preserveBlockId);
 
     case "bookmark":
+    case "link_preview":
       return transformBookmark(id, properties, preserveBlockId);
 
     case "embed":

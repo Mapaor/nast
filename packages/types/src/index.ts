@@ -28,6 +28,7 @@ export type {
   NASTDelete,
   NASTInlineCode,
   NASTLink,
+  NASTLinkData,
   NASTMention,
   NASTMath,
   NASTInlineMath,
