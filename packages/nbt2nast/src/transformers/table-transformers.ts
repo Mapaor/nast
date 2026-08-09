@@ -1,4 +1,4 @@
-import type { NBTBlock, NASTNode, NASTTableRow } from "../types";
+import type { NBTBlock, NASTNode, NASTTableRow } from "@nast/types";
 import { transformRichText } from "../rich-text";
 
 /**

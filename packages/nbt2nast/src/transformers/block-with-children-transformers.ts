@@ -1,5 +1,5 @@
 
-import type { NBTBlock, NASTNode } from "../types";
+import type { NBTBlock, NASTNode } from "@nast/types";
 import { transformRichText } from "../rich-text";
 
 import { transformBlock } from "../block-transform";

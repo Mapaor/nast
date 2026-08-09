@@ -1,4 +1,4 @@
-import type { NASTNode } from "../types";
+import type { NASTNode } from "@nast/types";
 
 /**
  * Transforms a child_page block

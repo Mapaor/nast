@@ -1,4 +1,4 @@
-import type { NBTDocument, NBTBlock, NASTRoot, NASTNode } from "./types.js";
+import type { NBTDocument, NBTBlock, NASTRoot, NASTNode } from "@nast/types";
 import { transformBlock } from "./block-transform.js";
 import { transformRichText } from "./rich-text.js";
 

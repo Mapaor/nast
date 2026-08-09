@@ -1,4 +1,4 @@
-import type { NBTBlock, NASTNode } from "./types";
+import type { NBTBlock, NASTNode } from "@nast/types";
 import {
   transformParagraph,
   transformHeading,

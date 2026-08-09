@@ -1,4 +1,4 @@
-import type { NASTNode } from "../types";
+import type { NASTNode } from "@nast/types";
 import { transformRichText } from "../rich-text";
 
 /**
