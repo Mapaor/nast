@@ -75,7 +75,7 @@ importers:
   packages/nbt2nast:
     dependencies:
       '@nast/types':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../types
 
   packages/notion2nbt:

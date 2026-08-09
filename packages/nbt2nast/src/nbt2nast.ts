@@ -7,9 +7,9 @@ import { transformRichText } from "./rich-text.js";
  */
 export function nbt2nast(
   page: NBTDocument,
-  options: { preserveBlockId?: boolean } = {}
+  options?: { preserveBlockId?: boolean }
 ): NASTRoot {
-  const { preserveBlockId = false } = options;
+  const { preserveBlockId = false } = options || {};
 
   // Extract page properties (title, icon, etc.)
   const pageProperties = page.properties;
