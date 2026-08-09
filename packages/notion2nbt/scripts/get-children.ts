@@ -1,5 +1,5 @@
 import { Notion2NBT } from '../src/index';
-import { writeFileSync } from 'fs';
+import { mkdirSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
@@ -45,12 +45,7 @@ async function fetchRawChildren() {
     }
     
     // Create output directory if it doesn't exist
-    try {
-      const { mkdirSync } = require('fs');
-      mkdirSync(outputDir, { recursive: true });
-    } catch (err) {
-      // Directory might already exist, ignore
-    }
+    mkdirSync(outputDir, { recursive: true });
 
     writeFileSync(outputPath, JSON.stringify(rawBlocks, null, 2), 'utf-8');
     

@@ -1,5 +1,6 @@
-import { Notion2NBT, type NotionBlock } from '../src/index';
-import { writeFileSync } from 'fs';
+import { Notion2NBT } from '../src/index';
+import type { NBTBlock } from '@nast/types';
+import { mkdirSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
@@ -7,7 +8,7 @@ import { dirname } from 'path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // Helper function to count all blocks recursively
-function countBlocks(block: NotionBlock): number {
+function countBlocks(block: NBTBlock): number {
   let count = 1; // Count this block
   if (block.children && block.children.length > 0) {
     for (const child of block.children) {
@@ -57,12 +58,7 @@ async function fetchAndSavePageNBT() {
 
 
     // Create output directory if it doesn't exist
-    try {
-      const { mkdirSync } = require('fs');
-      mkdirSync(outputDir, { recursive: true });
-    } catch (err) {
-      // Directory might already exist, ignore
-    }
+    mkdirSync(outputDir, { recursive: true });
 
     writeFileSync(outputPath, JSON.stringify(page, null, 2), 'utf-8');
     
