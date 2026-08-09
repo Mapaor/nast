@@ -46,6 +46,6 @@
     "convert": "tsx scripts/convert.ts"
   },
   "dependencies": {
-    "@nast/types": "workspace:^"
+    "@nast/types": "workspace:*"
   }
 }
