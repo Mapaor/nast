@@ -9,7 +9,7 @@ This package provides a converter that transforms the Notion API-based NBT struc
 ## Installation
 
 ```bash
-npm install
+npm install @nast/nbt2nast
 ```
 
 ## Usage
@@ -17,11 +17,11 @@ npm install
 ### As a Module
 
 ```typescript
-import { nbt2nast } from "./nbt2nast.js";
-import type { NBTDocument } from "./types.js";
+import { nbt2nast } from "@nast/nbtn2ast";
+import type { NBTDocument } from "@nast/types";
 
-// Load your NBT document
-const nbt: NBTDocument = /* [...] */;
+// Load your NBT document (or generate it via @nast/notion2nbt as shown before)
+const nbt: NBTDocument = /* {...} */;
 
 // Convert to NAST
 const nast = nbt2nast(nbt);
@@ -29,9 +29,27 @@ const nast = nbt2nast(nbt);
 console.log(nast);
 ```
 
-### Running the Example
+### Simple node example
 
-The example script reads the NBT input file (you will need to manually set it's name) from `input/` directory and outputs the NAST to `output/` directory with same file name. Run it with:
+```js
+import { Notion2NBT } from '@nast/notion2nbt';
+import { nbt2nast } from '@nast/nbt2nast';
+
+const token = process.env.NOTION_TOKEN;
+const pageId = process.env.NOTION_PAGE_ID;
+
+const client = new Notion2NBT({ auth: token });
+const nbtPage = await client.getPage(pageId);
+
+const nastPage = nbt2nast(nbtPage);
+
+const nastPageJSON = JSON.stringify(nastPage, null, 2);
+console.log(nastPageJSON);
+```
+
+### Running the examples in this directory
+
+The example script in `scripts/` reads the NBT input file (you will need to manually set it's name) from `input/` directory and outputs the NAST to `output/` directory with same file name. Run it with:
 
 ```bash
 npm run example
