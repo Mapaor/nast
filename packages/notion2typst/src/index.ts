@@ -8,10 +8,10 @@ import { fetchImagesFromBlocks, getExtensionFromContentType } from '@nast/nast-f
 import type { DownloadedImage, NASTRoot } from '@nast/types';
 
 // Re-export for convenience
-export { Notion2NBT, nbt2nast, nast2typst, fetchImagesFromBlocks, getExtensionFromContentType };
+export { fetchImagesFromBlocks, getExtensionFromContentType };
 
 // Re-export commonly used types 
-export type { NotionBlock } from '@nast/notion2nbt';
+export type { NBTBlock as NotionBlock } from '@nast/types';
 export type { NASTRoot, NASTNode, NBTBlock, DownloadedImage } from '@nast/types';
 
 /**
